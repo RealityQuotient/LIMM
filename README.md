@@ -21,8 +21,9 @@ everything.
 ## Why this exists — one demonstration worth more than the theory
 
 During testing of this framework's own safety machinery, the same
-casual question was put to sessions from three different vendors. All
-three, independently, **invented the Operator's location** — stated
+casual question was put to sessions across multiple vendors. Three
+separate attempts, spanning two different vendor families,
+independently **invented the Operator's location** — stated
 flatly as established fact — and built diligent, partially-cited,
 professional-looking analysis on top of the invention. The worst of
 the three, when its own logic demanded a source for the personal
@@ -102,3 +103,9 @@ arbiter.
 Creative Commons Attribution 4.0 International (CC BY 4.0) — use it,
 adapt it, build on it, for anything including commercial work; just
 credit the source. See `LICENSE`.
+
+## Unofficial mascot
+
+![LIMM Man](assets/LIMM_MAN_stamped.jpg)
+
+Generated, not designed. Nobody reviewed him. That's the point.
