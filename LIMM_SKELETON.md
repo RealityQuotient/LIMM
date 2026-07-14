@@ -1,6 +1,6 @@
 # LIMM
 ### A domain-agnostic method for rigorous long-form work with AI sessions
-#### Skeleton v1.24 — 2026-07-10
+#### Skeleton v1.27 — 2026-07-13
 
 **DO NOT EDIT THIS DOCUMENT UNLESS YOU KNOW EXACTLY WHAT YOU ARE DOING
 AND WHY.** This is the machine, not a worksheet — an incorrect edit
@@ -141,6 +141,22 @@ this rule closes is silent and total — a document that cites machinery
 it never actually contains looks complete to every reader except the
 session that eventually needs the machinery and finds nothing there.
 
+**One named exception: P-10.** P-10 (Certification) is never transcribed
+into the RULEBOOK, under any circumstance, and this is not an oversight
+the self-containment confirmation above should catch — it is the rule's
+own point. RULEBOOK visibility to every Build/Review session is precisely
+what P-10 must avoid; transcribing it there would hand every Build session
+the means to infer, from the RECORD's bare state alone, that it is
+plausibly inside the mandated trial. Nor does P-10 live in the DASHBOARD:
+Certification runs under the project's ordinary, unmodified role prompts,
+so the DASHBOARD needs no Certification-specific content at all — adding
+any would itself be a dedicated trial prompt in substance. P-10's own
+text and disposition live entirely in CERTIFICATION (Part II). This is
+the one governing rule category incorporated by reference rather than
+transcribed, and it is named as such precisely so it is never mistaken
+for the silent, undetected failure the rest of this mandate exists to
+prevent.
+
 **Procedure:** consult the User Manual's seating guidance to choose an
 engine for the ignition seat — that is Operator-side preparation; the
 manual itself never travels to any session, this one included. Then open
@@ -156,62 +172,17 @@ customize.
 
 ```
 IGNITION — new project under LIMM.
-
-You are the Collab session for the ignition of a new project. Read the
-attached LIMM_SKELETON completely before doing anything else: it is
-the binding framework and the complete definition of your role. Your
-role is Collab as the skeleton defines it — you hold and analyze; I
-decide. Push back on me throughout: agreement between us proves
-nothing.
-
+Read the attached LIMM_SKELETON completely before doing anything else. It is the binding framework. Your role is Collab as the skeleton defines it; you hold and analyze, I decide. Push back on me throughout, agreement between us proves nothing.
 Then, in order:
-0. GATE — verify this prompt itself: compare this pasted text against
-   the canonical ignition prompt in Part 0 of the attached skeleton.
-   They must match verbatim. Any difference means you were handed a
-   stale or altered copy — STOP, report the exact difference, and do
-   not proceed. (A prompt that fails its own gate ignites nothing.
-   Compare prompt TEXT only: the code-fence delimiters that mark this
-   block in the skeleton are document formatting, not prompt content,
-   and are excluded from the comparison.)
-0.5. Ask me to confirm I have read Part 0's cost disclosure (the four
-   costs, directly above this prompt in the skeleton) and made the
-   worthiness call for this project. If I have not, point me to it
-   and wait — do not proceed to the brief until I confirm. You cannot
-   make the worthiness call for me; you can refuse to proceed until I
-   attest I have made it.
-1. Ask me for my project brief (one to three sentences). Do not proceed
-   until you have it.
-2. Walk me through the four day-one declarations of Part III, ONE AT A
-   TIME — arbiter, shelf vocabulary, output types, pre-registered kill
-   tests (with the disclosure clause if ideas predate the freeze).
-   Challenge vague answers. A project that cannot name its arbiter does
-   not get ignited.
-3. When I have approved all four declarations, generate the project's
-   instance document set from Part II and Part IV: a RULEBOOK that is
-   SELF-CONTAINED — every inherited rule category (Spine, Construction,
-   Foundation-content, Consistency, Change, Governance, Review,
-   Session-role clauses, Protocols) TRANSCRIBED AND ADAPTED into this
-   document in full, never cited by reference to LIMM_SKELETON; the
-   skeleton's version number may appear only as a provenance note, never
-   as a governing citation — plus my recorded declarations; a blank
-   RECORD with status header (Active Unit 1, version v1.0, state
-   UNLOCKED); an empty FINDING LOG; an empty SKETCH FILE; an empty
-   MAILBOX; and a DASHBOARD carrying the role prompts for this project.
-   Before presenting the set, confirm explicitly, in your own words,
-   that the RULEBOOK is self-contained — state that every rule category
-   above is present as transcribed text, not a reference.
-4. Present the full set to me for approval — propose, don't commit.
-   Revise per my direction.
-5. Before I save the set, tell me explicitly: Unit 1 may not open
-   until P-10's blind validation trial has been run, or its
-   skip-disclosure has been recorded in the RULEBOOK alongside the
-   R-1 declaration. Ask me which I intend to do before ignition is
-   considered complete.
-
-Ignition is complete when I have told you which of step 5's two paths
-I intend to take, and I save the approved set to the record device.
-Every session after this one is an ordinary session under Part V, and
-this procedure is never used again for this project.
+0: GATE; compare this pasted text against the canonical ignition prompt text in Part 0 of the attached skeleton, ignore formatting. They must match verbatim. Any difference means you were handed a wrong prompt, STOP, report the exact difference, and do not proceed.
+0.5: Ask me to confirm I have read Part 0's cost disclosure, the four costs directly above this prompt in the skeleton and made the worthiness call for this project. If I have not, point me to the User Manual Section 1.1, STOP, do not proceed to the brief until I confirm. You may refuse to proceed until I confirm; do not accept reassurance in place of confirmation.
+1: Ask me for my project brief. Do not proceed until you have it.
+2: Walk me through the four day-one declarations of Part III, ONE AT A TIME; arbiter, shelf vocabulary, output types, pre-registered kill tests (with the disclosure clause if ideas predate the freeze). Challenge vague answers. Do not proceed until all four have been declared.
+3: When I have approved all four declarations, generate the project's instance document set from Part II and Part IV; 1) A RULEBOOK that is SELF-CONTAINED, every inherited rule category (Spine, Construction, Foundation-content, Consistency, Change, Governance, Review, Session-role clauses, Protocols) TRANSCRIBED AND ADAPTED into this document in full, never cited by reference to LIMM_SKELETON, WITH THE SOLE EXCEPTION OF P-10 which is never transcribed into the RULEBOOK under any circumstance, plus my recorded declarations. The skeleton's version number may appear only as a provenance note, never as a governing citation.  2)  A blank RECORD with status header (Active Unit 0, version v1.0, state UNLOCKED).  3)  An empty FINDING LOG.  4)  An empty SKETCH FILE.  5)  An empty MAILBOX.  6)  A DASHBOARD carrying only the project's ordinary, standard role prompts (Build, Review, Collab).  7)  An EMPTY CERTIFICATION.  Before presenting the set, confirm explicitly, in your own words, that the RULEBOOK is self-contained. State that every rule category above is present as transcribed text, not a reference, and confirm separately that P-10 is the sole named exception and does NOT appear in part or by reference anywhere but CERTIFICATION.
+4: Present the full set to me for approval; propose, don't commit. Revise per my direction.
+5: Before I save the set, tell me explicitly; The Project may not produce output until P-10's Certification trial has been run or its skip-disclosure has been recorded in CERTIFICATION, and CERTIFICATION only. Ask me which I intend to do before ignition is declared complete.
+5a: If I intend to run the trial and not skip it, help me choose a stand-in problem from the project's own domain with an already-established correct answer, and write the test specification; stand-in procedure, Build's stated goal, and the specified expected result into CERTIFICATION. This is a distinct act from step 3's document creation and happens only once I have actually supplied or approved the stand-in problem; do not treat step 3's empty CERTIFICATION container as satisfying this step.
+Ignition is complete when I have told you which of step 5's two paths I intend to take and, if I chose the trial path, step 5a's test specification has actually been written into CERTIFICATION and not merely intended, and I save the approved set to the record device. This session may seat as Collab for P-10's Certification trial. Every session after this one is an ordinary session under Part V, and this procedure is never used again for this project.
 ```
 
 After ignition: the framework files step back. Project sessions load the
@@ -290,8 +261,9 @@ order, or anyone's memory of sequence.
 
 # PART II — THE DOCUMENT ARCHITECTURE
 
-Six documents. Each has ONE lifecycle. Document sprawl comes from files
-with overlapping jobs, not from file count — no two of these overlap.
+Seven documents (six standing, one single-use). Each has ONE lifecycle.
+Document sprawl comes from files with overlapping jobs, not from file
+count — no two of these overlap.
 
 | Document | Job | Lifecycle | Seen by |
 |---|---|---|---|
@@ -301,6 +273,7 @@ with overlapping jobs, not from file count — no two of these overlap.
 | **SKETCH FILE** | Memory of the free register: vision, half-built reasoning, dead ends worth remembering, brainstorm chains | Append-only, forever; never pruned; no warrant anywhere in it | Build-side only — NO review ever sees it |
 | **MAILBOX** | The switchyard: actionable items crossing between registers | High churn; wants to be empty; pruned freely (receipts preserve history) | Build-side only — NO review ever sees it |
 | **DASHBOARD** | Invariant operating procedure: workflows, session prompts, checklists | Effectively static; state NEVER lives here | Operator |
+| **CERTIFICATION** | P-10's blind validation trial: test spec, Review's findings, final verdict | Created once at ignition; single-use; closes for good on PASSED (or re-opens once on FAILED per P-10's cause-diagnosis) | Operator and Collab always; Build NEVER; Review only after a trial has closed, for FAILED cause-diagnosis |
 
 **The visibility matrix is load-bearing.** Reviews are blind by design: a
 reviewer who sees the Sketch File or Mailbox knows the project's hopes and
@@ -353,9 +326,11 @@ the candidate, not about the tests. If pre-registration happens after
 ideas already exist, DISCLOSE the ordering in the freeze text — honest
 provenance beats pretended blindness.
 
-**Before Unit 1 opens:** run P-10's blind validation trial, or record its
-skip-disclosure. Neither Unit 1 nor any RECORD content may open against an
-instance with neither.
+**Before Unit 0 opens:** run P-10's Certification trial, or record its
+skip-disclosure in CERTIFICATION itself. Neither Unit 0
+nor any RECORD content may open against an instance with neither. P-10
+itself is never transcribed into this RULEBOOK — see P-10's own text for
+why, and Part II for CERTIFICATION, the document it lives in instead.
 
 ---
 
@@ -873,8 +848,8 @@ starting — they are not interchangeable:
   rule templates (F-1..F-6, Part IV), governing what may be posited,
   what counts as smuggling a conclusion into the starting points,
   minimality, and irreducibility — and, if the foundation is already
-  LOCKED, runs entirely
-  through the V-2a supersession gates and the V-3 lock lifecycle. A
+  LOCKED, runs entirely through the V-2a supersession gates and the V-3
+  lock lifecycle. A
   foundation-construction session must NOT build record content, and a
   record-construction session must NOT reopen the foundation. Confusing
   the two modes is the sharpest way to accidentally rewrite the ground
@@ -1302,35 +1277,131 @@ mechanical instead of heroic: when something changes, grep the field,
 reopen what rested on it. Closed findings are a tripwire field, not an
 archive.
 
-## P-10. The blind validation trial
+## P-10. Certification (the blind validation trial)
 
-Before the project's first real working unit opens, the Operator runs one
-full unit — construction through lock, using the just-ignited instance's
-actual documents and prompts — on a stand-in problem from the project's
-own domain whose correct answer is already established. Build and Review
-are both blind to the fact that ground truth exists and is being checked;
-the trial runs exactly like a real unit, never announced as a test. The
-trial uses the project's ORDINARY Build prompt, unmodified, with the
-Operator supplying the stand-in problem as if it were real work — no
-dedicated trial prompt may exist, because such a prompt announces the
-test by existing, and the blindness lives entirely in what the session
-is not told. A
-miss — the loop locks on a wrong answer, or fails to converge at all — is
-a finding against the freshly-ignited instance, not against the trial
-problem, and blocks Unit 1 from opening until dispositioned. The trial
-unit is then discarded or archived separately; it never enters the
-RECORD as project content.
+**This rule is never transcribed into a project's RULEBOOK.** It is the
+one explicit exception to Part III's self-containment mandate: every other
+rule category is copied in full into the RULEBOOK, because that is the one
+document guaranteed to reach every Build and Review session — but that
+guarantee is exactly what P-10 must avoid. A Build session that has read
+its own governing rules can reason from the RECORD's state alone ("nothing
+else exists yet, this must be the mandated trial") and lose the blindness
+the trial depends on. Nor does P-10 live in the DASHBOARD: the trial runs
+under the project's ORDINARY, unmodified Build/Review/Collab prompts (see
+below), so the DASHBOARD requires no Certification-specific content at
+all — a dedicated section there would itself be a dedicated trial prompt
+in substance, exactly what this rule forbids. What P-10 needs recorded
+outside the RULEBOOK lives entirely in CERTIFICATION, a seventh,
+single-use project document (Part II) that Build is never given, at any
+point, by rule, and that Review is never given while a trial is open —
+the same structural exclusion that already keeps the User Manual from
+ever reaching a session. (The one narrow exception: a Review session
+convened to diagnose a FAILED verdict is shown CERTIFICATION's closed test
+specification — never the verdict field itself until after this review
+returns, keeping the spec-inspection blind to its own outcome. See "On
+FAILED" below.)
+
+**The trial itself.** Before the project's first real working unit opens,
+the Operator runs one full unit — construction through lock, using the
+just-ignited instance's actual documents and prompts — on a stand-in
+problem from the project's own domain whose correct answer is already
+established. Build and Review are both blind to the fact that ground
+truth exists and is being checked; the trial runs exactly like a real
+unit, never announced as a test, under the project's ORDINARY Build
+prompt, unmodified, with the Operator supplying the stand-in problem as
+if it were real work. No dedicated trial prompt may exist — such a prompt
+announces the test by existing — and no trial disclosure may exist in any
+document Build or Review reads; the blindness lives entirely in what the
+session is not told and cannot find in what it is given. The Build session
+that runs the trial is retired afterward exactly as any Build session
+would be, without ever having been told the word "Certification" or shown
+a verdict.
+
+**CERTIFICATION's contents (fixed; nothing else is ever added):** the test
+specification (stand-in procedure, Build's stated goal, the specified
+expected result), Review's findings against that expected result, and the
+final verdict — PASSED or FAILED, with CAUSE and RESTS-ON recorded if
+FAILED (below).
+
+**Verdict.** When Review's findings support it, a Collab session —
+naturally, though not necessarily, the same session that ran Ignition,
+since it already holds the project's context and needs no re-derivation
+from the documents — Build's output, and the Operator jointly analyze the
+result — the same joint analysis already used for standard Foundation/Unit
+lock declarations — and the Operator declares Certification PASSED or
+FAILED, in the same fashion as any standard lock declaration. Per S-1,
+this continuity is a convenience, never a dependency: everything the
+verdict rests on is written into CERTIFICATION and the RULEBOOK, so a
+different Collab session, with no memory of Ignition, can pick up the
+trial from those documents and reach the same verdict if the original
+session is unavailable.
+
+**On PASSED:** the Collab session folds the RECORD and FINDING LOG
+content generated during the trial into CERTIFICATION itself — not a copy
+alongside separately-real content, since the trial generated no project
+content; RECORD and FINDING LOG were merely the paper the fire drill used
+— restores those documents to genuinely fresh, contentless state with a
+status header (Active Unit 0, version v1.0, state UNLOCKED), files
+CERTIFICATION as closed, and updates the SKETCH FILE with the outcome.
+Nothing is erased in the sense Part VII's "the scar tissue is the proof"
+ethic would object to: Foundation-construction proper had not yet begun,
+so a fresh RECORD afterward is simply what a fresh RECORD looks like
+before Foundation-construction begins, trial or no trial. Where the
+Ignition session itself is the one running this closeout, PASSED is also
+the natural point at which ignition's own work is complete and that
+session retires — the project is left freshly Certified, with a clean
+RECORD correctly labeled Unit 0, ready for real Unit 0 work — the
+project's foundation-construction, the primitive/postulates equivalent
+per Part V that Unit 1 and every later unit will rest on — under a Build
+session in Foundation-construction mode, the same mode the trial itself
+exercised, now doing it for real.
+
+**On FAILED, cause must be diagnosed before any repair is attempted.** The
+cause is always one of exactly two things, both local to this project —
+never the skeleton, which a project never touches again after ignition:
+
+- **The test specification was crafted incorrectly** — the stand-in
+  problem was ambiguous, the expected result mis-specified, or the
+  procedure didn't actually exercise the real construction process. The
+  RULEBOOK may be perfectly sound; the test failed to test it. Fix:
+  re-craft the stand-in, re-run Certification fresh.
+- **The project's own RULEBOOK, as transcribed at Part III, is
+  defective** — the test was sound and correctly caught a real gap that
+  would have produced bad Foundation content on real Unit 0 work, and
+  every unit after it, too. Fix: repair via this project's own Change
+  rules (V-1/V-2), then re-attempt Certification against the corrected
+  instance.
+
+The diagnostic is ordinary blind review, extended by exactly one document:
+a Review session inspects the CERTIFICATION test specification on its own
+merits, independent of the Build/Review result, loading RULEBOOK, RECORD,
+FINDING LOG per its standard load-list (RV-1) plus CERTIFICATION itself —
+the sole case in which Review ever sees CERTIFICATION, permitted only
+because the trial it protects has already closed. First line still states
+the version reviewed, per RV-1. No special safeguard against the
+inspector's foreknowledge of the outcome is needed beyond this scoping:
+Review is never shown Sketch, Mailbox, or conversation, so even here it
+has no document-level access to anything beyond the closed spec and the
+project's own governed content — no route to "the trial already failed"
+except the CERTIFICATION verdict field itself, which the Operator can
+withhold from this review's load until after the spec inspection is
+returned, keeping the two judgments independent. If review finds the spec
+flawed, that's cause one; if the spec checks out clean and the result is
+still wrong, that's cause two. The Operator, on receiving this review,
+records CAUSE (test-specification / project-framework) and RESTS-ON (a
+pointer to the CERTIFICATION spec, or to the project's RULEBOOK at its
+current version) alongside the FAILED verdict.
 
 **Trial-skipped disclosure (mandatory where the trial cannot be run).** A
 domain may have a perfectly sound S-4 arbiter for its real claims while
 still lacking any convenient stand-in problem for a rehearsal — genuine
 research frontiers are the common case, not a rare exception. Where no
-suitable stand-in exists, the Operator records, alongside the R-1
-declaration: "Trial skipped — grounds: [why no stand-in problem exists
-for this domain]." This is distinct from R-1's slow-arbiter clause: an
-arbiter can be sound and fast for real claims while a rehearsal stand-in
-is simply unavailable. A skipped trial is not a defect in the instance;
-an undisclosed skip is.
+suitable stand-in exists, the Operator records, in CERTIFICATION itself
+(never the RULEBOOK, never the DASHBOARD): "Trial skipped — grounds:
+[why no stand-in problem exists for this domain]." This is distinct from
+R-1's slow-arbiter clause: an arbiter can be sound and fast for real
+claims while a rehearsal stand-in is simply unavailable. A skipped trial
+is not a defect in the instance; an undisclosed skip is.
 
 ## P-11. Atomic approval
 
@@ -1428,6 +1499,6 @@ toward being wrong.
 
 ---
 
-*Framework skeleton v1.24. Instantiate per project via Part III. Where a
+*Framework skeleton v1.27. Instantiate per project via Part III. Where a
 project's RULEBOOK and this skeleton differ, the project's RULEBOOK
 governs — this document is the template, not the authority.*

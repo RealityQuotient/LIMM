@@ -22,7 +22,291 @@ session.
 
 ---
 
-# SKELETON CHANGE HISTORY (through v1.24)
+# SKELETON CHANGE HISTORY (through v1.27)
+
+#### Skeleton v1.27 — 2026-07-13
+
+Operator-supplied, hand-trimmed replacement for Part 0's canonical
+ignition prompt, adopted after the full-length prompt (v1.25/v1.26 text,
+~5,070 chars) repeatedly overflowed the paste field of a live chat
+interface and was silently converted to an auto-attachment — which in
+one live case caused a fresh Ignition session to receive a file literally
+named LIMM_SKELETON.md whose actual content was the ignition prompt, not
+the skeleton, and correctly refuse to proceed (the manifest/gate
+discipline working exactly as intended, on a harder case than an
+ordinary mismatch: a misleadingly *named* attachment).
+
+Whitespace-only trimming was tried first and rejected as insufficient:
+verified by stripping all whitespace from both the original and a
+line-unwrapped version and confirming byte-identical content underneath
+— the saving was ~165–169 characters (~3.5%), nowhere near enough to
+close a gap large enough to have triggered auto-attachment in the first
+place. The Operator then hand-drafted and tested an edited prompt
+directly against the live paste field (~3,747 chars originally, ~3,840
+with the restoration below), confirmed to fit.
+
+Verified against the canonical text clause-by-clause before adoption.
+Real content differences, each dispositioned:
+
+- **Kept, restored:** Step 0.5's explicit refusal-authority sentence
+  ("You cannot make the worthiness call for me; you can refuse to
+  proceed until I attest I have made it") was initially dropped by the
+  Operator's edit in favor of "STOP" alone. Checked against every other
+  STOP in the skeleton (version-header mismatches, manifest checks,
+  concordance sweeps) and found they all gate on objective, checkable
+  facts with no room for a judgment call — this is the one STOP in Part
+  0 that instead depends on the Operator's own self-report (the
+  worthiness call), which is exactly the kind of thing S-5 already
+  flags as unpoliceable ("LIMM is not a cop"). STOP alone tells the
+  session what to do; the missing sentence tells the session it may
+  keep refusing even under Operator pressure to proceed — a different
+  guarantee, needed specifically here. Restored in trimmed form: "You
+  may refuse to proceed until I confirm; do not accept reassurance in
+  place of confirmation."
+- **Dropped, deliberately, after review:** step 3's inline "why"
+  reasoning (the P-10 carve-out rationale, the Unit-naming rationale,
+  the DASHBOARD/CERTIFICATION empty-container rationale) is absent from
+  the trimmed prompt. Assessed on the merits rather than assumed
+  necessary: every action step 3 asks of Ignition is mechanical and
+  checkable (transcribe the RULEBOOK per an absolute rule, stamp the
+  RECORD, create empty files) with no judgment call the reasoning would
+  inform — the reasoning was necessary for correctly *drafting* step 3
+  during this session's own corrective rounds, not for a session
+  correctly *executing* it. The reasoning is not lost: it remains in the
+  skeleton's surrounding Part 0 prose and in P-10's own section, both of
+  which Ignition still reads in full. Whether this holds under a live
+  Ignition run is explicitly unresolved — the Operator noted it "can
+  only be answered by live testing."
+- **Added, deliberately, kept:** a new closing sentence, "This session
+  may seat as Collab for P-10's Certification trial" — not present in
+  the canonical Part 0 text (that fact lives in P-10's own section
+  instead), added to the prompt on the Operator's explicit instruction
+  that it must remain. Accurate per this session's own S-1 analysis
+  (Ignition-as-Collab is a permitted convenience, never a load-bearing
+  dependency) — a deliberate enrichment, not a trim.
+- **One typo caught and fixed during transcription:** "P-10s
+  Certification trial" (missing possessive apostrophe) — every other
+  instance of "P-10's" in the same prompt has it; corrected before the
+  text was written into the canonical skeleton, since an apostrophe fix
+  is a spelling correction, not a content change, and leaving it would
+  have embedded a typo into every future project's ignition.
+
+Applied: Part 0's canonical ignition prompt (the full pasted-text block)
+replaced in full with the Operator's finalized, trimmed version. No
+change to Part 0's surrounding prose, Part II, Part III, or P-10 itself
+beyond this. LIMM_USER_MANUAL.html's derivative copy of the same prompt
+updated to match verbatim (HTML-entity apostrophes only, no content
+difference), plus its own surrounding "Unit 1" prose references
+corrected to "Unit 0" per v1.26 below, which the Manual had not yet
+picked up.
+
+#### Skeleton v1.26 — 2026-07-13
+
+Finding, self-caught mid-correction rather than externally raised: an
+earlier same-day fix (v1.25, logged above under the P-10/Certification
+addenda) introduced a genuine new defect while attempting to resolve an
+Operator question about RECORD unit-numbering. The Operator asked
+whether the RECORD's foundation-construction content should be labeled
+"Unit 0" as the active unit in a fresh RECORD. In attempting this,
+Collab incorrectly read "Unit 0" as a label for *Certification's own
+disposable trial work* ("Active Unit 0 — Certification") rather than
+for the project's real foundation-construction content — inverting the
+actual relationship. The Operator caught this immediately ("STOP. Unit
+0 is NOT the certification. Unit 0 is the foundation all later units
+rest on"), pointing to Physiform Theory's own Foundational-Document-
+then-Working-Document structure (shown directly to this session via its
+live .tex files) as the model: a Foundational Document precedes and is
+distinct from the Working Document, and neither is the validation
+rehearsal that precedes both.
+
+Corrected, this time verified against Part V's own existing mode
+description (foundation-construction mode: "the primitive/postulates
+equivalent... every later unit rests on") before drafting: "Unit 0" is
+the project's real foundation-construction unit — the primitive/
+postulates equivalent, permanent project content — and Certification
+gates *its* opening, exactly the relationship the original text had
+between Certification and "Unit 1," just correctly offset by one, since
+Certification was never meant to *be* a unit, only to precede one. Every
+"Unit 1" reference gating on Certification (Part III's day-one ritual,
+step 5, P-10's own text, the FAILED cause-diagnosis language) renamed to
+"Unit 0" throughout; P-10's PASSED closeout now restamps the RECORD
+"Active Unit 0" (not "Unit 1") since Unit 0 is what was actually being
+certified; "Unit 1" is retained correctly exactly once, in P-10's PASSED
+text, naming it as "every later unit" that rests on Unit 0.
+
+A second, smaller self-caught error during the same correction: the
+draft momentarily named "Physiform" — a specific downstream project's
+own proper noun — directly inside the skeleton's generic template text,
+caught and removed before finalizing, since the skeleton must stay
+domain-agnostic (C-6) and never reference a specific instantiating
+project by name.
+
+Applied: Part 0 step 3 (RECORD status-header stamp), Part 0 step 5,
+Part III's day-one ritual line, P-10's PASSED-closeout text, P-10's
+FAILED cause-diagnosis text. LIMM_USER_MANUAL.html and this changelog's
+own v1.25 entry were NOT corrected in this pass — both still reflected
+the erroneous "Unit 0 — Certification" framing or the pre-fix "Unit 1"
+numbering until the v1.27 entry above brought the Manual current; this
+changelog's v1.25 entry is left as originally written, per V-2, rather
+than silently rewritten, since it accurately recorded what was believed
+and done at the time.
+
+
+#### Skeleton v1.25 — 2026-07-13
+
+Finding surfaced during Project DETECTOR's first Foundation-construction
+session: the Build session, reading its RULEBOOK completely (as every
+prompt requires), was able to infer — purely from the RECORD's bare state
+plus P-10's own transcribed text — that it was plausibly inside the
+mandated blind validation trial. Verified as real and structural, not a
+wording problem: P-10 already forbids a dedicated trial prompt (such a
+prompt would announce the test by existing) but did not anticipate that
+the RULEBOOK's own self-containment mandate, requiring every rule category
+including P-10 to be transcribed into the one document every Build/Review
+session reads, reintroduces the identical leak by a different route.
+
+Two alternative fixes were considered and rejected before the one applied:
+downgrading P-10 to Operator discretion (rejected — trades away the only
+structural check on the machinery itself, which nothing else in the
+framework catches, and is worse under recurrence across projects, not
+better, since it relies on the Operator remembering to run it — exactly
+the clerical-reliability failure S-5 exists to refuse); and tracking
+P-10's disposition as a standing Build-visible finding that travels with
+results until resolved (rejected — a finding visible to Build on every
+unit, not just the first, teaches Build to wonder "is this the one being
+tested" permanently rather than once, which is strictly worse than the
+leak it was meant to fix).
+
+**Fix applied — P-10 renamed to Certification, given its own document.**
+P-10 becomes the one explicit, named exception to Part III's self-
+containment mandate: it is never transcribed into a project's RULEBOOK,
+under any circumstance. Its procedure now lives in the DASHBOARD (a new
+CERTIFICATION section) and in CERTIFICATION, a seventh, single-use project
+document (Part II) that Build is never given at any point, and that
+Review is never given while a trial is open. The trial itself is
+unchanged in substance — it still runs through the project's ordinary
+Foundation-construction process, under ordinary prompts, so that it
+remains diagnostic of the actual apparatus rather than a synthetic
+rehearsal — but Build now genuinely cannot infer it is happening, because
+nothing it is ever shown says the rule exists.
+
+CERTIFICATION's contents are fixed and narrow: the test specification
+(stand-in procedure, Build's stated goal, expected result), Review's
+findings against that expected result, and the final verdict (PASSED or
+FAILED). On PASSED, a Collab session folds the trial's RECORD/FINDING LOG
+content into CERTIFICATION itself (not a copy — the trial generated no
+real project content; RECORD/FINDING LOG were merely the paper the fire
+drill used), restores those documents to genuinely fresh state, and
+updates the SKETCH FILE. Nothing is erased in a way Part VII's "the scar
+tissue is the proof" ethic would object to, because Foundation-
+construction proper had not yet begun.
+
+On FAILED, cause must be diagnosed before any repair is chosen, and is
+always one of exactly two things — never the skeleton itself, which a
+project never touches again after ignition: the test specification was
+crafted incorrectly (fix: re-craft the stand-in, re-run fresh), or the
+project's own RULEBOOK as transcribed is defective (fix: repair via the
+project's own Change rules, V-1/V-2, then re-attempt). The diagnostic
+extends ordinary blind review by exactly one document: a Review session
+loads its standard RULEBOOK/RECORD/FINDING LOG plus CERTIFICATION's test
+specification — the sole case Review ever sees CERTIFICATION, permitted
+only because the trial has already closed — with the verdict field itself
+withheld from this review's load until after it returns, so the
+spec-inspection stays blind to its own outcome. CERTIFICATION gains two
+fields to carry this: CAUSE (test-specification / project-framework) and
+RESTS-ON (reusing the FINDING LOG's existing field convention), recorded
+by the Operator alongside a FAILED verdict.
+
+Applied: Part II's document table (CERTIFICATION added, seven documents
+total); Part III's self-containment mandate (named P-10 carve-out); Part
+0's ignition procedure, steps 3 and 5 (RULEBOOK confirmation now
+explicitly excludes P-10; CERTIFICATION itself now generated empty at
+ignition, populated separately per the sequencing and DASHBOARD
+corrections below; skip-disclosure now recorded in CERTIFICATION, never
+the RULEBOOK, never the DASHBOARD); P-10's own section, retitled and
+rewritten in full. (This summary reflects the FINAL state after all three
+same-day addenda below — see those for what changed and why; the
+DASHBOARD gains no Certification-specific content of any kind, corrected
+in the third addendum.)
+
+Not yet addressed, flagged for a follow-up pass: LIMM_USER_MANUAL.html
+predates this change and still describes P-10 under its old name and
+mechanism (transcribed into the RULEBOOK, no CERTIFICATION document). The
+Operator has flagged this and it is pending discussion before any edit is
+made there.
+
+**Addendum, same day:** initial drafting of this fix used generic "a
+Collab session" language for the verdict/closeout step, on the assumption
+that naming the Ignition session specifically would violate S-1 (no
+session remembers; nothing load-bearing may exist only in a conversation).
+Operator correctly pushed back: the Ignition session is the natural,
+practical default for this seat — it already holds the project's context
+and needs no re-derivation from the documents — and using it does not
+actually violate S-1, because nothing about the verdict depends on that
+session persisting: the test spec, findings, and verdict are all written
+into CERTIFICATION regardless of which session performs the write. A
+different Collab session, with no memory of Ignition, could pick up the
+same trial from CERTIFICATION and the RULEBOOK and reach the same verdict.
+Re-verified against S-1's actual text ("anything load-bearing that exists
+only in a conversation does not exist") before accepting: the distinction
+is between a session being the *convenient* default and a session being a
+*required* dependency, and this is the former. P-10's text restored to
+name the Ignition session as the natural (not mandatory) Collab seat for
+Certification, with the convenience-not-dependency distinction stated
+explicitly so the rule cannot later be misread as making session identity
+load-bearing. PASSED is also confirmed as the natural point at which
+ignition's own work completes and that session retires, leaving a freshly
+Certified project ready for real Unit 1 work in Foundation-construction
+mode.
+
+**Second addendum, same day:** Operator caught a genuine sequencing bug
+in Part 0's ignition step 3, which the drafting session had missed: step
+3 directed Ignition to generate CERTIFICATION "initially holding only the
+test specification field" — but the test specification (a stand-in
+problem plus its established answer) cannot exist at step 3, since no
+stand-in problem has been chosen yet at that point in the procedure; only
+the four R-1–R-4 declarations have been made. Verified as real, not a
+false alarm: step 3 was conflating "create the document" with "populate
+its first real content," the same category of error the framework's own
+R-4/kill-test discipline exists to catch in project content, just showing
+up in the skeleton's own procedural text instead. Fixed by splitting the
+act in two: step 3 now creates CERTIFICATION genuinely empty, exactly as
+empty as RECORD/FINDING LOG/SKETCH/MAILBOX are at that point (the
+DASHBOARD's CERTIFICATION section is unaffected by this fix, since P-10's
+static procedure is timeless rule-text with no such dependency) [NOTE,
+added same day: this parenthetical's premise was itself corrected by the
+third addendum below — the DASHBOARD never gains a Certification section
+at all. Kept here unedited, per V-2, rather than silently rewritten; see
+the third addendum for the actual final design.]; a new
+step 5a, after the trial-or-skip choice, has the Operator actually supply
+or approve a stand-in problem and only then write the test specification
+into CERTIFICATION. The ignition-complete condition was tightened to
+match: choosing the trial path now requires 5a's specification to have
+actually been written, not merely intended, before ignition can be
+declared complete.
+
+**Third addendum, same day:** Operator caught a genuine contradiction
+between P-10's own substance and the DASHBOARD design this fix had
+introduced. P-10 states the trial runs "under the project's ORDINARY
+Build prompt, unmodified" — the whole point of blindness — but earlier
+drafting had the DASHBOARD gain "a CERTIFICATION section holding P-10's
+static procedure," which reads as dedicated Certification-specific prompt
+material. That is in substance a dedicated trial prompt, which P-10
+explicitly forbids ("no dedicated trial prompt may exist, because such a
+prompt announces the test by existing"). Verified as real: if Certification
+truly uses the ordinary Build/Review/Collab prompts already in the
+DASHBOARD, no separate Certification prompt content is needed there at
+all; anything Certification-specific — which stand-in problem, what
+Build is being asked to do this time, the expected result — is task
+content, not a prompt, exactly like a real Unit 1 problem statement, and
+belongs entirely inside CERTIFICATION. Fixed by reverting the DASHBOARD
+to carrying only the project's plain, standard role prompts (no
+Certification section, no Certification-specific content of any kind)
+and relocating everything Certification-specific — the test specification
+and skip-disclosure — into CERTIFICATION alone. Applied throughout: Part
+III's self-containment mandate exception, Part 0's ignition steps 3/5,
+and P-10's own opening paragraph and trial-skipped-disclosure clause, all
+corrected to reflect DASHBOARD's restored, unmodified role.
 
 #### Skeleton v1.24 — 2026-07-10
 
@@ -581,9 +865,66 @@ Note: V-3 renumbered dead-ends to V-4; RV-5 references V-3's reset.
 Renumbering note: former V-3 (dead ends) is now V-4.
 ---
 
-# CALIBRATION / USER MANUAL CHANGE HISTORY (through v1.27)
+# CALIBRATION / USER MANUAL CHANGE HISTORY (through v1.30)
 
-### Companion to LIMM_SKELETON — User Manual v1.27 — 2026-07-10
+### Companion to LIMM_SKELETON — User Manual v1.30 — 2026-07-13
+
+Operator request: the ignition prompt is long and copying it by
+drag-select out of the rendered HTML was awkward. Added a small
+copy-to-clipboard button above the prompt block (a `<div class="copy-
+wrap">` wrapper, a styled `<button>`, and one `navigator.clipboard`
+JavaScript function before `</body>`). This is the file's first script
+of any kind; its opening comment ("Deliberately simple: semantic HTML,
+one style block, no framework, no scripts") was updated to disclose the
+addition explicitly rather than silently break its own stated
+constraint — flagged as a deliberate, minimal exception, not a
+precedent for accumulating more scripts without equivalent
+justification. Verified: the button's copy target (`innerText` of the
+wrapped `<code>` block) extracts to exactly 3,840 characters, matching
+the finalized ignition prompt with HTML entities correctly decoded to
+plain characters (browsers resolve `&#x27;` to a literal apostrophe in
+`innerText` automatically, so the clipboard content matches what a
+human would type). Tag balance re-verified after the edit (div/script/
+button all paired 1:1, all pre-existing tags unaffected).
+
+### Companion to LIMM_SKELETON — User Manual v1.29 — 2026-07-13
+
+Carried the Skeleton's Unit 0/Unit 1 correction (v1.26/v1.27) into the
+Manual, which had not yet picked it up: the ignition prompt copy
+(Section 1.4) replaced in full with the Operator's finalized, hand-
+trimmed prompt (see Skeleton v1.27's entry for the full account of what
+changed and why); every surrounding "Unit 1" prose reference the Manual
+still carried — the trial-building walkthrough's "Unit 1 opens," "ready
+for real Unit 1 work," and "before Unit 1 opens either way" — corrected
+to "Unit 0" to match. One splice-formatting artifact (a missing line
+break between the closing `</code></pre>` and the next paragraph)
+introduced while pasting the new prompt in, caught and fixed on the
+same pass.
+
+### Companion to LIMM_SKELETON — User Manual v1.28 — 2026-07-13
+
+Brought current on the P-10/Certification rework (Skeleton v1.25):
+Section 1.4's verbatim copy of Part 0's ignition prompt updated to the
+CERTIFICATION-aware version (steps 3 through 5a, including the then-new
+step 5a); the "Building a trial" walkthrough rewritten to describe the
+actual mechanism — CERTIFICATION as its own single-use document, the
+DASHBOARD gaining no Certification-specific content, the FAILED
+cause-diagnosis fork, and the PASSED fold-and-reset step — replacing
+the old "seal the answer, open it after lock" description. Section
+1.3's document-visibility diagram widened from six columns to seven to
+add CERTIFICATION, with its own visibility pattern (Operator/Collab
+always, Build never, Review conditional-only-post-close) and a
+footnote distinguishing its conditional cell from Build's differently-
+conditional ones. The "Stage 2 — the trial (a miniature P-10...)" label
+in the unrelated engine-vetting section updated to "miniature
+Certification" for naming consistency. A later Operator catch (same
+day, folded into this entry rather than given its own version bump):
+the "Building a trial" walkthrough's line "A throwaway non-LIMM session
+is the right tool for generating and sealing this" was leftover
+language from the retired seal-the-answer mechanism and contradicted
+the walkthrough's own next bullet (the Ignition session writes the
+answer directly into CERTIFICATION per step 5a) — corrected to match.
+
 
 Operator-caught terminology drift, fixed. Section 1.4's "Building a
 trial" guidance said to run the trial "ignition through lock"; P-10's

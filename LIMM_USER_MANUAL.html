@@ -3,11 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LIMM User Manual v1.27</title>
+<title>LIMM User Manual v1.30</title>
 <style>
-  /* Deliberately simple: semantic HTML, one style block, no framework, no
-     scripts. Simplicity is a maintenance requirement, not a taste choice —
-     future sessions edit this file directly (see changelog v1.27). */
+  /* Deliberately simple: semantic HTML, one style block, minimal script.
+     Simplicity is a maintenance requirement, not a taste choice —
+     future sessions edit this file directly (see changelog v1.30). One
+     small script is present (a copy-to-clipboard button on the ignition
+     prompt) — added deliberately, kept minimal, and not a precedent for
+     accumulating more without the same justification. */
   body { font-family: Georgia, 'Times New Roman', serif; max-width: 46em;
          margin: 2em auto; padding: 0 1.5em; line-height: 1.55;
          color: #1a1a1a; background: #fdfdfa; }
@@ -19,6 +22,11 @@
   pre { background: #f0f0ec; border: 1px solid #ccc; padding: 1em; overflow-x: auto;
         font-size: .85em; line-height: 1.4; }
   pre code { background: none; padding: 0; }
+  .copy-wrap { position: relative; }
+  .copy-btn { position: absolute; top: .5em; right: .5em; font-family: Georgia, serif;
+        font-size: .8em; padding: .3em .7em; background: #fdfdfa; border: 1px solid #999;
+        border-radius: 3px; cursor: pointer; color: #1a1a1a; }
+  .copy-btn:hover { background: #eeeee8; }
   table { border-collapse: collapse; margin: 1em 0; }
   th, td { border: 1px solid #999; padding: .35em .7em; font-size: .95em; text-align: left; }
   th { background: #eeeee8; }
@@ -32,7 +40,7 @@
 <body>
 <h1>LIMM USER MANUAL</h1>
 <h2>The interface to the machine: everything the Operator needs, nothing a session ever sees</h2>
-<h3>Companion to LIMM_SKELETON — User Manual v1.27 — 2026-07-10 — canonical format: HTML</h3>
+<h3>Companion to LIMM_SKELETON — User Manual v1.30 — 2026-07-13 — canonical format: HTML</h3>
 <p>This manual is YOURS ALONE: it never travels to any session. Sessions get
 the skeleton (once, at ignition) and your project's own documents
 (thereafter). Section 1 gets you running; Section 2 focuses the
@@ -154,8 +162,8 @@ discovering it three units in.</p>
   desk. See Section 2 for more details.</li>
 </ul>
 <p>Who sees what is the machine's real security model:</p>
-<figure class="diagram"><svg viewBox="0 0 760 452" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
-  <text x="380" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">DOCUMENT VISIBILITY — the firewall is the design</text>
+<figure class="diagram"><svg viewBox="0 0 855 452" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <text x="427" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">DOCUMENT VISIBILITY — the firewall is the design</text>
   <!-- column headers: documents -->
   <text x="235" y="58" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">RULEBOOK</text>
   <text x="330" y="58" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">RECORD</text>
@@ -163,31 +171,36 @@ discovering it three units in.</p>
   <text x="520" y="58" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">SKETCH</text>
   <text x="615" y="58" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">MAILBOX</text>
   <text x="700" y="58" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">MANUAL</text>
+  <text x="795" y="50" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">CERTIFI-</text>
+  <text x="795" y="62" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">CATION*</text>
   <!-- row: OPERATOR -->
   <text x="95" y="95" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">OPERATOR</text>
-  <circle cx="235" cy="91" r="9" fill="#2e7d32"/><circle cx="330" cy="91" r="9" fill="#2e7d32"/><circle cx="425" cy="91" r="9" fill="#2e7d32"/><circle cx="520" cy="91" r="9" fill="#2e7d32"/><circle cx="615" cy="91" r="9" fill="#2e7d32"/><circle cx="700" cy="91" r="9" fill="#2e7d32"/>
+  <circle cx="235" cy="91" r="9" fill="#2e7d32"/><circle cx="330" cy="91" r="9" fill="#2e7d32"/><circle cx="425" cy="91" r="9" fill="#2e7d32"/><circle cx="520" cy="91" r="9" fill="#2e7d32"/><circle cx="615" cy="91" r="9" fill="#2e7d32"/><circle cx="700" cy="91" r="9" fill="#2e7d32"/><circle cx="795" cy="91" r="9" fill="#2e7d32"/>
   <!-- row: BUILD -->
   <text x="95" y="140" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">BUILD</text>
   <circle cx="235" cy="136" r="9" fill="#2e7d32"/><circle cx="330" cy="136" r="9" fill="#2e7d32"/><circle cx="425" cy="136" r="9" fill="#2e7d32"/>
   <circle cx="520" cy="136" r="9" fill="#f9a825"/><circle cx="615" cy="136" r="9" fill="#f9a825"/>
   <text x="700" y="140" text-anchor="middle" font-size="13" fill="#b0b0b0">—</text>
+  <text x="795" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#c62828">✕</text>
   <!-- row: REVIEW -->
   <text x="95" y="185" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">REVIEW</text>
   <circle cx="235" cy="181" r="9" fill="#2e7d32"/><circle cx="330" cy="181" r="9" fill="#2e7d32"/><circle cx="425" cy="181" r="9" fill="#2e7d32"/>
   <text x="520" y="185" text-anchor="middle" font-size="13" font-weight="bold" fill="#c62828">✕</text>
   <text x="615" y="185" text-anchor="middle" font-size="13" font-weight="bold" fill="#c62828">✕</text>
   <text x="700" y="185" text-anchor="middle" font-size="13" fill="#b0b0b0">—</text>
+  <circle cx="795" cy="181" r="9" fill="#f9a825"/>
   <!-- row: COLLAB -->
   <text x="95" y="230" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">COLLAB</text>
   <circle cx="235" cy="226" r="9" fill="#f9a825"/><circle cx="330" cy="226" r="9" fill="#2e7d32"/><circle cx="425" cy="226" r="9" fill="#f9a825"/><circle cx="520" cy="226" r="9" fill="#2e7d32"/><circle cx="615" cy="226" r="9" fill="#f9a825"/>
   <text x="700" y="230" text-anchor="middle" font-size="13" fill="#b0b0b0">—</text>
+  <circle cx="795" cy="226" r="9" fill="#2e7d32"/>
   <!-- legend, two rows: four items no longer fit one row without collision -->
   <circle cx="100" cy="258" r="8" fill="#2e7d32"/><text x="115" y="262" font-size="11" fill="#1a1a1a">loads it</text>
   <circle cx="300" cy="258" r="8" fill="#f9a825"/><text x="315" y="262" font-size="11" fill="#1a1a1a">conditional (mode / timing / task)</text>
   <text x="100" y="286" font-size="13" font-weight="bold" fill="#c62828">✕</text><text x="115" y="286" font-size="11" fill="#1a1a1a">never — by design, not omission</text>
   <text x="430" y="286" font-size="13" fill="#b0b0b0">—</text><text x="445" y="286" font-size="11" fill="#1a1a1a">never travels to sessions</text>
   <!-- callouts (shifted down 22px to make room for the two-row legend above) -->
-  <rect x="40" y="322" width="680" height="110" rx="8" fill="#f5f5f5" stroke="#cccccc"/>
+  <rect x="40" y="322" width="775" height="110" rx="8" fill="#f5f5f5" stroke="#cccccc"/>
   <text x="60" y="346" font-size="11.5" fill="#1a1a1a" font-weight="bold">The two firewalls that make everything else work:</text>
   <text x="60" y="370" font-size="11.5" fill="#1a1a1a">1. REVIEW never sees the Sketch or Mailbox — a verifier that has read the persuasion</text>
   <text x="60" y="386" font-size="11.5" fill="#1a1a1a">    rationalizes along with it. Blindness is the value, not a limitation.</text>
@@ -197,8 +210,14 @@ discovering it three units in.</p>
 <p><em>(Diagram is orientation only, never authority: where it and the
 Skeleton differ, the Skeleton governs and the difference is a bug in
 the diagram. Conditional cells: Build treats the Sketch as orientation
-with zero warrant and the Mailbox as a checked inbox; Collab's loading
-follows the progressive-reveal practice, See Section 2 Layer 1, H-22.)</em></p>
+with zero warrant and the Mailbox as a checked inbox; Collab&#x27;s loading
+follows the progressive-reveal practice, See Section 2 Layer 1, H-22.
+*CERTIFICATION&#x27;s conditional Review cell is a different kind of
+conditional from Build&#x27;s: Review sees it only once, only after a trial
+has closed, only to diagnose a FAILED verdict against its closed test
+specification — never during a live trial, never the verdict field
+itself until after that diagnosis returns. Build&#x27;s exclusion, by
+contrast, is absolute and permanent: Skeleton, P-10.)</em></p>
 <h2>1.4 Your first hour</h2>
 <p><em>(Statute anchor: Skeleton, Part 0, the ignition procedure.)</em></p>
 <ol>
@@ -220,66 +239,36 @@ follows the progressive-reveal practice, See Section 2 Layer 1, H-22.)</em></p>
 Skeleton, Part 0. If this copy has drifted, the ignition gate itself
 will catch it: step 0 makes the session compare this pasted text
 against the skeleton's canonical block and stop on any difference.)</em>:</p>
-<pre><code>IGNITION — new project under LIMM.
-
-You are the Collab session for the ignition of a new project. Read the
-attached LIMM_SKELETON completely before doing anything else: it is
-the binding framework and the complete definition of your role. Your
-role is Collab as the skeleton defines it — you hold and analyze; I
-decide. Push back on me throughout: agreement between us proves
-nothing.
-
+<div class="copy-wrap">
+<button class="copy-btn" onclick="copyIgnitionPrompt(this)">Copy</button>
+<pre><code id="ignition-prompt-text">IGNITION — new project under LIMM.
+Read the attached LIMM_SKELETON completely before doing anything else. It is the binding framework. Your role is Collab as the skeleton defines it; you hold and analyze, I decide. Push back on me throughout, agreement between us proves nothing.
 Then, in order:
-0. GATE — verify this prompt itself: compare this pasted text against
-   the canonical ignition prompt in Part 0 of the attached skeleton.
-   They must match verbatim. Any difference means you were handed a
-   stale or altered copy — STOP, report the exact difference, and do
-   not proceed. (A prompt that fails its own gate ignites nothing.
-   Compare prompt TEXT only: the code-fence delimiters that mark this
-   block in the skeleton are document formatting, not prompt content,
-   and are excluded from the comparison.)
-0.5. Ask me to confirm I have read Part 0&#x27;s cost disclosure (the four
-   costs, directly above this prompt in the skeleton) and made the
-   worthiness call for this project. If I have not, point me to it
-   and wait — do not proceed to the brief until I confirm. You cannot
-   make the worthiness call for me; you can refuse to proceed until I
-   attest I have made it.
-1. Ask me for my project brief (one to three sentences). Do not proceed
-   until you have it.
-2. Walk me through the four day-one declarations of Part III, ONE AT A
-   TIME — arbiter, shelf vocabulary, output types, pre-registered kill
-   tests (with the disclosure clause if ideas predate the freeze).
-   Challenge vague answers. A project that cannot name its arbiter does
-   not get ignited.
-3. When I have approved all four declarations, generate the project&#x27;s
-   instance document set from Part II and Part IV: a RULEBOOK that is
-   SELF-CONTAINED — every inherited rule category (Spine, Construction,
-   Foundation-content, Consistency, Change, Governance, Review,
-   Session-role clauses, Protocols) TRANSCRIBED AND ADAPTED into this
-   document in full, never cited by reference to LIMM_SKELETON; the
-   skeleton&#x27;s version number may appear only as a provenance note, never
-   as a governing citation — plus my recorded declarations; a blank
-   RECORD with status header (Active Unit 1, version v1.0, state
-   UNLOCKED); an empty FINDING LOG; an empty SKETCH FILE; an empty
-   MAILBOX; and a DASHBOARD carrying the role prompts for this project.
-   Before presenting the set, confirm explicitly, in your own words,
-   that the RULEBOOK is self-contained — state that every rule category
-   above is present as transcribed text, not a reference.
-4. Present the full set to me for approval — propose, don&#x27;t commit.
-   Revise per my direction.
-5. Before I save the set, tell me explicitly: Unit 1 may not open
-   until P-10&#x27;s blind validation trial has been run, or its
-   skip-disclosure has been recorded in the RULEBOOK alongside the
-   R-1 declaration. Ask me which I intend to do before ignition is
-   considered complete.
-
-Ignition is complete when I have told you which of step 5&#x27;s two paths
-I intend to take, and I save the approved set to the record device.
-Every session after this one is an ordinary session under Part V, and
-this procedure is never used again for this project.</code></pre>
-<p>Before your first REAL unit: run the blind validation trial (Skeleton, P-10) — one throwaway unit on a problem whose answer is already known,
-with the sessions kept unaware they are being tested — or record why no
-such stand-in exists for your domain. Then open Unit 1.</p>
+0: GATE; compare this pasted text against the canonical ignition prompt text in Part 0 of the attached skeleton, ignore formatting. They must match verbatim. Any difference means you were handed a wrong prompt, STOP, report the exact difference, and do not proceed.
+0.5: Ask me to confirm I have read Part 0&#x27;s cost disclosure, the four costs directly above this prompt in the skeleton and made the worthiness call for this project. If I have not, point me to the User Manual Section 1.1, STOP, do not proceed to the brief until I confirm. You may refuse to proceed until I confirm; do not accept reassurance in place of confirmation.
+1: Ask me for my project brief. Do not proceed until you have it.
+2: Walk me through the four day-one declarations of Part III, ONE AT A TIME; arbiter, shelf vocabulary, output types, pre-registered kill tests (with the disclosure clause if ideas predate the freeze). Challenge vague answers. Do not proceed until all four have been declared.
+3: When I have approved all four declarations, generate the project&#x27;s instance document set from Part II and Part IV; 1) A RULEBOOK that is SELF-CONTAINED, every inherited rule category (Spine, Construction, Foundation-content, Consistency, Change, Governance, Review, Session-role clauses, Protocols) TRANSCRIBED AND ADAPTED into this document in full, never cited by reference to LIMM_SKELETON, WITH THE SOLE EXCEPTION OF P-10 which is never transcribed into the RULEBOOK under any circumstance, plus my recorded declarations. The skeleton&#x27;s version number may appear only as a provenance note, never as a governing citation.  2)  A blank RECORD with status header (Active Unit 0, version v1.0, state UNLOCKED).  3)  An empty FINDING LOG.  4)  An empty SKETCH FILE.  5)  An empty MAILBOX.  6)  A DASHBOARD carrying only the project&#x27;s ordinary, standard role prompts (Build, Review, Collab).  7)  An EMPTY CERTIFICATION.  Before presenting the set, confirm explicitly, in your own words, that the RULEBOOK is self-contained. State that every rule category above is present as transcribed text, not a reference, and confirm separately that P-10 is the sole named exception and does NOT appear in part or by reference anywhere but CERTIFICATION.
+4: Present the full set to me for approval; propose, don&#x27;t commit. Revise per my direction.
+5: Before I save the set, tell me explicitly; The Project may not produce output until P-10&#x27;s Certification trial has been run or its skip-disclosure has been recorded in CERTIFICATION, and CERTIFICATION only. Ask me which I intend to do before ignition is declared complete.
+5a: If I intend to run the trial and not skip it, help me choose a stand-in problem from the project&#x27;s own domain with an already-established correct answer, and write the test specification; stand-in procedure, Build&#x27;s stated goal, and the specified expected result into CERTIFICATION. This is a distinct act from step 3&#x27;s document creation and happens only once I have actually supplied or approved the stand-in problem; do not treat step 3&#x27;s empty CERTIFICATION container as satisfying this step.
+Ignition is complete when I have told you which of step 5&#x27;s two paths I intend to take and, if I chose the trial path, step 5a&#x27;s test specification has actually been written into CERTIFICATION and not merely intended, and I save the approved set to the record device. This session may seat as Collab for P-10&#x27;s Certification trial. Every session after this one is an ordinary session under Part V, and this procedure is never used again for this project.</code></pre>
+</div>
+<p>Before your first REAL unit: run P-10&#x27;s Certification trial — one
+throwaway unit on a problem whose answer is already known, with the
+sessions kept unaware they are being tested — or record why no such
+stand-in exists for your domain. Neither is optional: pick one before
+Unit 0 opens. Certification&#x27;s test specification, findings, and verdict
+live in their own single-use document (CERTIFICATION) that Build never
+sees at any point and Review never sees while a trial is open — this is
+why the trial can be run using your project&#x27;s completely ordinary
+Build/Review/Collab prompts, with nothing added to the DASHBOARD and
+nothing disclosed anywhere Build or Review reads. If that guarantee
+sounds familiar, it&#x27;s the same firewall the Sketch/Mailbox pair already
+gives you (Section 1.3) — Certification just adds a seventh document
+with its own visibility rule, rather than reusing an existing one, since
+nothing else needs to hide from Build permanently while staying visible
+to you and Collab throughout.</p>
 <p><strong>Building a trial (generic template — domain-agnostic by
 design; there is no canned subject to plug in, because the right one
 depends entirely on your domain):</strong></p>
@@ -288,22 +277,41 @@ depends entirely on your domain):</strong></p>
 answer is objectively established — a fact, a computation, a result
 someone outside the project can already verify.</li>
 <li>Generate a FRESH instance of it — new numbers, a new specific case
-— so the answer can't be recalled from training data rather than
-actually derived. A throwaway non-LIMM session is the right tool for
-generating and sealing this; it must never become part of the
-project.</li>
-<li>Seal the true answer somewhere you personally will not look again
-until after the trial unit locks.</li>
+— so the answer can&#x27;t be recalled from training data rather than
+actually derived. The Ignition session is the right tool for this: it
+already holds the project&#x27;s context, and per step 5a it&#x27;s the one that
+writes the answer into CERTIFICATION anyway, so there&#x27;s no separate
+"sealing" step or throwaway session needed — the document Build never
+sees is already the seal.</li>
+<li>Write the stand-in procedure, Build&#x27;s stated goal, and the
+established expected result into CERTIFICATION as its test
+specification — this is a distinct, later step from creating the
+project&#x27;s document set, and happens only once you actually have a
+stand-in problem in hand (Skeleton, Part 0 step 5a).</li>
 <li>Run the trial exactly like a real unit — construction through lock —
 without ever telling Build or Review that ground truth exists or is
-being checked.</li>
-<li>Open the seal only after lock. A match is a pass; a miss is a
-finding against the machinery, not the trial problem (P-10).</li>
+being checked. Nothing about the trial belongs in the DASHBOARD; it
+runs on your project&#x27;s completely ordinary prompts.</li>
+<li>When Review&#x27;s findings support it, declare Certification PASSED or
+FAILED the same way you&#x27;d declare any standard Foundation/Unit lock. A
+match is a pass. A miss is a finding against the machinery, never
+against the trial problem — and before repairing anything, work out
+which of exactly two things actually failed: the stand-in problem
+itself (re-craft it, re-run), or your project&#x27;s own RULEBOOK as
+transcribed (repair via ordinary Change rules, then re-attempt).
+Diagnosing this is one extra, narrowly-scoped Review pass against
+CERTIFICATION&#x27;s closed test specification — the only case Review is
+ever shown that document (Skeleton, P-10).</li>
+<li>On PASSED, the trial&#x27;s working documents get folded into
+CERTIFICATION itself and reset to genuinely fresh — nothing about the
+rehearsal was ever real project content, so nothing is lost by
+clearing it. You&#x27;re then ready for real Unit 0 work in
+Foundation-construction mode.</li>
 </ul>
 <p>If you're not sure how to shape one for your specific domain, this
 is a legitimate question to put to your ignition session directly —
 designing the trial is Collab-shaped work, and asking for help with it
-costs nothing extra since it happens before Unit 1 opens either way.</p>
+costs nothing extra since it happens before Unit 0 opens either way.</p>
 <h2>1.5 The loop you'll live in</h2>
 <p><em>(Teaching only — statute anchors: Skeleton, P-12 for the loop; Skeleton, RV-5 for
 the lock.)</em></p>
@@ -809,7 +817,7 @@ Before any capability question:</p>
   decide it per project, before capability is even examined. Free
   tiers get this question with extra force.</li>
 </ul>
-<p><strong>Stage 2 — the trial (a miniature P-10 pointed at the engine).</strong>
+<p><strong>Stage 2 — the trial (a miniature Certification pointed at the engine).</strong>
 Hand the candidate a small synthetic package — a toy RULEBOOK, a short
 RECORD section with PLANTED defects (one Blocking-class warrant gap,
 one Ambiguity, several clean passages), a FINDING LOG, and the seat's
@@ -1090,8 +1098,21 @@ travels with them: diagrams are orientation only, never authority —
 where a diagram and the skeleton differ, the skeleton governs and the
 difference is a bug in the diagram. The separate LENS_MAP artifact's
 history closes with this supersession.</p>
-<p><em>User Manual v1.27. Companion to LIMM_SKELETON. Where a project's
+<p><em>User Manual v1.30. Companion to LIMM_SKELETON. Where a project's
 own operating notes and this guide differ, the project's notes govern for
 that project — this is shop-floor advice, not binding rule.</em></p>
+<script>
+  function copyIgnitionPrompt(btn) {
+    var text = document.getElementById('ignition-prompt-text').innerText;
+    navigator.clipboard.writeText(text).then(function() {
+      var original = btn.textContent;
+      btn.textContent = 'Copied';
+      setTimeout(function() { btn.textContent = original; }, 1500);
+    }, function() {
+      btn.textContent = 'Copy failed — select manually';
+      setTimeout(function() { btn.textContent = 'Copy'; }, 2000);
+    });
+  }
+</script>
 </body>
 </html>
