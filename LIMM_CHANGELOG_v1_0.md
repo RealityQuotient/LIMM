@@ -22,7 +22,421 @@ session.
 
 ---
 
-# SKELETON CHANGE HISTORY (through v1.27)
+# SKELETON CHANGE HISTORY (through v1.40)
+
+#### Skeleton v1.40 — 2026-07-14
+
+DETECTOR's own live Ignition session produced a CERTIFICATION.md whose
+closing note said PASSED-closeout "folds... into this document and
+those six documents reset to fresh, contentless state" — treating all
+six standing documents as reset targets. Checked directly: P-10's own
+PASSED text named only RECORD and FINDING LOG as reset, SKETCH FILE as
+updated (never reset), and said nothing at all about MAILBOX,
+DASHBOARD, or RULEBOOK — three documents left to inference rather than
+stated outcome.
+
+Traced why the inference went the way it did rather than assuming
+carelessness: DASHBOARD and RULEBOOK are independently described
+elsewhere as "effectively static" / "changes rarely," so a session
+correctly infers "untouched" for both with no explicit statement
+needed. MAILBOX has no such protection — its own Part II definition
+("high churn; wants to be empty; pruned freely") points the opposite
+direction, toward expecting it to reset, not stay put. Given the
+two-stage trial's own construction work plausibly generated real
+MAILBOX churn (FOR-BUILD items queued, FROM-BUILD observations
+surfaced) that was no more real project content than the trial's
+RECORD/FINDING LOG content, Ignition's instinct that MAILBOX should
+reset was likely correct — it simply had no explicit text to point at,
+and compressed that correct instinct into an over-broad "six documents
+reset" rather than the precise three-way split (reset / update /
+untouched) the situation actually has.
+
+Fixed at the source rather than patching DETECTOR's document alone:
+P-10's PASSED text now names MAILBOX explicitly alongside RECORD and
+FINDING LOG as a reset target, restates SKETCH FILE's append-only
+reasoning explicitly (never reset, by design, per P-1), and explicitly
+closes out DASHBOARD and RULEBOOK as untouched throughout, with the
+reasoning stated rather than left to inference. No document's fate at
+PASSED-closeout should require a session to infer anything anymore.
+
+#### Skeleton v1.39 — 2026-07-14
+
+The largest single-session rework since v1.28's foundation/Unit
+collapse. Operator identified that P-10's own trial description was
+framed around a single unit's construction-and-review cycle — "the
+Operator runs one full unit" — with no accommodation for a project like
+DETECTOR whose RULEBOOK genuinely has two structurally distinct,
+load-bearing modes (posit, derive) both needing independent
+certification: "some projects may only need one Unit to perform a full
+test... For Project DETECTOR a full test suite requires both a
+posit-content Unit test and a derive-content Unit test, combined into
+one two-stage trial."
+
+Executed via extended discuss-first collaboration, each piece proposed
+and confirmed before being applied — a real correction mid-session after
+an earlier attempt at this same fix was applied without that discipline
+first ("Hey, remember propose-don't-commit?"), with the skeleton
+reverted cleanly to its last-approved state (confirmed via direct diff
+against the last-synced output, zero difference) before the proper
+discuss-first pass began. Key decisions, each reasoned through rather
+than asserted: the trial's scope anchors to "however many distinct
+Build/Review mode-pairings the project's own DASHBOARD actually
+contains" — not a hardcoded two, and explicitly not one stage per real
+work unit the eventual project will run, which would let trial scope
+balloon with project complexity; skip-disclosure resolved to be
+per-pairing rather than all-or-nothing, since a stand-in needing an
+already-established answer is a fundamentally harder bar for
+derive-mode work on a genuine research frontier than for posit-mode
+work citing settled fact; every pairing must independently resolve to
+PASSED or SKIPPED (never left FAILED) before Unit 0 may open, matching
+what the single-pairing case already required, just correctly restated
+per-pairing; FAILED cause-diagnosis runs independently per pairing, with
+an explicit sibling-independence clause (a pairing that already passed
+or was skipped is untouched by another pairing's failure and repair,
+unless the repair is shown to reach into shared rules) mirroring the
+same independence clause added to skip-disclosure.
+
+The ignition prompt itself was also condensed as part of this pass —
+steps 5, 5a, and 5b merged into a single step 5, restoring collaborative
+framing ("inform me... assist me in creating") that an earlier,
+overly-terse condensation attempt had accidentally dropped relative to
+the original's "help me choose" phrasing — netting real savings (926
+characters combined down to 395) on top of becoming genuinely
+pairing-agnostic. Part III's Unit 0 gate line was reduced to a pointer
+at P-10's own text rather than restating a condition that would now need
+to track P-10's own evolving wording. Final prompt length: 3,316
+characters, well under the confirmed-working range.
+
+#### Skeleton v1.38 — 2026-07-14
+
+Operator proposed removing Part 0's cost-disclosure and worthiness-call
+gate entirely, as the cheapest lever against the prompt-length pressure
+v1.37 (below) had reintroduced: "I don't think it serves any true useful
+purpose after all." Real, multi-round disagreement aired honestly before
+resolving, per this project's own standing discipline — Collab raised
+the DETECTOR transcript as direct counter-evidence (the gate had already
+caught a genuine committed Operator's own insufficient first-pass
+confirmation, not merely filtered out casual users who'd bow out
+anyway), then a sequencing objection (removing it would move the only
+pre-investment filter to after two real steps of ignition work were
+already sunk), then a sharper point about implicit-versus-explicit
+evidence (nowhere else does this framework accept "probably true from
+context" over "written down," and removing the gate would be the one
+exception). Operator's own clarifying counters resolved each in turn:
+the real costs accrue project-wide, not during the one-time ignition
+pass itself (verified true against the actual cost-disclosure text,
+which is explicitly framed around effects that compound "across many
+units"); and, decisively, that treating an Operator's mere presence at
+this point as sufficient evidence of the worthiness call is exactly the
+kind of behavioral inference this framework refuses to rely on
+everywhere else — which is what the gate was actually protecting
+against, not casual-user gatekeeping LIMM was never supposed to perform
+in the first place (S-5: "LIMM is not a cop").
+
+Applied: Part 0's cost-disclosure and worthiness-call prose removed from
+the skeleton entirely; step 0.5 removed from the canonical prompt.
+Section 1.1 in the Manual, previously a "derivative copy" of this
+skeleton content, kept intact and reworded to stand as the sole
+surviving copy — still exposing a future Operator to the cost
+information, just no longer as an enforced gate. Two stray references to
+"Part 0's worthiness gate" found and fixed in the Manual's own H-18
+heuristic, which had assumed the gate was still an active mechanism.
+
+#### Skeleton v1.37 — 2026-07-14
+
+Operator diagnosis of a recurring problem in live DETECTOR Ignition
+sessions independently re-litigating the same CERTIFICATION questions
+Collab had already settled: "I think the six primary documents should be
+constructed and presented first, and CERTIFICATION be constructed and
+presented only when it has content to be constructed WITH." Traced to a
+real design cause, not coincidence: step 3 created CERTIFICATION empty,
+in the same single presentation-and-review moment as six substantive,
+load-bearing documents — "propose, don't commit" naturally invites
+discussion of everything in that batch, and an empty document with
+nothing yet in it has nothing to discuss except its own procedural
+questions (versioning, review scrutiny, ordering), which is exactly the
+recurring argument shape being hit. Confirmed the fix wouldn't conflict
+with anything already established: step 3's self-containment
+confirmation doesn't require CERTIFICATION to physically exist yet (a
+forward reference suffices), and the skip-disclosure path works cleanly
+with deferred creation too, since CERTIFICATION is created at the point
+the run-vs-skip decision resolves either way, never as an empty shell
+waiting for something to happen to it.
+
+Applied: step 3 no longer creates CERTIFICATION; step 5a creates it
+fresh with the real test specification if running the trial; new step
+5b does the same for the skip-disclosure path, which needed its own
+equivalent and hadn't had one.
+#### Skeleton v1.36 — 2026-07-13
+
+Operator caught a real, load-bearing ambiguity in the canonical ignition
+prompt itself — the single most operationally significant text in the
+whole framework, since it's what a session actually reads and acts on.
+Step 3's rule-category list read "(Spine, Construction, Posited-content,
+Consistency, Change, Governance, Review, Session-role clauses,
+Protocols)" — and unlike every other item in that list, "Posited-
+content" contains the exact word ("content") that must never be
+transcribed into the RULEBOOK. Verified as real, not overcautious: a
+session told to "TRANSCRIBE AND ADAPT" this list "in full" could
+plausibly misread the abbreviated item as an instruction to transcribe
+actual posited domain content, not just the rules governing it —
+precisely the bug the whole v1.28 rework (below) existed to eliminate,
+resurfacing at the most consequential point in the text. Confirmed via
+direct comparison against Part II's own table (RULEBOOK holds "the
+rules... governing posited-type content," never the content itself) and
+F-series's own scope statement (posited content lives "wherever it
+occurs... at Unit 0... at whatever unit," never the RULEBOOK) — no
+ambiguity in the rules themselves, only in this one condensed list.
+
+Fixed in two layers, both applied: (1) every ambiguous list item in both
+locations it appears (the self-containment mandate's prose, Part III;
+and the canonical prompt itself, Part 0) now reads "Construction rules,
+Posited-content rules, Consistency rules, Change rules, Governance
+rules, Review rules" — disambiguated uniformly, not just the one
+offending word; (2) the prompt's own confirmation step gained an
+explicit line: "every category above is TRANSCRIBED RULE TEXT, never
+actual posited content, which belongs only in the RECORD... and never in
+the RULEBOOK under any circumstance" — defense-in-depth, forcing the
+session to state the correct understanding aloud, mirroring how P-10's
+exclusion already gets its own explicit confirmation in the same step.
+
+Cost flagged explicitly, not silently absorbed: the fix grows the
+canonical prompt from 3,840 to 4,070 characters — still short of the
+~4,821 chars confirmed to overflow the Operator's paste field, but
+closer to that boundary than the previously-confirmed-working size.
+Operator elected to keep both layers of the fix and re-test length
+directly rather than trim preemptively. Confirmed fitting the paste
+field on direct test. LIMM_USER_MANUAL.html's derivative prompt copy
+resynced to match — verified byte-identical to the skeleton's canonical
+text after HTML-entity decoding, not just visually compared.
+
+#### Skeleton v1.35 — 2026-07-13
+
+Operator-requested final consistency pass across the whole skeleton,
+following the v1.28–v1.34 rework below. Header/footer concordance
+checked directly (both v1.34 at the time, confirmed) and all rule
+families (S, C, F, T, V/V-2a, G, RV, R, P/P-2a) verified sequential and
+complete with no gaps or duplicates — none found. Cross-references
+added during the rework spot-checked against their actual targets (C-4→
+C-5, V-3→P-2/RV-6/S-2/S-4, P-9→P-2's CITES, Collab section→P-8) — all
+accurate. Found and fixed three cosmetic line-wrap artifacts left over
+from the rework's many edits (mid-phrase breaks such as "zero\nwarrant"
+and "BECAUSE the\nseat") — no content errors, purely formatting. Version
+bumped for the fix anyway: V-1's own text draws no exception for
+cosmetic-only changes, and exempting this edit from that discipline
+would contradict the document defining it.
+
+#### Skeleton v1.34 — 2026-07-13
+
+Operator requested a final comparison pass: the current skeleton against
+Physiform's own original contentless framework templates
+(DASHBOARD_FOUNDATION.tex, DASHBOARD_WORKING.tex,
+foundational_document_outline.tex, working_document_template.tex) and,
+critically, Physiform's own SKETCH_FILE.tex — read specifically for
+"lesson learned during use" content that might represent real
+enhancements never inherited into LIMM's generalization. Five genuine,
+evidenced candidates found and verified against the current skeleton
+before any fix was drafted (two were independently rediscovered by a
+prior cold Opus review — R-050/R-051 — but these five were new, found
+via the original's own construction history rather than a fresh cold
+read). All five drafted with an explicit domain-agnosticism constraint:
+no Physiform-specific terms (Block numbers, Section numbers, physics
+vocabulary) permitted to leak into the fix; verified clean afterward.
+
+Applied: **C-18** — extended with "stamp-against-content, never
+stamp-against-stamp": a real Physiform incident showed stamps agreeing
+with each other is not evidence any of them are correct; a caught
+mismatch must now be resolved by checking actual content, not by simply
+overwriting the lagging stamp. **C-10** — extended with sweep-by-pattern-
+not-location: a repair must sweep for every instance of a finding's
+underlying pattern, not just its named location, with the sweep's own
+scope stated explicitly; evidenced by two independent recurrences in
+Physiform's own history, not a one-off. **V-4** — extended distinguishing
+"most trustworthy" (low incentive to fabricate) from "exempt from
+scrutiny": a false exclusion is, if anything, more dangerous than a
+false confirmation, since nothing routinely revisits a closed dead end.
+**C-7** — extended making the declared contact-class vocabulary
+(agrees/reduces-to/diverges/no-contact) reserved for the classification
+field itself, never usable as casual descriptive prose, after a
+near-miss where "diverges" in commentary risked triggering the formal
+flag unintentionally. **C-4** — extended requiring a definition's own
+grounding to cite only equally-or-more-primitive content, never a
+derived result, even where the cited fact happens to be independently
+over-determined — the citation's direction matters, not whether this
+particular instance is safe.
+
+#### Skeleton v1.33 — 2026-07-13
+
+Operator caught a genuine gap in v1.32's own CITES/V-3 mechanism (below):
+"that upstream and downstream checkability is also checked by Review
+(that's warrant)." The as-built text let a CITES-triggered flag be
+resolved by Build's own construction-rule check alone, with no
+requirement that the disposition clear independent review — exactly the
+self-certifying gap S-4 and RV-1 exist elsewhere to forbid, introduced
+by the drafting session's own oversight one turn earlier. Fixed: a
+CITES-triggered flag now clears only by warrant — Build may propose a
+disposition, but it must clear Review under the ordinary RV-1 through
+RV-9 discipline before the flag lifts. A second citation error caught on
+the same pass: the "same-side sweeps don't substitute for review"
+principle was mis-cited to RV-1 in the first draft; corrected to RV-6,
+which turned out to be a tighter match than intended, since RV-6 already
+names "upstream/downstream dependency sweep" as part of its own
+construction-side self-check.
+
+#### Skeleton v1.32 — 2026-07-13
+
+Operator's own closing observation on the P-2a/Collab work (v1.30–v1.31,
+below): the address-traceable chain, once genuinely walkable, makes the
+RECORD "self-diagnosing and self-repairing by design" — an early error,
+once found by a later unit's work, should be correctable via its every
+downstream dependent, not merely locatable. Checked against the existing
+FINDING LOG mechanism (RESTS-ON + V-3's post-supersession sweep) and
+found this exact pattern already existed for FINDING LOG entries but had
+no RECORD-content equivalent. Added: a **CITES** field on the card
+catalog (P-2) — each card records the addresses its own result cited as
+warrant, mirroring RESTS-ON's own pattern but forward-declared at
+creation rather than requiring retroactive edits to older cards
+(deliberately avoiding a "who cites me" field, which would collide with
+V-2's "locked content never edits in place" every time something new
+depended on an existing card). V-3's supersession sweep extended to
+search CITES for every RECORD result built on a corrected address,
+alongside its existing FINDING LOG sweep.
+
+#### Skeleton v1.31 — 2026-07-13
+
+Operator correction to v1.30's own framing (below), and a real one: "the
+concept behind 'Collab holds more context than a human can' doesn't mean
+Collab HAS to load the entire RECORD into memory — think of Collab as a
+search engine." Checked against every one of Collab's stated tasks
+(brainstorming, diagnostics, target-hunting, dry runs, review-comparison)
+and found none of them actually require the whole RECORD loaded
+simultaneously — the prior "Full-scope mode... loads the entire store"
+framing was itself an unexamined overclaim, not a deliberate design
+choice. Rewrote Collab's Part V section: RULEBOOK/FINDING LOG/SKETCH/
+MAILBOX kept in full (comparatively small, bounded documents; FINDING
+LOG's full-log access for Collab specifically already had a real
+precedent in P-8's tending sweep, checked before relying on it); RECORD
+follows the same search-then-retrieve discipline P-2a established for
+Build/Review, with Collab's only real difference being scope of inquiry
+(not restricted to one unit), never scope of simultaneous loading.
+Incorporated the Operator's own worked example directly into the rule
+text as a concrete illustration (digging the Sketch File directly for a
+half-remembered topic versus searching the RECORD's card catalog for
+address matches) — the same pattern the skeleton uses elsewhere for
+illustrative clarity. Two self-introduced drafting errors caught and
+fixed on the same pass: a dangling self-quote that no longer matched
+anything stated verbatim after an edit, and an awkward line-break
+artifact.
+
+#### Skeleton v1.30 — 2026-07-13
+
+Operator observation: "The RULEBOOK is a static document... The RECORD,
+on the other hand, can be any length imaginable... all content in the
+RECORD must be addressable by reference," with Physiform's own
+PT_WORKING.tex (20,461 lines and still growing) offered as evidence.
+Checked against the current skeleton and found P-9 already states this
+exact bound for the FINDING LOG explicitly ("a session loads the global
+region plus one unit's region, never the whole log") — but Build's and
+Review's own load-lists just said "load: RULEBOOK, RECORD" with no
+equivalent bound for RECORD, despite RECORD being the document actually
+most at risk (it accumulates all warranted content across every unit,
+unlike FINDING LOG). Checked the offered exhibit honestly rather than
+accepting it uncritically: PT_WORKING.tex's own prompt bounds FINDING
+LOG loading but never once bounds the Working Document itself — the
+exhibit is evidence of the cost of not having this rule, not a working
+example of the fix already in practice. Added **P-2a**: RULEBOOK's size
+is fixed by design, RECORD's is not; default load is the Active Unit's
+content plus its seeded scaffold; anything further back is retrieved by
+explicit address via the card catalog, never loaded by default. Build's
+and Review's load-list lines in Part V updated to point at it.
+
+#### Skeleton v1.29 — 2026-07-13
+
+Operator correction to the MAILBOX status vocabulary introduced in
+v1.28 (below): "the term 'crossed' seems wrong... I think a better term
+might be 'RECEIVED.'" Verified rather than accepted on the strength of
+the proposal alone: "crossed" as a status sitting directly beside
+WITHDRAWN carries a real collision risk with the ordinary-English
+"crossed off" (meaning cancelled — near the opposite of what CROSSED
+actually meant), while RECEIVED has no such collision and gives
+WITHDRAWN a clean real-world mail analogue (a returned or recalled
+item) that CROSSED never had. Renamed CROSSED to RECEIVED throughout
+P-3 and the one cross-reference in Collab's own section (Part V) — the
+broader "crossing between registers" vocabulary used elsewhere (S-1,
+S-3, S-5, Part II's MAILBOX description) deliberately left untouched,
+since that describes the general register-boundary mechanism, not the
+MAILBOX's own three-value status enum specifically.
+
+#### Skeleton v1.28 — 2026-07-13
+
+The largest single rework this project has logged. Operator identified
+a structural artifact inherited wholesale from Physiform's own
+two-document architecture: "LIMM contains an artifact from the original
+framework in the form of foundation/Unit dichotomy... the original's
+'foundation' is simply LIMM's 'Unit 0.'" Initial analysis found this
+partially right — verified via Physiform's own attached templates that
+the document-residency split (Foundational Document vs. Working
+Document) was explicitly justified there only by SCALE ("foundation
+content is small, bounded, and lives in the Foundational Document" —
+verbatim), a property LIMM's RECORD never shared, since it already
+handles one unit's content exactly as easily as fifty. But the
+positing-vs-deriving RULE distinction (F-series vs. C-series) was found
+to be independently, textually justified in Physiform's own source
+("declared starting points... no inference inside a declaration to
+test") — a genuine epistemic difference, not a scale artifact, that
+needed to survive the collapse, just correctly reframed as governing a
+KIND OF CONTENT rather than a fixed unit number (Physiform's own
+Add-gate already contemplated posited-type content being introduced
+after Unit 0, undermining "Unit-0-specific" as the right frame).
+
+Operator then supplied the precise, final architecture directly: "LIMM's
+RECORD uses only Units... All rules live in the RULEBOOK... The only
+difference is the type of content a Unit contains" — posited or derived
+— with Build/Review each needing two mode-prompts and Collab needing
+one switchable prompt. Verified against the actual current skeleton
+before executing: Build's posit/derive split already existed explicitly;
+Collab's scoped/wild split and its "switches on the fly" language
+already existed, correctly worded; Review's split was initially
+(wrongly) reported as entirely absent — corrected on re-check, since it
+already existed too, just far from Review's own section definition
+("One prompt per review mode," naming FOUNDATION REVIEW/UNIT REVIEW).
+Confirmed: the five-prompt-minimum count (2 Build + 2 Review + 1 Collab)
+was already fully implicit and correct in the pre-existing text, just
+scattered and named in Physiform-legacy terms.
+
+Applied, systematically, across roughly twenty locations: Part II's
+table (RULEBOOK holds only rules; RECORD holds all content, posited or
+derived, organized into Units; the "(Foundational Document)"/"(Working
+Document)" Physiform-legacy alt-names removed per Operator confirmation);
+the F-series renamed "Posited-content rule templates" with F-1 through
+F-6 fully reworded; Build's modes renamed Derive mode/Posit mode; "FOUNDATION
+REVIEW"/"UNIT REVIEW" renamed POSIT REVIEW/DERIVE REVIEW, with a short
+pointer added to Review's own Part V paragraph (per Operator
+confirmation) so the parallel structure with Build is visible without
+hunting; C-4, C-11, C-13, C-14, V-2a, RV-8, RV-9, the Operator section,
+Session-lifespan line, RESTS-ON field example, and P-10's Verdict/
+PASSED/FAILED text all updated to the new vocabulary — including a real
+bug fix in C-14 (previously treated "the foundations" and "a prior unit"
+as two different kinds of source, now correctly unified) and a
+correction in P-10's PASSED text (no longer assumes Unit 0 is
+necessarily posit-type, matching the Operator's own "usually, but not
+necessarily").
+
+In the same turn, the two MAILBOX issues flagged earlier (clearing
+mechanism unspecified; status-assignment roles unspecified) were
+addressed by fully rewriting **P-3**: a clearing mechanism was added
+(an item prunes once resolved, with a receipt appended to SKETCH FILE
+first — Build-side, never-pruned, matching the promise Part II's table
+already made but P-3 never delivered on); and role-specific status
+assignment was added (Build proposes crossing for FOR-BUILD items it
+actually constructed, Collab proposes crossing for FROM-BUILD items it
+actually incorporated, Operator approval required either way — stated
+explicitly as completing, not contradicting, the existing "crossing
+happens only through the Operator" principle). Two drafting errors
+caught and fixed before finalizing: a circular sentence in Collab's own
+cross-reference ("crossed... and only then constructed," backwards), and
+an incorrect S-1/S-3 citation corrected to S-5, which is the rule that
+actually states the Operator-as-valve principle being invoked.
 
 #### Skeleton v1.27 — 2026-07-13
 
@@ -865,7 +1279,103 @@ Note: V-3 renumbered dead-ends to V-4; RV-5 references V-3's reset.
 Renumbering note: former V-3 (dead ends) is now V-4.
 ---
 
-# CALIBRATION / USER MANUAL CHANGE HISTORY (through v1.30)
+# CALIBRATION / USER MANUAL CHANGE HISTORY (through v1.35)
+
+### Companion to LIMM_SKELETON — User Manual v1.35 — 2026-07-14
+
+One bullet in the "Building a trial" walkthrough (Section 1.4, added at
+v1.34 below) carried a residual, unearned assumption: "most projects
+have exactly two (posit, derive), never one per real work stage the
+eventual project will run." Operator caught it directly, and precisely
+— this is the exact bias Skeleton v1.39 had deliberately eliminated
+from the canonical rule text, reintroduced fresh while writing this
+section's own teaching prose, confirmed by checking the skeleton itself
+carried no such phrase. Fixed by adopting the Operator's own proposed
+replacement, framing the two-mode case explicitly as an illustrative
+example ("suppose your Project has...") rather than an assertion about
+typical distribution the project has no actual evidence for. A related
+question raised and resolved before finalizing: whether dropping the
+skeleton's own explicit "never per real work stage" contrast weakened
+the anti-ballooning guarantee for Manual readers specifically —
+resolved that it doesn't, since the skeleton's job is surviving an
+adversarial or careless reading while the Manual's job is only getting
+a receptive reader to the correct mental model, and a positive
+specification ("count DASHBOARD's pairings") gives a reader no path
+back to the wrong interpretation the negative case would otherwise be
+needed to rule out.
+
+### Companion to LIMM_SKELETON — User Manual v1.34 — 2026-07-14
+
+Full conformance pass against Skeleton v1.37 through v1.39's
+CERTIFICATION-sequencing and full per-pairing P-10 rework, both logged
+above. Ignition prompt copy fully resynced, verified byte-identical to
+skeleton canonical text after HTML-entity decoding. The "Building a
+trial" walkthrough rewritten throughout for per-pairing mechanics:
+identifying how many stages a project's DASHBOARD actually requires,
+per-stage stand-ins and test specifications, per-stage PASSED/FAILED/
+SKIPPED declarations, sibling-independence in repair, and the
+every-pairing-must-resolve-to-PASSED-or-SKIPPED gate condition. The
+PASSED closeout bullet matched the skeleton's own cut, dropping the
+mode-matching clause rather than attempting to pluralize language the
+source had removed entirely.
+
+A genuine, non-obvious staleness caught beyond the expected updates: the
+document-visibility diagram's footnote said Review sees CERTIFICATION
+"only once" for FAILED cause-diagnosis — true under the old single-stage
+design, false now that independent pairings can each fail and each
+receive their own diagnostic review. Fixed to state this can recur once
+per failed pairing, never as standing access. Two other "certification"
+mentions elsewhere in the Manual (both in engine-screening sections)
+checked and confirmed unrelated generic usage, not the project
+mechanism — verified by reading surrounding context rather than assumed
+from the keyword match alone.
+
+### Companion to LIMM_SKELETON — User Manual v1.33 — 2026-07-14
+
+Paired with Skeleton v1.38's removal of Part 0's cost-disclosure and
+worthiness-call gate. Section 1.1, previously described as a
+"derivative copy — canonical text: Skeleton, Part 0," kept intact and
+reworded to state plainly that it is now the sole surviving copy of
+this content, with the version-of-record it was last present in the
+skeleton named explicitly. Two stray references caught in H-18's own
+heuristic text, which had assumed "Part 0's worthiness gate" was still
+an active, going-in mechanism — both repointed to Section 1.1's
+surviving disclosure instead, since the gate itself no longer exists to
+reference.
+### Companion to LIMM_SKELETON — User Manual v1.32 — 2026-07-13
+
+Resynced the ignition prompt copy (Section 1.4) to match Skeleton
+v1.36's fix for the "Posited-content" ambiguity in the RULEBOOK
+transcription list — verified byte-identical to the skeleton's
+canonical text after HTML-entity decoding (not just visually compared),
+matching the same discipline used for the v1.31 resync below.
+
+### Companion to LIMM_SKELETON — User Manual v1.31 — 2026-07-13
+
+Full conformance pass bringing the Manual current against Skeleton
+v1.28 through v1.34's foundation/Unit → posit/derive rework and the
+Collab search-engine correction, both logged above. Read the entire
+Manual end to end before editing rather than searching by keyword alone,
+given how much of the underlying vocabulary had changed. Seven fixes
+applied: the ignition prompt copy resynced in full (only
+"Foundation-content" had drifted, confirmed nothing else had); two
+stale references in the trial-building walkthrough ("any standard
+Foundation/Unit lock," "Foundation-construction mode") updated to match
+P-10's current text; H-14's "per foundation and per working unit"
+corrected; H-13's Collab-loading description rewritten away from "load
+the full store" to the actual search-then-retrieve model; H-23 Stage
+1's context-window screening criterion tightened to reflect bounded
+loading rather than implying the whole RECORD needs to fit in context.
+
+The substantive find of this pass: the "THE COLLAB ROLE, PROPERLY
+DEFINED" section stated, as settled teaching, the exact misconception
+Skeleton v1.31 had just corrected — "no human holds 20,000 lines of
+results... Collab can," read as license for full simultaneous loading.
+Rewrote the section's core paragraph to name the misconception
+explicitly before correcting it, using the same search-engine analogy
+and worked example now in the skeleton itself, so a reader receives the
+corrected model directly rather than the one the skeleton had just
+spent real effort dismantling.
 
 ### Companion to LIMM_SKELETON — User Manual v1.30 — 2026-07-13
 
