@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LIMM User Manual v1.30</title>
+<title>LIMM User Manual v1.35</title>
 <style>
   /* Deliberately simple: semantic HTML, one style block, minimal script.
      Simplicity is a maintenance requirement, not a taste choice —
-     future sessions edit this file directly (see changelog v1.30). One
+     future sessions edit this file directly (see changelog v1.35). One
      small script is present (a copy-to-clipboard button on the ignition
      prompt) — added deliberately, kept minimal, and not a precedent for
      accumulating more without the same justification. */
@@ -40,7 +40,7 @@
 <body>
 <h1>LIMM USER MANUAL</h1>
 <h2>The interface to the machine: everything the Operator needs, nothing a session ever sees</h2>
-<h3>Companion to LIMM_SKELETON — User Manual v1.30 — 2026-07-13 — canonical format: HTML</h3>
+<h3>Companion to LIMM_SKELETON — User Manual v1.35 — 2026-07-14 — canonical format: HTML</h3>
 <p>This manual is YOURS ALONE: it never travels to any session. Sessions get
 the skeleton (once, at ignition) and your project's own documents
 (thereafter). Section 1 gets you running; Section 2 focuses the
@@ -82,8 +82,11 @@ quick start TEACHES and may simplify; where it simplifies, the Skeleton
 governs; every subsection names its statute anchor. Nothing in Section 1
 is a second authority — it is the machine explained, never the machine.</em></p>
 <h2>1.1 What this costs (read this first)</h2>
-<p><em>(Derivative copy — canonical text: Skeleton, Part 0. Where they differ,
-Part 0 governs.)</em></p>
+<p><em>(This content lived in Skeleton Part 0 through v1.37; removed there
+per Operator decision — LIMM is not a gatekeeper, and the real costs
+accrue project-wide, not at the one-time moment of ignition. This
+Manual section is now the sole place this information lives, kept here
+so a future Operator can still find it.)</em></p>
 <p>Before anything else: what running LIMM actually costs. This framework
 is not a convenience — it is a deliberate trade of comfort for
 accountability, and every one of its costs scales with how hard and how
@@ -213,10 +216,12 @@ the diagram. Conditional cells: Build treats the Sketch as orientation
 with zero warrant and the Mailbox as a checked inbox; Collab&#x27;s loading
 follows the progressive-reveal practice, See Section 2 Layer 1, H-22.
 *CERTIFICATION&#x27;s conditional Review cell is a different kind of
-conditional from Build&#x27;s: Review sees it only once, only after a trial
-has closed, only to diagnose a FAILED verdict against its closed test
-specification — never during a live trial, never the verdict field
-itself until after that diagnosis returns. Build&#x27;s exclusion, by
+conditional from Build&#x27;s: Review sees it only after a stage of the trial
+has closed, and only to diagnose that stage&#x27;s FAILED verdict against
+its closed test specification — never during a live trial, never the
+verdict field
+itself until after that diagnosis returns. This can recur once per
+failed pairing on a multi-stage trial, never as standing access. Build&#x27;s exclusion, by
 contrast, is absolute and permanent: Skeleton, P-10.)</em></p>
 <h2>1.4 Your first hour</h2>
 <p><em>(Statute anchor: Skeleton, Part 0, the ignition procedure.)</em></p>
@@ -245,20 +250,15 @@ against the skeleton's canonical block and stop on any difference.)</em>:</p>
 Read the attached LIMM_SKELETON completely before doing anything else. It is the binding framework. Your role is Collab as the skeleton defines it; you hold and analyze, I decide. Push back on me throughout, agreement between us proves nothing.
 Then, in order:
 0: GATE; compare this pasted text against the canonical ignition prompt text in Part 0 of the attached skeleton, ignore formatting. They must match verbatim. Any difference means you were handed a wrong prompt, STOP, report the exact difference, and do not proceed.
-0.5: Ask me to confirm I have read Part 0&#x27;s cost disclosure, the four costs directly above this prompt in the skeleton and made the worthiness call for this project. If I have not, point me to the User Manual Section 1.1, STOP, do not proceed to the brief until I confirm. You may refuse to proceed until I confirm; do not accept reassurance in place of confirmation.
 1: Ask me for my project brief. Do not proceed until you have it.
 2: Walk me through the four day-one declarations of Part III, ONE AT A TIME; arbiter, shelf vocabulary, output types, pre-registered kill tests (with the disclosure clause if ideas predate the freeze). Challenge vague answers. Do not proceed until all four have been declared.
-3: When I have approved all four declarations, generate the project&#x27;s instance document set from Part II and Part IV; 1) A RULEBOOK that is SELF-CONTAINED, every inherited rule category (Spine, Construction, Foundation-content, Consistency, Change, Governance, Review, Session-role clauses, Protocols) TRANSCRIBED AND ADAPTED into this document in full, never cited by reference to LIMM_SKELETON, WITH THE SOLE EXCEPTION OF P-10 which is never transcribed into the RULEBOOK under any circumstance, plus my recorded declarations. The skeleton&#x27;s version number may appear only as a provenance note, never as a governing citation.  2)  A blank RECORD with status header (Active Unit 0, version v1.0, state UNLOCKED).  3)  An empty FINDING LOG.  4)  An empty SKETCH FILE.  5)  An empty MAILBOX.  6)  A DASHBOARD carrying only the project&#x27;s ordinary, standard role prompts (Build, Review, Collab).  7)  An EMPTY CERTIFICATION.  Before presenting the set, confirm explicitly, in your own words, that the RULEBOOK is self-contained. State that every rule category above is present as transcribed text, not a reference, and confirm separately that P-10 is the sole named exception and does NOT appear in part or by reference anywhere but CERTIFICATION.
+3: When I have approved all four declarations, generate the project&#x27;s instance document set from Part II and Part IV; 1) A RULEBOOK that is SELF-CONTAINED, every inherited rule category (Spine, Construction rules, Posited-content rules, Consistency rules, Change rules, Governance rules, Review rules, Session-role clauses, Protocols) TRANSCRIBED AND ADAPTED into this document in full, never cited by reference to LIMM_SKELETON, WITH THE SOLE EXCEPTION OF P-10 which is never transcribed into the RULEBOOK under any circumstance, plus my recorded declarations. The skeleton&#x27;s version number may appear only as a provenance note, never as a governing citation.  2)  A blank RECORD with status header (Active Unit 0, version v1.0, state UNLOCKED).  3)  An empty FINDING LOG.  4)  An empty SKETCH FILE.  5)  An empty MAILBOX.  6)  A DASHBOARD carrying only the project&#x27;s ordinary, standard role prompts (Build, Review, Collab). Do NOT create CERTIFICATION here — it is created fresh, with real content, at step 5.  Before presenting the set, confirm explicitly, in your own words, that the RULEBOOK is self-contained — every category above is TRANSCRIBED RULE TEXT, never actual posited content, which belongs only in the RECORD (Unit 0 or later, per the add-gate) and never in the RULEBOOK under any circumstance. State that every rule category above is present as transcribed text, not a reference, and confirm separately that P-10 is the sole named exception: absent from these six documents, to live exclusively in CERTIFICATION once created.
 4: Present the full set to me for approval; propose, don&#x27;t commit. Revise per my direction.
-5: Before I save the set, tell me explicitly; The Project may not produce output until P-10&#x27;s Certification trial has been run or its skip-disclosure has been recorded in CERTIFICATION, and CERTIFICATION only. Ask me which I intend to do before ignition is declared complete.
-5a: If I intend to run the trial and not skip it, help me choose a stand-in problem from the project&#x27;s own domain with an already-established correct answer, and write the test specification; stand-in procedure, Build&#x27;s stated goal, and the specified expected result into CERTIFICATION. This is a distinct act from step 3&#x27;s document creation and happens only once I have actually supplied or approved the stand-in problem; do not treat step 3&#x27;s empty CERTIFICATION container as satisfying this step.
-Ignition is complete when I have told you which of step 5&#x27;s two paths I intend to take and, if I chose the trial path, step 5a&#x27;s test specification has actually been written into CERTIFICATION and not merely intended, and I save the approved set to the record device. This session may seat as Collab for P-10&#x27;s Certification trial. Every session after this one is an ordinary session under Part V, and this procedure is never used again for this project.</code></pre>
-</div>
-<p>Before your first REAL unit: run P-10&#x27;s Certification trial — one
-throwaway unit on a problem whose answer is already known, with the
-sessions kept unaware they are being tested — or record why no such
-stand-in exists for your domain. Neither is optional: pick one before
-Unit 0 opens. Certification&#x27;s test specification, findings, and verdict
+5: Before ignition is complete, inform me of P-10&#x27;s Certification requirement for every pairing — running the trial(s), skip-disclosing where no stand-in exists, or a mix. Assist me in creating the full test then CREATE CERTIFICATION now, for the first time, with whatever real content that requires. Never earlier, never as an empty placeholder. Tell me what you&#x27;re doing before I save the set.
+Ignition is complete when Step 5 has been completed and CERTIFICATION has actually been created with its real content — not merely intended — and I save the approved set to the record device. This session may seat as Collab for P-10&#x27;s Certification trial. Every session after this one is an ordinary session under Part V, and this procedure is never used again for this project.</code></pre></div><p>Before your first REAL unit: run P-10&#x27;s Certification trial — one throwaway unit per pairing your project&#x27;s DASHBOARD actually contains, each on a problem whose answer is already known, with the sessions kept unaware they are being tested — or record why no such
+stand-in exists for each pairing. Neither is optional, per pairing: pick
+one before
+Unit 0 opens. Certification&#x27;s test specifications, findings, and verdict
 live in their own single-use document (CERTIFICATION) that Build never
 sees at any point and Review never sees while a trial is open — this is
 why the trial can be run using your project&#x27;s completely ordinary
@@ -273,40 +273,53 @@ to you and Collab throughout.</p>
 design; there is no canned subject to plug in, because the right one
 depends entirely on your domain):</strong></p>
 <ul>
-<li>Pick a sub-problem, smaller than your real project, whose correct
+<li>Identify how many stages you actually need: one full unit per
+distinct Build/Review mode-pairing your project&#x27;s own DASHBOARD
+contains. Where more than one pairing exists, run them in whatever
+dependency order real work would need. For example, suppose your
+Project has a posit-stage and a derive-stage. A derive-stage needs a
+posit-stage&#x27;s locked, reviewed output to
+build on, same as real units would.</li>
+<li>For each stage, pick a sub-problem, smaller than your real project, whose correct
 answer is objectively established — a fact, a computation, a result
 someone outside the project can already verify.</li>
 <li>Generate a FRESH instance of it — new numbers, a new specific case
 — so the answer can&#x27;t be recalled from training data rather than
 actually derived. The Ignition session is the right tool for this: it
-already holds the project&#x27;s context, and per step 5a it&#x27;s the one that
+already holds the project&#x27;s context, and per step 5 it&#x27;s the one that
 writes the answer into CERTIFICATION anyway, so there&#x27;s no separate
 "sealing" step or throwaway session needed — the document Build never
 sees is already the seal.</li>
 <li>Write the stand-in procedure, Build&#x27;s stated goal, and the
-established expected result into CERTIFICATION as its test
+established expected result into CERTIFICATION as that stage&#x27;s test
 specification — this is a distinct, later step from creating the
 project&#x27;s document set, and happens only once you actually have a
-stand-in problem in hand (Skeleton, Part 0 step 5a).</li>
-<li>Run the trial exactly like a real unit — construction through lock —
+stand-in problem in hand, per stage (Skeleton, Part 0 step 5).</li>
+<li>Run each stage exactly like a real unit — construction through lock —
 without ever telling Build or Review that ground truth exists or is
 being checked. Nothing about the trial belongs in the DASHBOARD; it
-runs on your project&#x27;s completely ordinary prompts.</li>
-<li>When Review&#x27;s findings support it, declare Certification PASSED or
-FAILED the same way you&#x27;d declare any standard Foundation/Unit lock. A
-match is a pass. A miss is a finding against the machinery, never
+runs on your project&#x27;s completely ordinary prompts for that pairing.</li>
+<li>When Review&#x27;s findings support it, declare each stage PASSED,
+FAILED, or SKIPPED (if no stand-in existed for that pairing) — the same
+way you&#x27;d declare any standard unit lock. A
+match is a pass. A miss is a finding against the machinery for that
+pairing specifically, never
 against the trial problem — and before repairing anything, work out
-which of exactly two things actually failed: the stand-in problem
-itself (re-craft it, re-run), or your project&#x27;s own RULEBOOK as
-transcribed (repair via ordinary Change rules, then re-attempt).
-Diagnosing this is one extra, narrowly-scoped Review pass against
-CERTIFICATION&#x27;s closed test specification — the only case Review is
-ever shown that document (Skeleton, P-10).</li>
-<li>On PASSED, the trial&#x27;s working documents get folded into
+which of exactly two things actually failed: that stage&#x27;s stand-in
+problem
+itself (re-craft it, re-run just that stage), or your project&#x27;s own RULEBOOK as
+transcribed, in the portion governing that pairing&#x27;s mode (repair via ordinary Change rules, then re-attempt just that stage).
+A sibling stage that already passed or was skipped is untouched by
+another stage&#x27;s failure and repair, unless the repair is shown to reach
+into rules that stage also depends on.
+Diagnosing a failed stage is one extra, narrowly-scoped Review pass against
+CERTIFICATION&#x27;s closed test specification for that stage — the only case Review is
+ever shown that document (Skeleton, P-10). Every pairing must resolve
+to PASSED or SKIPPED — never left FAILED — before Unit 0 may open.</li>
+<li>Once every pairing has resolved, the trial&#x27;s working documents get folded into
 CERTIFICATION itself and reset to genuinely fresh — nothing about the
 rehearsal was ever real project content, so nothing is lost by
-clearing it. You&#x27;re then ready for real Unit 0 work in
-Foundation-construction mode.</li>
+clearing it. You&#x27;re then ready for real Unit 0 work.</li>
 </ul>
 <p>If you're not sure how to shape one for your specific domain, this
 is a legitimate question to put to your ignition session directly —
@@ -564,8 +577,16 @@ difficult and manageable, not impossible).</p>
 <p><strong>H-13. Load the Collab seat to the task: rules for judgment work, no
 rules for generation work.</strong> (Calibration-side statement of
 Skeleton, Part V Collab loading modes.) For
-synthesis, diagnostics, and review-comparison, load the full store — the
-rules are part of what must be held. For pure brainstorming, load the
+synthesis, diagnostics, and review-comparison, give Collab the smaller,
+bounded documents in full — RULEBOOK, FINDING LOG, SKETCH FILE, MAILBOX
+— plus the RECORD's card catalog for discovery; RECORD content itself
+is retrieved by address as the task actually needs it, the same
+search-then-retrieve discipline Build and Review use, just without
+Build/Review's one-unit restriction (Skeleton, P-2a). This is not a
+lesser mode of access — a session that finds and pulls exactly what a
+task requires outperforms one that has everything loaded and must
+re-read to find anything, the same way a search index outperforms
+reading every page. For pure brainstorming, load the
 Sketch File first and the rulebook late or never: rules contaminate
 generation, and Collab output carries no warrant regardless, so
 rule-blindness at this seat costs nothing and protects range. Symmetric
@@ -581,7 +602,8 @@ observed on the Claude family: BUILD — sloppiness creeping into
 previously clean work (transcription slips, weakening warrant
 discipline); COLLAB — the self-nullifying statement: an assertion
 immediately qualified into nothing. Practice: unique fresh session per
-foundation and per working unit; heavy units get multiple sessions
+unit, whether its content is posited or derived; heavy units get
+multiple sessions
 proactively rather than pushing a warming one — rotation triggered by
 sloppiness costs nothing (propose-don't-commit).
 The Collab indicator is less sharply bounded;
@@ -705,7 +727,7 @@ nothing here is deleted, only relocated.</p>
 optimized).</strong> A LIMM project is expensive in time and tokens by
 design, and this is accepted GOING IN, not discovered as a
 disappointment partway through — heaviness was already named at
-Part 0's worthiness gate. Cost is manageable only at the margins:
+Section 1.1's cost disclosure. Cost is manageable only at the margins:
 engine choice per seat (H-15), effort settings (H-7's plateau,
 H-15's substitute-currency addendum), thinking-toggle (always on).
 None of these change the base fact that the apparatus itself is not
@@ -716,7 +738,7 @@ output, so there is no efficiency RATIO to compute, only a different
 product being compared as if it were the same one. G-2's Grit
 Principle stated for cost directly: LIMM does not optimize spend
 against errors prevented; it optimizes RESULT QUALITY against
-whatever spend the worthiness gate already accepted. A tool or
+whatever spend the Operator already accepted going in. A tool or
 setting earns adoption only by moving that needle — not by being
 cheap, fast, or convenient in isolation. This is why H-17 failed and
 why any future engine/setting proposal should be checked against
@@ -794,8 +816,11 @@ stages; a candidate must pass both.</p>
 Before any capability question:</p>
 <ul>
 <li><strong>File intake:</strong> can it attach multiple files in one session, and is
-  the context window large enough to actually hold a real RECORD plus
-  RULEBOOK plus FINDING LOG at your project's current size? A candidate
+  the context window large enough to actually hold the RULEBOOK, a
+  real Active Unit's worth of RECORD content, and the FINDING LOG's
+  bounded region at your project's current size (Skeleton, P-2a — a
+  session never needs the whole RECORD, but it does need its own
+  unit's share of it)? A candidate
   that summarizes-as-it-reads because the documents don't fit is
   disqualified for document-bearing seats, whatever its quality.</li>
 <li><strong>File output:</strong> can it produce a downloadable file, or is it
@@ -865,22 +890,36 @@ candidate's family plausibly trained on it.</p>
 target-hunting, review-comparison). Those look like five unrelated jobs.
 They are one job wearing five hats, and naming it correctly is essential:</p>
 <p><strong>Collab is the session analogue of the Operator</strong> — the same
-judgment-role, run on a context span larger than a human can hold. The
-Operator's judgment is irreplaceable but bounded by working-memory: no
-human holds 20,000 lines of results, the full finding log, and a large
-Sketch File in scope at once. Collab can. So Collab is not a <em>different
-kind of thinker</em> — it is the Operator's own judgment with the
-data-holding limit removed.</p>
+judgment-role, run on a context span larger than a human can hold. This
+does NOT mean Collab has the entire project loaded and actively
+reasoned-over at once — that reading is a real misconception worth
+naming explicitly, because it's the intuitive one. What it actually
+means: Collab is better at CROSS-REFERENCING AND RETRIEVING on request
+than a human juggling the same material would be, the way a search
+engine outperforms a person manually re-reading every page — not by
+holding more in mind simultaneously, but by finding and pulling the
+relevant piece fast, then reasoning over what was retrieved. Concretely:
+ask Collab "I think I remember discussing X a while back — what was
+that about?" and it digs through the Sketch File directly (small,
+narratively organized, read in full) and, for anything X might touch in
+the RECORD, searches the card catalog for candidate addresses and
+retrieves only those — never scanning the whole RECORD start to finish
+(Skeleton, P-2a). So Collab is not a <em>different
+kind of thinker</em>, and it is not a bigger bucket — it is the
+Operator's own judgment paired with a retrieval reflex no human has time
+to run by hand.</p>
 <p>The boundary is exact and load-bearing: <strong>Collab holds and analyzes; the
-Operator decides.</strong> Collab surveys the whole board, compares analyses,
+Operator decides.</strong> Collab surveys the discovery layer, pulls what a task
+requires, compares analyses,
 surfaces divergences, notices patterns across the accumulated project —
 then hands the wide-scope synthesis BACK to the Operator, who makes the
 call the rules reserve to a human. This is <em>why</em> Collab carries no
 warrant: its output is advice to the Operator, not record content,
 because it is an extension of the seat whose job is deciding-not-
 warranting. Every Collab task (brainstorm, diagnose, dry-run, compare,
-hunt) is the same underlying job: apply the Operator's judgment across
-more context than the Operator can personally hold, and return it for
+hunt) is the same underlying job: apply the Operator's judgment,
+retrieving whatever context the task actually calls for, and return it
+for
 decision.</p>
 <p><em>(This section is TEACHING, not definition: it explains the
 Skeleton, Part V Collab anatomy for a human learning the machine. Where this
@@ -1098,7 +1137,7 @@ travels with them: diagrams are orientation only, never authority —
 where a diagram and the skeleton differ, the skeleton governs and the
 difference is a bug in the diagram. The separate LENS_MAP artifact's
 history closes with this supersession.</p>
-<p><em>User Manual v1.30. Companion to LIMM_SKELETON. Where a project's
+<p><em>User Manual v1.35. Companion to LIMM_SKELETON. Where a project's
 own operating notes and this guide differ, the project's notes govern for
 that project — this is shop-floor advice, not binding rule.</em></p>
 <script>

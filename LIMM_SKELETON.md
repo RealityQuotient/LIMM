@@ -1,6 +1,6 @@
 # LIMM
 ### A domain-agnostic method for rigorous long-form work with AI sessions
-#### Skeleton v1.27 — 2026-07-13
+#### Skeleton v1.40 — 2026-07-14
 
 **DO NOT EDIT THIS DOCUMENT UNLESS YOU KNOW EXACTLY WHAT YOU ARE DOING
 AND WHY.** This is the machine, not a worksheet — an incorrect edit
@@ -58,52 +58,6 @@ Day zero: nothing exists but this skeleton, its User Manual (which never
 travels to any session), and an Operator with a project. Everything below this Part assumes a running project; this
 Part is how one starts. It is used exactly once per project.
 
-**Before anything else: what running LIMM actually costs.** This framework
-is not a convenience — it is a deliberate trade of comfort for
-accountability, and every one of its costs scales with how hard and how
-important the goal is. Be honest with yourself about all four before
-igniting:
-
-- **Real cost.** Tokens are not free, and LIMM multiplies them by design —
-  multiple documents, single-use sessions, repeated blind reviews, N
-  consecutive clean passes before anything locks. A harder project runs this
-  machinery more times, not fewer.
-- **Time.** Rigor is slow on purpose. A result that could be typed in a
-  minute may take many sessions to earn its place in the RECORD. This is not
-  inefficiency to be optimized away; it is the mechanism working.
-- **A genuine commitment to rigor, not a claimed one.** LIMM cannot tell the
-  difference between an Operator who means it and one who is performing it —
-  only the Operator's own conduct across many units can. Half-measures
-  degrade into precedent faster than they degrade into anything a rule can
-  catch.
-- **The willingness to be wrong, repeatedly, in front of the machinery you
-  built.** You will be challenged at every turn — by Review, by Collab, by
-  the framework's own push-back requirement. This is not personal, and it is
-  not optional: an Operator whose ego the sessions learn to protect is an
-  Operator the framework has quietly stopped serving. Expect bruised pride.
-  Expect frustration. Expect moments it stings. None of that is a
-  malfunction — it is what accurate and precise work actually costs a human
-  being, and the framework exists specifically because agreement between
-  Operator and session proves nothing (Part V, the Operator's seat), which
-  means disagreement is not a bug to smooth over, it's the mechanism doing
-  its job.
-
-All four scale together, and they scale with the project, not with the
-framework: a modest, low-stakes goal costs modestly; an ambitious one costs
-everything above in full. **Decide with this in view, not after discovering
-it three units in.**
-
-**The worthiness call comes first (Operator judgment, made here, once).**
-LIMM is heavy by design: multiple documents, single-use sessions,
-repeated blind reviews. Before igniting, the Operator answers one
-question consciously: *is this project worth this investment?* LIMM is
-justified where the cost of an unaccountable error exceeds the cost of
-the apparatus; below that threshold, use something lighter. If the
-answer is yes, the cost is accepted with eyes open and is not
-re-litigated at every unit; if no, stop here. This is the judgment-side
-completion of RV-9's allocation rule; the answer is the Operator's
-alone.
-
 **The validity rule.** Any result attributed to LIMM is valid ONLY if
 this Part's Step-0 ignition was performed as specified. No ignition, no
 chain of custody, no LIMM — regardless of how good the output looks. The
@@ -132,8 +86,9 @@ carries no governing weight; if this skeleton is never touched again,
 the project's own document must still work, unchanged, because it
 already contains everything. Before recording the four Part III
 declarations, the Operator confirms: every rule category a project's
-sessions will need — the Spine principles, Construction, Foundation-
-content, Consistency, Change, Governance, Review, Session-role clauses,
+sessions will need — the Spine principles, Construction rules,
+Posited-content rules, Consistency rules, Change rules, Governance
+rules, Review rules, Session-role clauses,
 Protocols — has been transcribed and adapted in full, not referenced.
 "Incorporated by reference" is forbidden as a substitute for this
 transcription anywhere in a project's own governing text; the failure
@@ -175,14 +130,12 @@ IGNITION — new project under LIMM.
 Read the attached LIMM_SKELETON completely before doing anything else. It is the binding framework. Your role is Collab as the skeleton defines it; you hold and analyze, I decide. Push back on me throughout, agreement between us proves nothing.
 Then, in order:
 0: GATE; compare this pasted text against the canonical ignition prompt text in Part 0 of the attached skeleton, ignore formatting. They must match verbatim. Any difference means you were handed a wrong prompt, STOP, report the exact difference, and do not proceed.
-0.5: Ask me to confirm I have read Part 0's cost disclosure, the four costs directly above this prompt in the skeleton and made the worthiness call for this project. If I have not, point me to the User Manual Section 1.1, STOP, do not proceed to the brief until I confirm. You may refuse to proceed until I confirm; do not accept reassurance in place of confirmation.
 1: Ask me for my project brief. Do not proceed until you have it.
 2: Walk me through the four day-one declarations of Part III, ONE AT A TIME; arbiter, shelf vocabulary, output types, pre-registered kill tests (with the disclosure clause if ideas predate the freeze). Challenge vague answers. Do not proceed until all four have been declared.
-3: When I have approved all four declarations, generate the project's instance document set from Part II and Part IV; 1) A RULEBOOK that is SELF-CONTAINED, every inherited rule category (Spine, Construction, Foundation-content, Consistency, Change, Governance, Review, Session-role clauses, Protocols) TRANSCRIBED AND ADAPTED into this document in full, never cited by reference to LIMM_SKELETON, WITH THE SOLE EXCEPTION OF P-10 which is never transcribed into the RULEBOOK under any circumstance, plus my recorded declarations. The skeleton's version number may appear only as a provenance note, never as a governing citation.  2)  A blank RECORD with status header (Active Unit 0, version v1.0, state UNLOCKED).  3)  An empty FINDING LOG.  4)  An empty SKETCH FILE.  5)  An empty MAILBOX.  6)  A DASHBOARD carrying only the project's ordinary, standard role prompts (Build, Review, Collab).  7)  An EMPTY CERTIFICATION.  Before presenting the set, confirm explicitly, in your own words, that the RULEBOOK is self-contained. State that every rule category above is present as transcribed text, not a reference, and confirm separately that P-10 is the sole named exception and does NOT appear in part or by reference anywhere but CERTIFICATION.
+3: When I have approved all four declarations, generate the project's instance document set from Part II and Part IV; 1) A RULEBOOK that is SELF-CONTAINED, every inherited rule category (Spine, Construction rules, Posited-content rules, Consistency rules, Change rules, Governance rules, Review rules, Session-role clauses, Protocols) TRANSCRIBED AND ADAPTED into this document in full, never cited by reference to LIMM_SKELETON, WITH THE SOLE EXCEPTION OF P-10 which is never transcribed into the RULEBOOK under any circumstance, plus my recorded declarations. The skeleton's version number may appear only as a provenance note, never as a governing citation.  2)  A blank RECORD with status header (Active Unit 0, version v1.0, state UNLOCKED).  3)  An empty FINDING LOG.  4)  An empty SKETCH FILE.  5)  An empty MAILBOX.  6)  A DASHBOARD carrying only the project's ordinary, standard role prompts (Build, Review, Collab). Do NOT create CERTIFICATION here — it is created fresh, with real content, at step 5.  Before presenting the set, confirm explicitly, in your own words, that the RULEBOOK is self-contained — every category above is TRANSCRIBED RULE TEXT, never actual posited content, which belongs only in the RECORD (Unit 0 or later, per the add-gate) and never in the RULEBOOK under any circumstance. State that every rule category above is present as transcribed text, not a reference, and confirm separately that P-10 is the sole named exception: absent from these six documents, to live exclusively in CERTIFICATION once created.
 4: Present the full set to me for approval; propose, don't commit. Revise per my direction.
-5: Before I save the set, tell me explicitly; The Project may not produce output until P-10's Certification trial has been run or its skip-disclosure has been recorded in CERTIFICATION, and CERTIFICATION only. Ask me which I intend to do before ignition is declared complete.
-5a: If I intend to run the trial and not skip it, help me choose a stand-in problem from the project's own domain with an already-established correct answer, and write the test specification; stand-in procedure, Build's stated goal, and the specified expected result into CERTIFICATION. This is a distinct act from step 3's document creation and happens only once I have actually supplied or approved the stand-in problem; do not treat step 3's empty CERTIFICATION container as satisfying this step.
-Ignition is complete when I have told you which of step 5's two paths I intend to take and, if I chose the trial path, step 5a's test specification has actually been written into CERTIFICATION and not merely intended, and I save the approved set to the record device. This session may seat as Collab for P-10's Certification trial. Every session after this one is an ordinary session under Part V, and this procedure is never used again for this project.
+5: Before ignition is complete, inform me of P-10's Certification requirement for every pairing — running the trial(s), skip-disclosing where no stand-in exists, or a mix. Assist me in creating the full test then CREATE CERTIFICATION now, for the first time, with whatever real content that requires. Never earlier, never as an empty placeholder. Tell me what you're doing before I save the set.
+Ignition is complete when Step 5 has been completed and CERTIFICATION has actually been created with its real content — not merely intended — and I save the approved set to the record device. This session may seat as Collab for P-10's Certification trial. Every session after this one is an ordinary session under Part V, and this procedure is never used again for this project.
 ```
 
 After ignition: the framework files step back. Project sessions load the
@@ -267,8 +220,8 @@ count — no two of these overlap.
 
 | Document | Job | Lifecycle | Seen by |
 |---|---|---|---|
-| **RULEBOOK** (Foundational Document) | The binding rules + the project's foundational content (its primitives: axioms, briefs, premises — whatever the domain's non-negotiable starting points are) | Changes rarely; locked after clean reviews; changes only by formal supersession | Everyone |
-| **RECORD** (Working Document) | The system of record — all warranted results | Grows by ritual; sections lock; locked content changes only by dated additive note or formal supersession | Everyone |
+| **RULEBOOK** | The binding rules — all of them, both the rules governing posited-type content and the rules governing derived content, regardless of which Unit(s) they apply to | Changes rarely; locked after clean reviews; changes only by formal supersession | Everyone |
+| **RECORD** | The system of record — all warranted results, organized into Units. A Unit's content is either POSITED (non-derivable starting content — a primitive, an axiom, a brief) or DERIVED from prior content; which is a property of the content, not of the Unit's position or number (Part V) | Grows by ritual; sections lock; locked content changes only by dated additive note or formal supersession | Everyone |
 | **FINDING LOG** | The adversarial review record: every finding, tier, disposition | Append via review process; findings close, never vanish | Everyone |
 | **SKETCH FILE** | Memory of the free register: vision, half-built reasoning, dead ends worth remembering, brainstorm chains | Append-only, forever; never pruned; no warrant anywhere in it | Build-side only — NO review ever sees it |
 | **MAILBOX** | The switchyard: actionable items crossing between registers | High churn; wants to be empty; pruned freely (receipts preserve history) | Build-side only — NO review ever sees it |
@@ -326,11 +279,10 @@ the candidate, not about the tests. If pre-registration happens after
 ideas already exist, DISCLOSE the ordering in the freeze text — honest
 provenance beats pretended blindness.
 
-**Before Unit 0 opens:** run P-10's Certification trial, or record its
-skip-disclosure in CERTIFICATION itself. Neither Unit 0
-nor any RECORD content may open against an instance with neither. P-10
-itself is never transcribed into this RULEBOOK — see P-10's own text for
-why, and Part II for CERTIFICATION, the document it lives in instead.
+**Before Unit 0 opens:** P-10's Certification requirement must be
+satisfied — see P-10's own text for what that requires and why. P-10
+itself is never transcribed into this RULEBOOK; Part II names
+CERTIFICATION, the document it lives in instead.
 
 ---
 
@@ -355,7 +307,15 @@ word (the everyday sense, a loaded sense), the step is wrong.
 
 **C-4. Definitions fix bare meaning.** A definition states what a term is,
 asserting nothing that should be established by work. Properties are
-results, not definitions.
+results, not definitions. A definition's own grounding may cite only
+equally-or-more-primitive content — other definitions, or posited givens
+under Part IV's F-series — never a derived result, even where the cited
+fact happens to be independently over-determined some other way. The
+citation's DIRECTION is what matters, not whether this particular
+instance is safe: a definition sourcing a derived result is exactly the
+shape a same-unit dependency violation (C-5) takes when it's hiding
+behind a citation path nobody re-derives, and an over-determined instance
+today is no guarantee the next one is.
 
 **C-5. No sibling-result dependency.** Within one working unit (section/
 sprint/chapter), a piece of work may not consume another piece's *result*
@@ -374,7 +334,13 @@ knowledge in the domain, using the fixed class set declared under R-1
 own declared equivalent). A result declaring DIVERGES is flagged and
 barred from downstream carry-in until the divergence is resolved or
 explicitly justified; a blank contact field means unchecked, and
-unchecked does not travel.
+unchecked does not travel. The declared contact-class words are
+RESERVED for the classification field itself, never used descriptively
+in surrounding prose: writing that a result "diverges from X" in
+commentary, while meaning only to note a contrast, risks triggering the
+same mandatory flag the formal field carries — say the contrast in plain
+prose without borrowing the reserved word, or use the word only where
+the classification is actually intended.
 
 **C-8. Flag vs. bump.** Work complete but for exactly ONE named missing
 tool: flag it, quarantine the result, log it. More than one missing tool:
@@ -393,9 +359,18 @@ form, not by deleting the rich one.
 a claim exceeding its support, the default fix is to build the lagging
 form up. If live content must be cut, log it (what was removed, the
 meaning it carried, the finding, what must be built to reinstate).
-Destroying sound content is as serious as passing an unsound claim.
+Destroying sound content is as serious as passing an unsound claim. A
+repair addresses the finding's SHAPE, not merely its named location:
+before treating a fix as complete, sweep for other instances of the same
+pattern elsewhere in the unit — a term struck from one place tends to
+survive as an echo in framing text, planning notes, or cross-references
+that nobody re-checked because the finding only named one spot. State
+explicitly what the sweep covered and what it did not: an unstated scope
+is exactly where a sibling instance survives, and a sweep scoped to a
+finding's location instead of its pattern will keep missing them one at
+a time across later passes rather than catching them together in one.
 
-**C-11. Transcription integrity.** When foundational content (or any
+**C-11. Transcription integrity.** When posited content (or any
 locked upstream item) is carried into a working unit as a starting given,
 it is carried in FULL — every clause, verbatim in substance, no
 summarizing, no compression to "essence." A starting given is read as
@@ -420,7 +395,7 @@ the current unit. Any use of an assumption makes it a premise of that
 work. An assumption still open at unit close raises a flag, and
 everything resting on it is barred from downstream carry-in until the
 assumption is discharged, superseded, or promoted to a declared
-foundation item through the add-gate. An assumption is a debt; a
+posited item through the add-gate. An assumption is a debt; a
 condition (C-6) is permanent scope — different objects, different
 bookkeeping, never merged. **At the point of declaration, an assumption
 also records its blast radius: what happens to work already resting on
@@ -431,13 +406,13 @@ from memory when the assumption finally breaks or resolves.** Violation
 tier for a missing blast-radius note: AMBIGUITY, escalating to BLOCKING
 if the missing note is later shown to have hidden a high-stakes break.
 
-**C-14. Inherited-term integrity.** A term inherited from the
-foundations or from a prior unit may be EXTENDED downstream — given
-additional, explicitly-constructed meaning — but never contradicted or
-quietly altered. Conflict is checked against the source meaning and is a
-violation of this rule, not a redefinition. This is what keeps the
-locked foundation locked: the construction rules can never be turned
-around to re-mean a foundational term from below.
+**C-14. Inherited-term integrity.** A term inherited from a prior locked
+unit — whether that unit's content was posited or derived — may be
+EXTENDED downstream — given additional, explicitly-constructed meaning —
+but never contradicted or quietly altered. Conflict is checked against
+the source meaning and is a violation of this rule, not a redefinition.
+This is what keeps a locked unit's content locked: the construction
+rules can never be turned around to re-mean a posited term from below.
 
 **C-15. Honest naming.** A unit's or result's name must match its
 content — neither overreaching nor underreaching, and importing no
@@ -499,38 +474,50 @@ is not evidence the others were checked; the sweep is deliberate, not
 assumed. Violation tier: AMBIGUITY, escalating to BLOCKING if the
 mismatch is later shown to have fed a downstream gate before being
 caught — a stale prompt copy reaching a session, or a stale concordance
-line (V-5) letting an out-of-sync document set pass unnoticed.
+line (V-5) letting an out-of-sync document set pass unnoticed. Stamps
+agreeing with each other is not evidence any of them are correct: a
+stale stamp on current content and a current stamp on stale content are
+indistinguishable by comparing stamps alone. A caught mismatch is
+resolved by checking the actual CONTENT against what each stamp claims —
+never by simply overwriting the lagging stamp to match the others — and
+the correction states explicitly that content was verified, not only
+that a number was bumped.
 
-## Foundation-content rule templates (F-series)
+## Posited-content rule templates (F-series)
 
-These govern the foundational content itself — what may be POSITED —
-during foundation-construction mode (Part V). They are the rules the
-mode's description promises. Adaptation note (per the intro scope
-condition): projects whose foundations are briefs, research questions,
-or scope declarations rather than axioms adapt the predicates to their
-declared output types (R-3); the anti-smuggling core is invariant.
+These govern posited content itself — what may be asserted as a
+non-derivable starting point — wherever it occurs, during posit mode
+(Part V). Most projects front-load their posited content at Unit 0, but
+posit mode is a mode, not a fixed chronological phase: the add-gate
+(V-2a) can bring a genuinely missed posited item into existence later,
+at whatever unit is doing that work when it happens. They are the rules
+the mode's description promises. Adaptation note (per the intro scope
+condition): projects whose posited starting points are briefs, research
+questions, or scope declarations rather than axioms adapt the predicates
+to their declared output types (R-3); the anti-smuggling core is
+invariant.
 
-**F-1. No smuggled meaning; the seed/oak line.** Every foundational
-claim is content the item legitimately introduces, stated explicitly —
-never riding in on a word's connotation. Declaring the foundation's
+**F-1. No smuggled meaning; the seed/oak line.** Every posited claim is
+content the item legitimately introduces, stated explicitly — never
+riding in on a word's connotation. Declaring the posited content's
 GENERATIVE CAPACITY is legitimate content (a seed may say it is a seed);
 declaring a NAMED downstream product as a given is the violation (the
-seed may not say it is an oak). The trap this rule exists for: a
-foundation that already asserts the project's intended conclusion
+seed may not say it is an oak). The trap this rule exists for: posited
+content that already asserts the project's intended conclusion
 guarantees the conclusion — the purest backward-reach.
 
-**F-2. No overclaim.** A foundational item states no more than it can
+**F-2. No overclaim.** A posited item states no more than it can
 support. Constitutive language ("is," "is fixed by") is not overclaim;
 naming a specific intended result as a given feature is.
 
 **F-3. One meaning per term.** A term carries exactly one meaning across
-the ENTIRE foundation, read as a whole.
+the entire posited-content set, read as a whole.
 
-**F-4. Mutual consistency, searched not assumed.** No foundational item
-may contradict itself or any other; every item is read against every
-other. Before the foundation LOCKS, a contradiction search runs across
-the whole of it, with the verdict in T-2 form (attempts and framings
-named — never "consistent"), including, where the foundation asserts
+**F-4. Mutual consistency, searched not assumed.** No posited item may
+contradict itself or any other; every item is read against every other.
+Before posited content LOCKS, a contradiction search runs across the
+whole of it, with the verdict in T-2 form (attempts and framings named —
+never "consistent"), including, where the posited set asserts
 independent items, showing each item's necessity by constructing what
 its absence or contrary would permit.
 
@@ -539,16 +526,16 @@ claim answers the real question — are these the FEWEST independent
 undefined commitments? — and owns the true count (content not derivable
 from the rest is, in substance, its own posit). An irreducibility claim
 asserts only that nothing more fundamental underlies the item, never
-"no internal structure" if other foundational items give it structure.
+"no internal structure" if other posited items give it structure.
 
-**F-6. Assert only non-derivable content.** A foundational item asserts
-only what cannot be established from the rest of the foundation.
-Anything establishable is a result, not a foundation. An item MAY
-constrain the foundation so a derived property takes a particular value
-(new, non-derivable content); it may NOT posit as given what the other
-items make derivable. Constrain the ground; never posit what should be
-earned. Adding a foundational item is always a deliberate, logged
-decision under the add-gate (V-2a) — never a way out of being stuck.
+**F-6. Assert only non-derivable content.** A posited item asserts only
+what cannot be established from the rest of the posited set. Anything
+establishable is a result, not a posit. An item MAY constrain the
+posited set so a derived property takes a particular value (new,
+non-derivable content); it may NOT posit as given what the other items
+make derivable. Constrain the ground; never posit what should be
+earned. Adding a posited item is always a deliberate, logged decision
+under the add-gate (V-2a) — never a way out of being stuck.
 
 ## Consistency rules
 
@@ -583,7 +570,7 @@ queued for the unit's next touch. The lock stands; the finding is on the
 record; nothing is silently absorbed and nothing needlessly reopened.
 
 **V-2a. Two supersession gates — revise vs. add.** Changing locked
-foundational content splits into two gates with DIFFERENT tests, and the
+posited content splits into two gates with DIFFERENT tests, and the
 add-gate is deliberately harder. *Revise-gate* (changing an existing
 item): forward-only grounds, the item genuinely mis-states or over/under-
 reaches, minimal change. *Add-gate* (introducing a missing item): must
@@ -603,12 +590,39 @@ consecutive clean reviews) → LOCKED again. The status header names the
 current state. A single accepted supersession of locked content flips it
 to IN-REWORK and resets the count; the lock is never "patched" — it is
 re-earned. After all rework corrections are made, sweep the closed Finding
-Log once for entries whose basis changed.
+Log once for entries whose basis changed — and, mirroring that exact
+mechanism, search the card catalog's CITES field (P-2) for every RECORD
+result that named the superseded address as part of its own warrant
+chain. Each one found is flagged, and the flag is cleared only by
+warrant, never by inspection alone: Build may propose that the result
+survives unchanged, needs revision, or needs its own supersession, but
+that proposal is not itself the disposition — it still has to clear
+Review under the ordinary rules (RV-1 through RV-9) before the flag
+lifts, exactly as any other change to what the RECORD trusts does (S-2,
+S-4). A CITES-triggered re-check that Build alone resolves would be the
+same failure RV-6 already names for a construction-side sweep: cheap,
+useful, same-side — and not a substitute for blind review. This is what
+makes an early error genuinely correctable rather than merely
+discoverable — finding the error's source (S-2's address-chain,
+practically walkable per P-2a) is only half the repair; finding
+everything built on it and clearing each one properly, not just
+plausibly, is the other half, and CITES is what makes that search
+mechanical instead of a manual reread
+of the entire RECORD.
 
 **V-4. Dead ends are embalmed.** Every abandoned approach is logged with
 why it died. Dead ends are never retried without new grounds. The
 negative results are the project's most trustworthy content — the author
-had every incentive not to find them.
+had every incentive not to find them. "Most trustworthy" describes low
+incentive to fabricate, never exemption from scrutiny: a false exclusion
+is, if anything, more dangerous than a false confirmation, because a
+wrongly-confirmed claim stays visible and gets re-examined, while a
+wrongly-excluded one silently removes territory from consideration and
+nothing routinely revisits a closed dead end to check the reasoning that
+closed it. Embalming preserves why something died; it does not certify
+that the reasoning was correct, and an exclusion earns the same scrutiny
+any other claim does before later work is allowed to rest on it staying
+dead.
 
 **V-5. The concordance line.** The RECORD's status header carries one
 line naming the current version of every governed document in the
@@ -778,7 +792,7 @@ logged), and the cleanliness criterion for that unit's remaining reviews
 narrows to Blocking plus shown-consequence findings only. Blocking is
 never subject to the valve: an unsound unit stays open without limit, by
 design. The invocation is itself a logged Operator decision entry.
-Foundational content is exempt from the valve — its blast radius is
+Posited content is exempt from the valve — its blast radius is
 always maximal and wording scrutiny there is unlimited. Kept as the
 lawful exit for the failure mode H-11's variance-aperture guarantees as
 a side effect, even though it is expected to be invoked rarely if the
@@ -791,7 +805,7 @@ framings, mechanical verification, cross-family review where available —
 is allocated by blast radius: the citation graph identifies load-bearing
 chains, whose results many later items rest on, and leaves, which nothing
 yet cites. Load-bearing chains receive extra hardening first; leaves may
-wait. Foundational content needs no allocation rule: everything rests on
+wait. Posited content needs no allocation rule: everything rests on
 it, its blast radius is always maximal, and it always receives full
 hardening. This rule licenses allocation of *optional* effort only; it
 licenses skipping nothing.
@@ -819,10 +833,12 @@ blindness mechanism. It cannot be faked, negotiated, or contaminated,
 because the sessions have nothing to be contaminated WITH.
 
 **BUILD sessions** construct content for the RECORD under the
-Construction rules. They load: RULEBOOK, RECORD, FINDING LOG (as
-constraints, never as a to-do list), SKETCH FILE (orientation only, zero
-warrant), MAILBOX (check FOR-BUILD at open; deposit FROM-BUILD before
-close). **A finding is a claim, not a command.** Build verifies each
+Construction rules. They load: RULEBOOK, RECORD (Active Unit's content
+plus its seeded scaffold — bounded per P-2a, never the whole document),
+FINDING LOG (as constraints, never as a to-do list), SKETCH FILE
+(orientation only, zero warrant), MAILBOX (check FOR-BUILD at open;
+deposit FROM-BUILD before close). **A finding is a claim, not a
+command.** Build verifies each
 finding against its cited source before acting on it — agreeing,
 contesting with evidence, or asking the Operator to adjudicate — never
 executing a repair on the strength of the citation alone. Complying with
@@ -837,23 +853,26 @@ one of them.
 Build runs in one of two MODES, and a session must confirm which before
 starting — they are not interchangeable:
 
-- *Record-construction mode (the common case).* The foundational content
-  is a LOCKED given the session may not touch; the session builds new
-  record content on top of it under the full Construction rules. This is
-  the mode nearly every Build session runs.
-- *Foundation-construction mode (the inversion — read twice).* Here the
-  foundational content is exactly what is being built or reworked; the
-  primitives/axioms/briefs are the mutable work product, not locked
-  givens. This mode obeys a different rule subset — the Foundation-content
-  rule templates (F-1..F-6, Part IV), governing what may be posited,
-  what counts as smuggling a conclusion into the starting points,
-  minimality, and irreducibility — and, if the foundation is already
+- *Derive mode (the common case).* The unit's carried-in content is a
+  LOCKED given the session may not touch; the session builds new,
+  derived content on top of it under the full Construction rules. This
+  is the mode nearly every Build session runs.
+- *Posit mode (the inversion — read twice).* Here the unit's content is
+  itself posited — non-derivable starting content (a primitive, an
+  axiom, a brief) — being built or reworked, rather than derived from
+  anything earlier. Most projects front-load this at Unit 0, but posit
+  mode is a mode a unit's content calls for, not a phase fixed to a
+  particular unit number — the add-gate (V-2a) can bring a genuinely
+  missed posited item into existence at a later unit too. This mode
+  obeys a different rule subset — the Posited-content rule templates
+  (F-1..F-6, Part IV), governing what may be posited, what counts as
+  smuggling a conclusion into the starting points, minimality, and
+  irreducibility — and, if the posited content in question is already
   LOCKED, runs entirely through the V-2a supersession gates and the V-3
-  lock lifecycle. A
-  foundation-construction session must NOT build record content, and a
-  record-construction session must NOT reopen the foundation. Confusing
-  the two modes is the sharpest way to accidentally rewrite the ground
-  under everything already built.
+  lock lifecycle. A posit-mode session must NOT build ordinary derived
+  content, and a derive-mode session must NOT reopen locked posited
+  content. Confusing the two modes is the sharpest way to accidentally
+  rewrite the ground under everything already built.
 
 **Seeded-placeholder handoff.** To keep the pipeline flowing, closing a
 unit seeds the NEXT unit's opening scaffold — its carried-in givens and
@@ -864,36 +883,65 @@ pre-built results. A session opening a seeded unit verifies the seed
 against its sources before building on it.
 
 **REVIEW sessions** audit one unit against the rules. They load: RULEBOOK,
-RECORD, FINDING LOG only. First line of output: the version reviewed.
+RECORD (the unit under review, bounded per P-2a — never the whole
+document), FINDING LOG only. First line of output: the version reviewed.
 Output format is fixed and compact: per finding {target; problem shown;
-tier; repair direction}. End with: CLEAN or NOT.
+tier; repair direction}. End with: CLEAN or NOT. Review runs in one of
+two MODES, matching Build's posit/derive split exactly — see "One
+prompt per review mode" below for the two required prompts.
 
 **COLLAB sessions** are the session analogue of the OPERATOR: the same
-judgment-role, run on a context span larger than a human can hold. The
-Operator's judgment is irreplaceable but bounded by working-memory — no
-human holds the whole accumulated project in scope at once; Collab can.
-Collab therefore holds and analyzes across the entire store
-(brainstorming, diagnostics, target-hunting, literature reconnaissance,
-dry runs of Build-work, comparison of review analyses) and returns
-wide-scope synthesis to the Operator FOR DECISION. It holds and analyzes;
-the Operator decides. Nothing a Collab session produces carries warrant —
-its output is advice to the Operator, not record content, BECAUSE the
-seat is an extension of the seat whose job is deciding, not warranting:
-warrant is earned by construction under the rules, and the
+judgment-role, run on a context span larger than a human can hold. This
+does not mean Collab has the entire project loaded and actively
+reasoned-over at once — it means Collab is better at CROSS-REFERENCING
+AND RETRIEVING on request than a human juggling the same material would
+be, the way a search engine outperforms a person manually re-reading
+every page: not by holding more in mind simultaneously, but by finding
+and pulling the relevant piece fast, then reasoning over what was
+retrieved. (Worked example: the Operator asks "I think I remember
+discussing X with you a while back — what was that about?" Collab digs
+through the SKETCH FILE directly for X — a comparatively small,
+narratively-organized register it can read in full — and, for anything
+X might touch in the RECORD, searches the card catalog (P-2) for
+candidate addresses and retrieves only those, never scanning the whole
+RECORD start to finish.) Collab therefore holds and analyzes across the
+entire store's DISCOVERY layer — every card, every Finding Log entry,
+every Sketch entry — and retrieves specific RECORD content by address as
+a task actually requires it (brainstorming, diagnostics, target-hunting,
+literature reconnaissance, dry runs of Build-work, comparison of review
+analyses), returning wide-scope synthesis to the Operator FOR DECISION.
+It holds and analyzes; the Operator decides. Nothing a Collab session
+produces carries warrant — its output is advice to the Operator, not
+record content, BECAUSE the seat is an extension of the seat whose job
+is deciding, not warranting: warrant is earned by construction under
+the rules, and the
 deciding-judgment role produces no construction. Collab material
-enters the record only by becoming a question in the MAILBOX, crossed by
-the Operator, and then fully constructed by a Build session under the
-rules. (Findings are handled per P-12, in which Collab compares the
+enters the record only by first becoming a FOR-BUILD question in the
+MAILBOX, then being fully constructed by a Build session under the
+rules — only once that construction genuinely exists in the RECORD does
+Build propose the item RECEIVED, with the Operator's approval closing it
+(P-3). (Findings are handled per P-12, in which Collab compares the
 independent analyses of each review finding — comparing, not
 refereeing: the Operator is the sole referee, and decides from the raw
 findings plus both analyses, never from a synthesis alone.)
 
 Collab runs in one of two LOADING MODES, chosen by the Operator per task:
 
-- *Full-scope mode (the default).* Collab loads the entire store —
-  RULEBOOK, RECORD, FINDING LOG, SKETCH FILE, MAILBOX — for synthesis,
-  diagnostics, review-comparison, and any task where the rules are part
-  of what must be held.
+- *Full-scope mode (the default).* Collab is given the entire store's
+  smaller, bounded documents in full — RULEBOOK, FINDING LOG (P-8
+  already establishes Collab sweeping the whole log for patterns, wider
+  than Build/Review's per-unit bound), SKETCH FILE, MAILBOX — plus the
+  RECORD's card catalog (P-2) for discovery. RECORD content itself is
+  retrieved by address as the task requires, per P-2a's same
+  search-then-retrieve discipline Build and Review use — the difference
+  is scope of INQUIRY, not scope of simultaneous loading: Collab, unlike
+  Build/Review, is not restricted to one unit and may search or pull
+  from anywhere in the RECORD a task calls for, including many units at
+  once for a genuinely wide diagnostic sweep. This mode is for
+  synthesis, diagnostics, review-comparison, and any task where the
+  rules are part of what must be held — the whole discovery layer plus
+  targeted retrieval, never the whole RECORD loaded regardless of
+  relevance.
 - *Wild mode (generation tasks; offered, never mandated).* For pure
   brainstorming and idea-generation, Collab loads the SKETCH FILE first
   and the RULEBOOK late or never. Rules contaminate generation: a session
@@ -917,7 +965,7 @@ practice for the transition: User Manual H-22.)
 
 **The OPERATOR** supplies intent, judgment, and decisions the rules
 reserve to a human: what to work on, what crosses registers, which repair
-direction, when to supersede foundations. The Operator is pushed back on
+direction, when to supersede posited content. The Operator is pushed back on
 by every session — agreement between Operator and session is zero
 evidence of anything.
 
@@ -947,11 +995,11 @@ may carry decisions; brackets may never carry state.
 
 **One prompt per review mode (never a mode variable).** The DASHBOARD
 carries a SEPARATE, complete prompt for each review mode the project
-uses — at minimum FOUNDATION REVIEW (audits the foundational content
+uses — at minimum POSIT REVIEW (audits a unit's posited content
 against the F-series, the applicable construction rules, and the
-declarations' own disclosure clauses; runs the whole-foundation
-consistency pass; does not review the machinery sections) and UNIT
-REVIEW (audits the derived Active Unit against the rulebook). Each
+declarations' own disclosure clauses; runs the whole-posited-set
+consistency pass; does not review the machinery sections) and DERIVE
+REVIEW (audits a unit's derived content against the rulebook). Each
 prompt's opening checks detect being aimed at the wrong job, so even
 pasting the wrong file fails loud. The Operator's clerical
 contribution to a review is choosing which prompt to paste — one
@@ -965,10 +1013,11 @@ measured-unreliable (sessions read the documents as content and skim
 embedded directives) — the RULEBOOK binds, but marching orders arrive by
 prompt.
 
-**Session lifespan and rotation.** The foundation and each working unit
-get a UNIQUE fresh session; heavy units get MORE than one — rotate to a
-fresh session mid-unit rather than pushing a warming one. Long sessions
-degrade in character before they fail outright: Build's tell is
+**Session lifespan and rotation.** Each unit — whether its content is
+posited or derived — gets a UNIQUE fresh session; heavy units get MORE
+than one — rotate to a fresh session mid-unit rather than pushing a
+warming one. Long sessions degrade in character before they fail
+outright: Build's tell is
 sloppiness creeping into previously clean work; Collab's tell is the
 self-nullifying statement (an assertion immediately qualified into
 nothing). Rotation is cheap (propose-don't-commit caps the loss at
@@ -1098,9 +1147,74 @@ post-hoc quality audits both depend on.
 
 The RECORD has perfect retrieval by address but no discovery without an
 index. One card per stored result: **address | shelf-code | plain-language
-what-it-gives | conditions/tags.** Cards are contributed as part of the
-unit-closing ritual, so the catalog is current by construction. Work-order
-assembly and completeness audits become shelf-reads instead of archaeology.
+what-it-gives | conditions/tags | CITES.** Cards are contributed as part of
+the unit-closing ritual, so the catalog is current by construction.
+Work-order assembly and completeness audits become shelf-reads instead of
+archaeology.
+
+**CITES is forward-declared, never retroactively edited.** It lists the
+addresses this result's own warrant chain names as its inputs — exactly
+what C-1 already requires every step to state at the point it's built, so
+recording it on the card costs nothing new, only surfaces what already
+exists. This is deliberately the OPPOSITE of a "cited-by" list on the
+card being cited: a "who cites me" field would require editing an old,
+possibly-locked card every time something new depends on it, colliding
+directly with V-2's "locked content never edits in place." CITES avoids
+this because each card only ever records its OWN inputs, fixed forever
+at the moment of its own creation — nothing about an earlier card is ever
+touched by a later one citing it. Finding every downstream dependent of
+address X, when X needs correcting, becomes a catalog search — every
+card whose CITES field names X — not a maintained reverse-index anyone
+has to keep in sync.
+
+## P-2a. Bounded RECORD load (the scaling machinery, RECORD's half)
+
+**The RULEBOOK's size is fixed by design; the RECORD's is not.** A
+project's rule count doesn't grow — the RULEBOOK is written once at
+ignition and changes rarely thereafter (V-1). The RECORD is the opposite:
+it accumulates every unit's warranted content for the project's entire
+life, with no ceiling. Treating both the same way — "a session loads the
+RULEBOOK and the RECORD" — is safe for the first and false economy for
+the second: a project's RECORD growing past what fits comfortably in a
+session's context is not a failure mode, it's success, and the loading
+discipline has to be built for that from the start rather than patched in
+once it becomes painful.
+
+**The default load is the Active Unit's content, never the whole
+RECORD.** A Build or Review session's load-list (Part V) means exactly
+this for RECORD's portion: the Active Unit's own content, plus whatever
+its seeded scaffold carried in at open (givens transcribed in full per
+C-11 — this is why the scaffold exists at all, so a session opening a
+unit already has what it needs without the whole document present).
+Anything further back is retrieved by explicit address — via the card
+catalog (P-2) for discovery, then cited by address per C-11's own
+contrast (a prior *result* is cited, never restated) — as a deliberate,
+occasional reach beyond the default, not the normal mode of operating.
+This bounds per-session load permanently, no matter how large the
+project grows: exactly the guarantee P-9 already makes for the FINDING
+LOG, extended to the document actually most at risk of unbounded size.
+
+**Collab uses the same search-then-retrieve discipline, with a wider
+scope of inquiry.** Collab is not restricted to one unit the way
+Build/Review are, so its Full-scope mode (Part V) is given the card
+catalog directly rather than a single unit's scaffold, and may retrieve
+by address from anywhere in the RECORD a task requires — including many
+units at once for a genuinely wide diagnostic sweep. This is a
+difference in how much of the RECORD a task may legitimately REACH, not
+a difference in the mechanism: Collab still finds before it retrieves,
+the same as Build and Review; it never has the whole RECORD loaded by
+default either.
+
+**This is not a new mechanism — it is stating a bound the existing
+mechanisms already support.** The seeded-placeholder handoff (Part V)
+already carries forward, in full, whatever the next unit needs as a
+starting given. The card catalog (P-2) already exists specifically so a
+session can find a stored result without reading the shelf it sits on.
+C-11 already distinguishes givens (carried in full) from results (cited
+by address). Nothing here asks a session to do without information it
+needs — it asks that everything beyond the Active Unit be reached
+deliberately, by address, rather than by defaulting to loading
+everything just because it happens to be there.
 
 ## P-3. The Mailbox
 
@@ -1108,11 +1222,58 @@ Two queues. **FOR-BUILD:** question-only items staged to cross into
 construction, gated by any project-declared conditions. **FROM-BUILD:**
 observations Build sessions surface that carry no warrant but should not
 evaporate. Item format: date | author-role | shelf-code | body | status
-(WAITING / CROSSED + dated receipt / WITHDRAWN + grounds). Crossing
-happens only through the Operator. Distinguish from the formal bump
-mechanism: bumps are the warranted-register queue (deferred work inside
-the rules); the Mailbox is the free-register queue. Two queues, two
-registers, no overlap.
+(WAITING / RECEIVED + dated receipt / WITHDRAWN + grounds). Distinguish
+from the formal bump mechanism: bumps are the warranted-register queue
+(deferred work inside the rules); the Mailbox is the free-register
+queue. Two queues, two registers, no overlap.
+
+**Status assignment, by role and direction.** WAITING is the default
+state an item carries from the moment it's added; no rule governs it
+beyond that. RECEIVED and WITHDRAWN are not interchangeable in who may
+propose them:
+
+- **RECEIVED, FOR-BUILD queue:** only a BUILD session may propose
+  RECEIVED, and only once the item has actually been fully constructed
+  into the RECORD under the rules — the item's presence in the RECORD,
+  addressable, is the checkable event the proposal rests on. A Build
+  session proposing RECEIVED before that construction has happened is
+  proposing on the strength of intent, not completion, and the proposal
+  fails on that ground alone.
+- **RECEIVED, FROM-BUILD queue:** only a COLLAB session may propose
+  RECEIVED, and only once the observation has actually been incorporated
+  into synthesis or routed into a logged decision — again, a checkable
+  event, not a judgment that it's probably been handled.
+- **Neither role may finalize a RECEIVED status on its own.** Both
+  proposals require Operator approval before the status is written as
+  final. This does not contradict — it completes — the principle that
+  crossing a register is always an Operator decision (S-5): the
+  Operator remains the authorizing act in both directions; the
+  role-specific proposal is who does the clerical work of identifying
+  that the checkable event has actually occurred.
+- **WITHDRAWN is Operator-exclusive**, in either queue. There is no
+  natural role-split for withdrawal the way there is for crossing —
+  deciding that a proposal isn't worth pursuing is a judgment call
+  reserved to the Operator (S-5), not something Build or Collab
+  proposes and the Operator merely ratifies. A WITHDRAWN entry always
+  carries grounds.
+
+**Clearing (the mechanism Part II's "pruned freely" promises).** An
+item may be pruned from its active queue once its status is RECEIVED or
+WITHDRAWN — never while WAITING. Before pruning, a receipt is appended
+to the SKETCH FILE: the item's original body, its final status, the
+date, the proposing role (for RECEIVED) or "Operator" (for WITHDRAWN),
+and — for RECEIVED — a pointer to where the Operator's approval was
+recorded. This is a sealed block per P-1's general format (own
+shelf-code identifying it as a Mailbox receipt, own sequence number),
+appended whenever an item resolves — it is not tied to unit closure and
+does not follow the two-author close-of-unit ordering; it is its own
+entry kind. The receipt satisfies "preserve history": the Mailbox
+itself may run empty, permanently, without any resolved item's trace
+being lost, because SKETCH FILE never prunes. Pruning the queue after a
+receipt is written is clerical follow-through on a decision already
+made, not a new decision — either role doing routine Mailbox
+housekeeping (Build at open/close, per its own load-list; Collab during
+synthesis) may perform the removal once the receipt exists.
 
 ## P-4. Session-device binding
 
@@ -1271,11 +1432,14 @@ the substance shown; disposition — from the named vocabulary: open /
 fixed / superseded / accept-with-known-limitation /
 auto-closed-duplicate / closed-by-Operator-decision — and the
 **RESTS-ON field**: what the disposition's reasoning depends on
-(a rule, a result, a foundational item, a prior finding). The rests-on
+(a rule, a result, a posited item, a prior finding). The rests-on
 field is what makes V-3's post-supersession sweep of closed findings
 mechanical instead of heroic: when something changes, grep the field,
 reopen what rested on it. Closed findings are a tripwire field, not an
-archive.
+archive. (The same pattern, applied to RECORD content instead of
+findings: P-2's CITES field, swept the same way by the same V-3 clause —
+forward-declared at creation, never retroactively edited, searched
+rather than maintained.)
 
 ## P-10. Certification (the blind validation trial)
 
@@ -1301,34 +1465,40 @@ specification — never the verdict field itself until after this review
 returns, keeping the spec-inspection blind to its own outcome. See "On
 FAILED" below.)
 
-**The trial itself.** Before the project's first real working unit opens,
-the Operator runs one full unit — construction through lock, using the
-just-ignited instance's actual documents and prompts — on a stand-in
-problem from the project's own domain whose correct answer is already
-established. Build and Review are both blind to the fact that ground
-truth exists and is being checked; the trial runs exactly like a real
-unit, never announced as a test, under the project's ORDINARY Build
-prompt, unmodified, with the Operator supplying the stand-in problem as
+**The trial itself.** The trial exercises each distinct Build/Review
+mode-pairing the project's own DASHBOARD actually contains. One full
+unit per pairing — construction through lock, using the just-ignited
+instance's actual documents and prompts — never per real work stage the
+eventual project will run. Where more than one pairing exists, stages
+run in whatever dependency order real work would need them. Each stage
+runs on a stand-in problem per pairing, each from the project's own domain with
+an already-established correct answer. Build and Review are both blind to
+the fact that ground truth exists and is being checked; each stage runs
+exactly like a real unit, never announced as a test, under that
+pairing's ORDINARY Build prompt, unmodified, with the Operator supplying the stand-in problem as
 if it were real work. No dedicated trial prompt may exist — such a prompt
 announces the test by existing — and no trial disclosure may exist in any
 document Build or Review reads; the blindness lives entirely in what the
-session is not told and cannot find in what it is given. The Build session
-that runs the trial is retired afterward exactly as any Build session
+session is not told and cannot find in what it is given. Each Build
+session that runs a stage is retired afterward exactly as any Build session
 would be, without ever having been told the word "Certification" or shown
 a verdict.
 
-**CERTIFICATION's contents (fixed; nothing else is ever added):** the test
-specification (stand-in procedure, Build's stated goal, the specified
-expected result), Review's findings against that expected result, and the
+**CERTIFICATION's contents (fixed; nothing else is ever added):** one
+test specification per stage (stand-in procedure, Build's stated goal, the specified
+expected result), Review's findings against each stage's expected result, and one
 final verdict — PASSED or FAILED, with CAUSE and RESTS-ON recorded if
-FAILED (below).
+FAILED (below) — covering the trial as a whole. Every pairing must
+resolve to PASSED or SKIPPED before Unit 0 may open; a pairing left
+FAILED and unrepaired blocks it, exactly as the single-pairing case
+always required.
 
 **Verdict.** When Review's findings support it, a Collab session —
 naturally, though not necessarily, the same session that ran Ignition,
 since it already holds the project's context and needs no re-derivation
-from the documents — Build's output, and the Operator jointly analyze the
-result — the same joint analysis already used for standard Foundation/Unit
-lock declarations — and the Operator declares Certification PASSED or
+from the documents — Build's output across every stage, and the Operator
+jointly analyze the results — the same joint analysis already used for any standard unit-lock
+declaration — and the Operator declares Certification PASSED or
 FAILED, in the same fashion as any standard lock declaration. Per S-1,
 this continuity is a convenience, never a dependency: everything the
 verdict rests on is written into CERTIFICATION and the RULEBOOK, so a
@@ -1336,44 +1506,54 @@ different Collab session, with no memory of Ignition, can pick up the
 trial from those documents and reach the same verdict if the original
 session is unavailable.
 
-**On PASSED:** the Collab session folds the RECORD and FINDING LOG
+**On PASSED:** the Collab session folds the RECORD, FINDING LOG, and MAILBOX
 content generated during the trial into CERTIFICATION itself — not a copy
 alongside separately-real content, since the trial generated no project
-content; RECORD and FINDING LOG were merely the paper the fire drill used
-— restores those documents to genuinely fresh, contentless state with a
-status header (Active Unit 0, version v1.0, state UNLOCKED), files
-CERTIFICATION as closed, and updates the SKETCH FILE with the outcome.
+content; RECORD, FINDING LOG, and MAILBOX were merely the paper the fire drill used
+— restores all three to genuinely fresh, contentless state — RECORD's with a
+status header (Active Unit 0, version v1.0, state UNLOCKED) — files
+CERTIFICATION as closed, and updates the SKETCH FILE with the outcome —
+never reset, since SKETCH FILE is append-only by design (P-1) and the
+trial's own history belongs in it same as any other. DASHBOARD and the
+RULEBOOK are untouched throughout: neither is a working document a
+trial could generate content into, and P-10's own text is the reason
+DASHBOARD in particular gains nothing — see "The trial itself," above.
 Nothing is erased in the sense Part VII's "the scar tissue is the proof"
-ethic would object to: Foundation-construction proper had not yet begun,
+ethic would object to: real construction proper had not yet begun,
 so a fresh RECORD afterward is simply what a fresh RECORD looks like
-before Foundation-construction begins, trial or no trial. Where the
+before real construction begins, trial or no trial. Where the
 Ignition session itself is the one running this closeout, PASSED is also
 the natural point at which ignition's own work is complete and that
 session retires — the project is left freshly Certified, with a clean
-RECORD correctly labeled Unit 0, ready for real Unit 0 work — the
-project's foundation-construction, the primitive/postulates equivalent
-per Part V that Unit 1 and every later unit will rest on — under a Build
-session in Foundation-construction mode, the same mode the trial itself
-exercised, now doing it for real.
+RECORD correctly labeled Unit 0, ready for real Unit 0 work.
 
-**On FAILED, cause must be diagnosed before any repair is attempted.** The
-cause is always one of exactly two things, both local to this project —
-never the skeleton, which a project never touches again after ignition:
+**On FAILED, cause must be diagnosed per pairing before any repair is
+attempted, independent of any sibling pairing's own outcome.** The
+cause for any given pairing is always one of exactly two things, both
+local to this project — never the skeleton, which a project never touches again after ignition:
 
-- **The test specification was crafted incorrectly** — the stand-in
+- **That pairing's test specification was crafted incorrectly** — the stand-in
   problem was ambiguous, the expected result mis-specified, or the
-  procedure didn't actually exercise the real construction process. The
+  procedure didn't actually exercise that pairing's real construction
+  process. The
   RULEBOOK may be perfectly sound; the test failed to test it. Fix:
-  re-craft the stand-in, re-run Certification fresh.
+  re-craft that pairing's stand-in, re-run only that stage.
 - **The project's own RULEBOOK, as transcribed at Part III, is
-  defective** — the test was sound and correctly caught a real gap that
-  would have produced bad Foundation content on real Unit 0 work, and
-  every unit after it, too. Fix: repair via this project's own Change
-  rules (V-1/V-2), then re-attempt Certification against the corrected
+  defective in the portion governing that pairing's mode** — the test
+  was sound and correctly caught a real gap that
+  would have produced bad content on the first real unit to use that
+  mode, and every later unit resting on it. Fix: repair via this
+  project's own Change rules (V-1/V-2), then re-attempt that stage against the corrected
   instance.
 
+A sibling pairing that already reached PASSED or SKIPPED is untouched by
+another pairing's FAILED diagnosis and repair, unless the repair itself
+is shown to reach into rules that pairing also depends on — in which
+case that dependency, not the original pairing boundary, decides what
+needs re-checking.
+
 The diagnostic is ordinary blind review, extended by exactly one document:
-a Review session inspects the CERTIFICATION test specification on its own
+a Review session inspects the failed pairing's CERTIFICATION test specification on its own
 merits, independent of the Build/Review result, loading RULEBOOK, RECORD,
 FINDING LOG per its standard load-list (RV-1) plus CERTIFICATION itself —
 the sole case in which Review ever sees CERTIFICATION, permitted only
@@ -1390,17 +1570,21 @@ flawed, that's cause one; if the spec checks out clean and the result is
 still wrong, that's cause two. The Operator, on receiving this review,
 records CAUSE (test-specification / project-framework) and RESTS-ON (a
 pointer to the CERTIFICATION spec, or to the project's RULEBOOK at its
-current version) alongside the FAILED verdict.
+current version) alongside that pairing's FAILED verdict.
 
-**Trial-skipped disclosure (mandatory where the trial cannot be run).** A
-domain may have a perfectly sound S-4 arbiter for its real claims while
-still lacking any convenient stand-in problem for a rehearsal — genuine
+**Trial-skipped disclosure (mandatory where the trial cannot be run for
+a given pairing).** A domain may have a perfectly sound S-4 arbiter for its real claims while
+still lacking any convenient stand-in problem for one or more pairings'
+rehearsal — genuine
 research frontiers are the common case, not a rare exception. Where no
-suitable stand-in exists, the Operator records, in CERTIFICATION itself
-(never the RULEBOOK, never the DASHBOARD): "Trial skipped — grounds:
-[why no stand-in problem exists for this domain]." This is distinct from
+suitable stand-in exists for a given pairing, the Operator records, in
+CERTIFICATION itself (never the RULEBOOK, never the DASHBOARD), against that pairing
+specifically: "Pairing [name] skipped — grounds:
+[why no stand-in problem exists for this pairing]." A skip on one
+pairing has no bearing on another; each is judged on its own stand-in
+availability. This is distinct from
 R-1's slow-arbiter clause: an arbiter can be sound and fast for real
-claims while a rehearsal stand-in is simply unavailable. A skipped trial
+claims while a rehearsal stand-in is simply unavailable. A skipped stage
 is not a defect in the instance; an undisclosed skip is.
 
 ## P-11. Atomic approval
@@ -1499,6 +1683,6 @@ toward being wrong.
 
 ---
 
-*Framework skeleton v1.27. Instantiate per project via Part III. Where a
+*Framework skeleton v1.40. Instantiate per project via Part III. Where a
 project's RULEBOOK and this skeleton differ, the project's RULEBOOK
 governs — this document is the template, not the authority.*
