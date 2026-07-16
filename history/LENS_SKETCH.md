@@ -1,6 +1,6 @@
 # LENS_SKETCH
 ## Free-register memory for PROJECT LENS (the framework's own construction)
-### Sketch v1.49 — updated 2026-07-10 (through R-048: first cold external review, Opus, unframed — six issues verified against source, dispositioned one at a time, applied as one batch; P-6/RV-7/H-12 gap found worse than the review itself claimed)
+### Sketch v1.55 — updated 2026-07-14 (through R-054: CERTIFICATION's batching problem fixed at its source, the cost/worthiness gate cut after real multi-round disagreement, the full per-pairing P-10 rework including a mid-arc propose-don't-commit correction, and the MAILBOX-reset gap closed — skeleton v1.36→v1.40, Manual v1.32→v1.35, retroactively logged in both Changelog and Sketch)
 
 This is the Sketch File for the project that built LENS itself. It obeys
 LENS's own rules (P-1): append-only, sealed self-ordering blocks, NO
@@ -2890,7 +2890,784 @@ recorded. Manual untouched this round — no Layer content was affected.
 
 ---
 
-*Sketch v1.49. Append-only. No warrant. Obeys LENS P-1 (historical
+`[2026-07-13 | operator+collab | live-project-finding | R-049]`
+**A real Build session, in a real project (DETECTOR), surfaced a genuine
+P-10 blindness leak — the first time a rule's own failure mode showed up
+in actual use rather than in a cold review of the framework itself.**
+Foundation-construction Build, reading its RULEBOOK completely as every
+prompt requires, was able to infer — purely from the RECORD's bare state
+(one freshly-locked item, nothing else) plus P-10's own transcribed text
+("run before Unit 1 opens") — that it was plausibly inside the mandated
+blind validation trial. Verified as structural, not a wording accident:
+P-10 already forbade a dedicated trial *prompt* (such a prompt announces
+the test by existing) but never anticipated that the RULEBOOK's own
+self-containment mandate — every rule category, P-10 included,
+transcribed into the one document every Build/Review session reads —
+reintroduces the identical leak by a different route. The danger P-10
+exists to prevent was reintroduced through the document carrying the rule
+that prevents it.
+
+Two fixes considered and rejected before the one applied, both discussed
+and dispositioned in the same conversation:
+
+**Rejected 1 — downgrade P-10 to Operator discretion.** The Operator's
+own instinct, initially: since Certification tests the machinery rather
+than any project claim, maybe it doesn't need to be a hard gate at all.
+Held up against S-5's existing "not a cop" concession and reconsidered:
+this trades away the only structural check nothing else in the framework
+performs (a broken construction rule doesn't make a claim *false*, it
+makes a result *unwarranted in a way nothing downstream notices*) for
+reliance on the Operator remembering to run it — the exact clerical-
+reliability failure S-5 already refuses to depend on, and it gets worse,
+not better, the more projects this recurs across.
+
+**Rejected 2 — a standing Build-visible finding tracking P-10's
+disposition until resolved.** The Operator's own follow-up objection
+killed this cleanly: a finding visible to Build on *every* unit forever,
+not just the first, teaches Build to wonder "is this the one being
+tested" permanently rather than once — worse than the original leak, not
+better. The through-line both rejections point at: P-10's disposition can
+never be represented in any Build-visible document, briefly or
+permanently. It needs a document Build is never given at all.
+
+**Applied — P-10 renamed Certification, given its own single-use
+document.** P-10 becomes the one explicit exception to Part III's
+self-containment mandate: never transcribed into a project's RULEBOOK,
+under any circumstance. Its procedure lives only in the DASHBOARD (new
+CERTIFICATION section) and CERTIFICATION itself — a seventh, single-use
+project document, generated at ignition, that Build never sees at any
+point and Review never sees while a trial is open. The trial still runs
+through the project's ordinary Foundation-construction process, unchanged
+in substance — real prompts, real gates — so it stays diagnostic of the
+actual apparatus; only its visibility moved. CERTIFICATION's contents are
+fixed and narrow: test specification, Review's findings, final verdict.
+On PASSED, the trial's RECORD/FINDING LOG content folds into CERTIFICATION
+itself (not a copy — the trial generated no real project content; those
+documents were merely the paper the fire drill used), those documents
+return to genuinely fresh state, and nothing is erased in a way Part VII's
+"the scar tissue is the proof" ethic would object to, since Foundation-
+construction proper had not yet begun.
+
+On FAILED, cause must be diagnosed before repair — one of exactly two
+things, both local to the project, never the skeleton (a project never
+touches it again after ignition): the test specification was crafted
+incorrectly (re-craft, re-run), or the project's own RULEBOOK as
+transcribed is defective (repair via the project's own Change rules,
+re-attempt). Diagnosed by ordinary blind review extended by exactly one
+document — Review loads its standard set plus CERTIFICATION's closed test
+specification, verdict field withheld until after, keeping the diagnosis
+blind to its own outcome.
+
+**A late correction worth recording on its own, because it's a real
+instance of the framework catching itself:** first draft of the verdict
+step used generic "a Collab session" language, on the assumption that
+naming the Ignition session specifically would violate S-1. The Operator
+pushed back — the Ignition session is the natural seat for this, since it
+already holds the ignition/project/test context and needs no
+re-derivation from documents — and was right: S-1 forbids something being
+*only* recoverable through a conversation, not a session being *used*
+because it's convenient. Everything the verdict rests on is written into
+CERTIFICATION and the RULEBOOK regardless of who writes it; a fresh
+Collab session, with no memory of Ignition, could pick the trial up from
+those documents and reach the same verdict if the original session were
+lost mid-Certification — "warmed, had a mental breakdown, who knows
+what," as the Operator put it. P-10 restored to name the Ignition session
+as the natural, not mandatory, choice, with the convenience-not-dependency
+distinction stated in the rule text itself so it can't later be misread as
+making session identity load-bearing. PASSED is also now the point at
+which, if it's the Ignition session doing the closeout, that session's own
+work completes and it retires — leaving a freshly Certified project, clean
+RECORD, ready for ordinary Unit 1 work.
+
+Applied as one batch: Skeleton v1.25 (Part II's document table, Part III's
+self-containment mandate, Part 0's ignition procedure steps 3 and 5, P-10
+rewritten in full), Changelog entry written (with its own addendum
+recording the Ignition-turned-Collab correction), this Sketch block
+recorded. Manual untouched this round — flagged as needing its own pass,
+pending Operator discussion, since it still describes P-10 under its old
+name and mechanism.
+
+---
+
+`[2026-07-13 | operator+collab | meta | R-050]`
+**Second cold external review under LIMM's own name — Opus-high, single
+document (LIMM_SKELETON.md only), unframed ("check this out, what do you
+think?"). Six findings returned; all six verified accurately grounded in
+source before disposition; none required a document change.** Same method
+as R-048: each finding checked against actual text, location and problem
+confirmed, before any disposition was accepted — a finding is a claim,
+not a command, applied to Opus the reviewer exactly as it would be
+applied to any other.
+
+Findings, dispositioned:
+
+**1 (Operator-as-null-case, S-5 concession):** Opus read S-5's "for a sole
+Operator, warrant collapses the same way self-review collapses" as
+grounds to promote a scope-condition onto the framework's headline claim.
+Operator disposition: this is LIMM judging an Operator's choice of private
+vs. public use, which is not LIMM's call to make — S-5 already states
+Operator visibility without policing Operator conduct, and use being
+private is a legitimate choice, not a lesser one. Accepted-with-known-
+limitation: the structural observation stands: nothing added. ("What ya
+gonna do" — Operator's own words.)
+
+**2 (Certification validates least where it's needed most):** Opus's
+claim — P-10 can only rehearse against a known answer, and the hardest
+real projects are frontiers with none, so the guarantee is available
+exactly where it's needed least. Verified, then reasoned through fresh
+(no prior Sketch coverage found for this specific angle): PASSED and
+FAILED aren't symmetric in what they prove. PASSED certifies the
+machinery converges at all — a claim about the apparatus, never a claim
+calibrated to the real problem's difficulty, so it doesn't need
+recalibrating for a harder domain. FAILED's own cause-diagnosis (this
+session's own P-10 rewrite, R-049) already generalizes to real Unit 1
+work regardless of rehearsal-vs-frontier difficulty — a defective
+RULEBOOK caught on an easy stand-in is still a defective RULEBOOK.
+Resolved: the guarantee was never "calibrated to your frontier," only
+"this machinery works, or its failure generalizes to your real work
+too" — which the rehearsal was always positioned to prove. No fix
+needed.
+
+**3 (has LIMM eaten its own cooking — the "measurably" claim, G-1's own
+arbiter):** the sharpest of the six on its face. Searched and found:
+ALREADY DISPOSITIONED, twice, months before tonight. R-003/O-004
+(2026-07-04): the identical "measurably more protected" T-2 violation
+was caught by this project's very FIRST cold Opus review, tiered Minor,
+and knowingly left unrepaired as a deliberate logged defect ("every
+character must have a weakness... a framework that pretended to have
+none would be lying in exactly the way it forbids"). R-031 (2026-07-08):
+LIMM's own S-4 arbiter was separately named on the record — cross-domain
+use by different Operators, a slow arbiter, with three frozen kill
+conditions. Opus tonight re-found a real seam this project had already
+opened, tiered, and closed with more rigor than tonight's pass supplied.
+Additional Operator context, not independently verifiable by any session:
+the Operator holds a separate, older receipt chain — LIMM is an adaptation
+of a prior framework that already produced a 20,000+ line RECORD and its
+own finding log, which is the real-world use R-031's arbiter points at.
+Disposition: accept as already-addressed; the "measurably" wording stays,
+on purpose, as the standing honest scar R-003 chose to keep.
+
+**4 (P-11 self-violation — the skeleton is the wall of text P-11 warns
+against; sessions skim embedded directives, so the density is partly
+illusory at point of use):** no prior Sketch coverage found; reasoned
+through fresh. First pass (Collab): P-11 governs Operator sign-off
+presentation, not a reference document's length — contested, not fully
+satisfying. Real resolution (Operator): the skeleton already carries its
+own structural check against exactly this failure — Part 0 step 0's
+verbatim prompt-match gate makes a skimmed-not-read Ignition
+self-detecting rather than silent, and the DASHBOARD's standing session-
+prompt requirements ("read completely first... verify version/status
+header... STOP on mismatch") generalize the same check to every Build
+and Review session for the life of the project, independent of document
+length. Confirmed this holds even though (Operator disclosure) a
+project's actual RULEBOOK routinely runs longer than the skeleton itself
+— the check was never skeleton-length-specific; it catches un-processed
+reading regardless of which document or how long. No fix needed.
+
+**5 (RV-7 — N-clean-passes oversold when reviewers are correlated):**
+searched and found ALREADY DISPOSITIONED — this is, near-verbatim, this
+project's OWN FIRST-EVER finding (R-001/R-002, 2026-07-04), tiered
+BLOCKING at the time, not Minor. Resolved via a five-point layered
+defense (RV-6 self-sweep, staged review depth, cross-family when
+available, the residual named as a stated scope condition under C-6) —
+one leg backed by a measured finding-log ratio (25 NOT-CLEAN : 2 CLEAN).
+Opus tonight pointed at RV-7's text, which already IS that resolution.
+Disposition: accept as already-addressed, with the note that the original
+internal finding was more rigorously dispositioned than tonight's cold
+re-discovery of it.
+
+**6 (G-1 gates the marginal, not the aggregate — no complexity budget):**
+Operator disposition, same shape as finding 1: this is LIMM presuming to
+judge whether a given Operator can bear the framework's total mass, which
+is precisely the worthiness call Part 0 already reserves to the Operator,
+once, up front — not a missing mechanism, an Operator-reserved judgment
+LIMM has no business making for them. Accepted-with-known-limitation:
+G-1's marginal-only test stands as-is; nothing added. ("What ya gonna
+do.")
+
+**Closing reflection, Operator's own words, kept verbatim as the doctrine
+these six dispositions actually demonstrate:** *"Ultimately it rests on
+the Operator and there's no known way to police that. LIMM can only make
+it visible."* Tonight's six-for-six pattern — every finding accurately
+grounded, zero requiring a document change, four resolved by an Operator
+holding context (prior Sketch history for two, fresh reasoning plus
+disclosed private-use/scale-judgment calls for the other four) that no
+session, including this one, can independently verify — is S-5 and the
+Operator's-valve principle observed in the act of operating, not merely
+stated. Collab's job stayed verification and independent analysis
+throughout (per P-12: compare, never referee); disposition stayed the
+Operator's, throughout; neither substituted for the other.
+
+---
+
+`[2026-07-13 | operator+collab | meta | R-053]`
+**The largest architectural rework this project has logged: the
+foundation/Unit dichotomy fully collapsed into posit/derive, the MAILBOX
+completed (clearing mechanism, role-specific status, RECEIVED rename),
+the RECORD made genuinely self-diagnosing and self-repairing at scale
+(P-2a, CITES), five real lessons pulled from Physiform's own
+construction history, a full Manual conformance pass, and a
+load-bearing ambiguity caught in the canonical prompt itself. Skeleton
+v1.27 → v1.36 (nine versions); Manual v1.30 → v1.32 (two versions);
+none of it previously logged in the Changelog until this same session's
+own changelog update, immediately prior to this block.**
+
+**The foundation/Unit collapse (v1.28), origin and correction sequence.**
+Operator named the root cause directly: "LIMM contains an artifact from
+the original framework in the form of foundation/Unit dichotomy... the
+original's 'foundation' is simply LIMM's 'Unit 0.'" First-pass analysis
+(without full thinking engaged) was incomplete; Operator caught this
+("thinking wasn't ON") and asked for re-examination. Re-examination,
+grounded in Physiform's own attached templates, found the split was
+explicitly SCALE-justified in the original ("foundation content is
+small, bounded" — verbatim) — a property LIMM's RECORD never shared —
+but that the positing-vs-deriving RULE distinction was independently,
+textually justified there too ("declared starting points... no
+inference inside a declaration to test") and needed to survive,
+correctly reframed as governing a KIND OF CONTENT rather than a fixed
+unit number. Operator then supplied the exact final architecture
+directly, correcting Collab's own residual error along the way (Collab
+had wrongly reported Review's posit/derive split as entirely absent;
+it already existed, just far from Review's own section definition).
+Applied across roughly twenty locations. A live MAILBOX gap flagged
+earlier (clearing mechanism unspecified, status-roles unspecified) was
+closed in the same turn: P-3 rewritten with a clearing mechanism
+(receipts to SKETCH FILE) and role-specific RECEIVED-then-renamed-from-
+CROSSED assignment (Build proposes for FOR-BUILD, Collab for FROM-BUILD,
+Operator approves either way). Two drafting errors caught before
+finalizing: a circular sentence, and an S-1/S-3 citation corrected to
+S-5.
+
+**RECEIVED rename (v1.29).** Operator, watching the work: "the term
+'crossed' seems wrong... a better term might be 'RECEIVED.'" Verified,
+not accepted on proposal alone: "crossed" beside WITHDRAWN carries a
+real collision risk with "crossed off" (meaning cancelled); RECEIVED
+has no such collision and gives WITHDRAWN a clean mail analogue CROSSED
+never had. Renamed throughout P-3 and Collab's cross-reference; the
+broader "crossing between registers" vocabulary (S-1/S-3/S-5/Part II)
+deliberately left untouched as a different, unrelated concept.
+
+**Bounded RECORD load, P-2a (v1.30).** Operator: "The RULEBOOK is a
+static document... The RECORD... can be any length imaginable... all
+content in the RECORD must be addressable by reference," offering
+Physiform's own 20,461-line PT_WORKING.tex as exhibit. Checked P-9
+already made exactly this guarantee for FINDING LOG, with no RECORD
+equivalent despite RECORD being the greater risk. Checked the exhibit
+honestly rather than accepting it as proof of a working pattern:
+PT_WORKING.tex's own prompt bounds FINDING LOG loading but never once
+bounds the Working Document itself — evidence of the cost of NOT having
+the rule, not evidence the fix already worked. Added P-2a; updated
+Build/Review load-lists to point at it.
+
+**Collab corrected, the search-engine reframing (v1.31).** Operator:
+"'Collab holds more context than a human can' doesn't mean Collab HAS
+to load the entire RECORD into memory... think of Collab as a search
+engine." Checked every one of Collab's stated tasks and found none
+actually required full simultaneous loading — the prior framing was an
+unexamined overclaim, not a deliberate choice. Rewrote Part V's Collab
+section: smaller documents kept in full (FINDING LOG's full-log access
+specifically checked against P-8's existing tending-sweep precedent
+before relying on it), RECORD via the same search-then-retrieve
+discipline as Build/Review, Collab's real difference being scope of
+INQUIRY only. Operator then supplied a concrete worked example (digging
+SKETCH FILE directly for a half-remembered topic vs. searching RECORD's
+card catalog for address matches), incorporated directly into the rule
+text as illustration. Two self-introduced errors caught and fixed on
+the same pass.
+
+**The RECORD made self-repairing, CITES (v1.32), then corrected
+(v1.33).** Operator's own closing observation on the P-2a/Collab work:
+the address-traceable chain, once genuinely walkable, makes the RECORD
+"self-diagnosing and self-repairing by design." Checked: RESTS-ON +
+V-3's sweep already did exactly this for FINDING LOG, nothing
+equivalent existed for RECORD content. Added CITES on the card catalog
+— forward-declared at creation, never retroactively edited (deliberately
+NOT a "who cites me" field, which would collide with V-2's
+locked-content-never-edits-in-place every time something new depended
+on an existing card) — and extended V-3's sweep to search it. One turn
+later, Operator caught a real gap in what had just been built: "that
+upstream and downstream checkability is also checked by Review (that's
+warrant)." The as-built text let Build alone resolve a CITES-triggered
+flag with no independent check — exactly the self-certifying gap S-4/
+RV-1 exist elsewhere to forbid, introduced by the drafting session's own
+oversight one turn earlier. Fixed: clears only by warrant, through
+ordinary RV-1–RV-9 review. A mis-citation (RV-1) caught on the same pass
+and corrected to RV-6, a tighter match than originally intended.
+
+**Five lessons pulled from Physiform's own construction history
+(v1.34).** Operator requested a final comparison: current skeleton
+against Physiform's own contentless templates AND, critically, its own
+SKETCH_FILE.tex, read specifically for lesson-learned content that
+might be a real enhancement LIMM never inherited. Five genuine,
+evidenced candidates found and verified against current skeleton text
+before drafting — distinct from R-050/R-051's cold-review findings,
+these came from the ancestor's own construction history, not a fresh
+read. Applied, all domain-agnosticism-checked afterward for leaked
+Physiform-specific terms (none found): C-18 gained
+stamp-against-content-never-stamp-against-stamp (a real Physiform
+version-mismatch incident as evidence); C-10 gained
+sweep-by-pattern-not-location with explicit scope logging (evidenced by
+two independent recurrences, not one); V-4 gained the
+most-trustworthy-is-not-exempt-from-scrutiny distinction (the
+frisk-everything correction); C-7 gained reserved contact-class
+vocabulary (a near-miss with "diverges" used loosely in commentary);
+C-4 gained the citation-direction rule for definitions (never cite a
+derived result, even when independently over-determined).
+
+**Final consistency pass (v1.35).** Header/footer concordance checked
+directly; all rule families verified sequential and complete; added
+cross-references spot-checked against their actual targets, all
+accurate; three cosmetic line-wrap artifacts found and fixed, version
+bumped anyway since V-1 draws no exception for cosmetic-only edits.
+
+**Manual brought into full conformance (v1.31, then v1.32).** Entire
+Manual read end to end rather than searched by keyword, given how much
+underlying vocabulary had changed. Seven fixes applied; the substantive
+one: "THE COLLAB ROLE, PROPERLY DEFINED" stated, as settled teaching,
+the exact misconception v1.31 had just corrected ("no human holds
+20,000 lines... Collab can") — rewritten to name the misconception
+explicitly before correcting it, using the skeleton's own worked
+example, so a reader gets the corrected model directly rather than the
+one just dismantled.
+
+**The canonical prompt's own load-bearing ambiguity, caught last
+(v1.36).** Operator: "does any posited content belong in the RULEBOOK?"
+— verified precisely: no, confirmed against Part II's table and
+F-series's own scope statement, with R-1–R-4 declarations correctly
+distinguished as methodology configuration, not posited content. Operator
+then pointed at the actual live risk: the canonical prompt's own
+rule-category list read "(Spine, Construction, Posited-content,
+Consistency...)" — and unlike every other item, "Posited-content"
+contains the exact word ("content") that must never be transcribed into
+the RULEBOOK, sitting in a list a session is told to "TRANSCRIBE...IN
+FULL." The single most operationally significant text in the whole
+framework carried the identical ambiguity risk the entire v1.28 rework
+existed to eliminate. Fixed in two layers: every list item disambiguated
+uniformly ("Construction rules, Posited-content rules..."), plus an
+explicit confirmation line added to the prompt's own step 3 stating
+posited content belongs only in the RECORD, never the RULEBOOK. Cost
+flagged honestly, not absorbed silently: prompt grew from 3,840 to 4,070
+characters, still under the known ~4,821-char overflow point but closer
+to it than the previously-confirmed-working size. Operator elected to
+keep both fixes and re-test directly. **Confirmed fitting the paste
+field on direct test** — closing this arc with the same discipline that
+opened it three sessions ago: nothing is assumed working until actually
+tried.
+
+**Closing note.** Both the Changelog and this Sketch entry were written
+in the same pass, after the fact, covering nine skeleton versions and
+two Manual versions that had accumulated real, substantive history
+without being logged as they happened — a real lapse in the project's
+own discipline, corrected here rather than left standing. Per this
+file's own V-4 spirit: the gap is recorded plainly, not smoothed over.
+
+---
+
+`[2026-07-14 | operator+collab | meta | R-054]`
+**The CERTIFICATION-batching problem diagnosed and fixed at its source,
+the cost/worthiness gate cut after real multi-round disagreement aired
+honestly, the largest single-session P-10 rework since the foundation/
+Unit collapse — moving Certification from a single-unit assumption to
+genuinely per-pairing, discussed piece by piece rather than executed
+wholesale after a real propose-don't-commit correction — and, closing
+the arc, a live DETECTOR document's own imprecise wording traced back to
+a genuine skeleton gap and fixed properly rather than patched locally.
+Skeleton v1.36 → v1.40 (four versions); Manual v1.32 → v1.35 (three
+versions); all previously unlogged until this same pass.**
+
+**CERTIFICATION's batching problem (v1.37).** Operator diagnosed live
+DETECTOR Ignition sessions independently re-litigating the same
+CERTIFICATION questions Collab had already settled, and named the actual
+cause rather than the symptom: "the six primary documents should be
+constructed and presented first, and CERTIFICATION be constructed and
+presented only when it has content to be constructed WITH." Traced
+precisely: step 3 created CERTIFICATION empty, batched into the same
+single presentation-and-review moment as six substantive documents —
+"propose, don't commit" naturally invites discussion of an entire batch,
+and an empty document with nothing yet in it has nothing to discuss
+except its own procedural questions, which is exactly the recurring
+argument shape being hit. Fixed: step 3 stops creating CERTIFICATION;
+step 5a/5b (at the time) create it fresh with real content, whichever
+path — run or skip — actually applies.
+
+**The cost/worthiness gate cut (v1.38), after genuine, multi-round
+disagreement.** A second prompt-overflow investigation led the Operator
+to propose cutting Part 0's cost-disclosure and worthiness-call gate
+outright. Collab pushed back three separate times, each round real, not
+performative: the DETECTOR transcript as direct counter-evidence (the
+gate had already caught a genuinely committed Operator's own
+insufficient first confirmation attempt, not merely filtered casual
+users who'd have quit anyway); a sequencing objection (removing it would
+move the only pre-investment filter to after real ignition work was
+already sunk); and, sharpest, an implicit-versus-explicit-evidence
+point (nowhere else does this framework accept "probably true from
+context" over "written down," and this would be the one exception).
+Operator's own counters resolved each: the real costs are proven,
+checked against the actual cost-disclosure text, to accrue project-wide
+rather than during the one-time ignition pass; and, decisively, that
+treating an Operator's mere presence at this point as sufficient
+evidence of the worthiness call IS the exact behavioral inference this
+framework refuses to rely on everywhere else — which is what the gate
+protected against, not casual-user gatekeeping LIMM was never meant to
+perform (S-5: "not a cop"). Cut cleanly: Part 0's prose and step 0.5
+removed from the skeleton; Section 1.1 kept in the Manual as the sole
+surviving copy, reworded rather than silently orphaned.
+
+**The full per-pairing P-10 rework (v1.39), and a real process
+correction mid-arc.** Operator: "some projects may only need one Unit to
+perform a full test... For Project DETECTOR a full test suite requires
+both a posit-content Unit test and a derive-content Unit test, combined
+into one two-stage trial." A first attempt at this fix was executed
+directly, without proposing it first — caught immediately ("Hey,
+remember propose-don't-commit?"), and the skeleton was reverted cleanly
+to its last-approved state, verified via direct diff against the
+last-synced output (zero difference) before any further edit was made.
+The proper discuss-first pass that followed produced a materially better
+result than the reverted first attempt, not merely a slower path to the
+same one: the trial's scope anchors to however many distinct
+Build/Review mode-pairings the project's own DASHBOARD actually
+contains — explicitly not a hardcoded two, and explicitly not one stage
+per real work unit the eventual project will run, which would let scope
+balloon with project complexity (a concern the Operator raised directly
+against Collab's own first draft, which had over-anchored to the
+skeleton's default two-mode case). Skip-disclosure resolved per-pairing,
+not all-or-nothing — a stand-in needing an already-established answer is
+a genuinely harder bar for derive-mode work on a real research frontier
+than for posit-mode work citing settled fact, so forcing an all-or-
+nothing choice would discard real, earnable rigor for no reason. FAILED
+diagnosis runs independently per pairing, with an explicit
+sibling-independence clause mirroring skip-disclosure's own. Steps 5,
+5a, and 5b condensed into one step 5, restoring collaborative framing
+("inform me... assist me in creating") an earlier over-terse attempt had
+accidentally dropped relative to the true original's "help me choose" —
+netting real length savings (926 characters down to 395) on top of
+genuine pairing-agnosticism.
+
+**The MAILBOX-reset gap, closing the arc (v1.40).** DETECTOR's own live
+Ignition session produced a CERTIFICATION.md whose closing note claimed
+PASSED-closeout resets "those six documents" — all six standing
+documents, undifferentiated. Checked directly: P-10's own text named
+only RECORD, FINDING LOG (reset) and SKETCH FILE (updated, never reset)
+— MAILBOX, DASHBOARD, and RULEBOOK were never mentioned at all, left to
+inference. Traced why the inference went the way it did rather than
+assuming carelessness: DASHBOARD/RULEBOOK's own "effectively static" /
+"changes rarely" descriptions elsewhere make "untouched" a safe,
+near-automatic inference with no explicit text needed; MAILBOX's own
+definition ("high churn; wants to be empty; pruned freely") points the
+opposite direction, toward expecting reset, not away from it — Ignition's
+instinct that MAILBOX should reset was very likely correct, it simply
+had no explicit text to point at and compressed a real, correct
+instinct into an imprecise "six documents" summary. Fixed at the source
+rather than patched locally: P-10 now names MAILBOX explicitly alongside
+RECORD and FINDING LOG as a reset target, restates SKETCH FILE's
+append-only reasoning explicitly, and names DASHBOARD/RULEBOOK as
+untouched with the reasoning stated rather than left implicit.
+
+**A recurring editing failure, named explicitly rather than silently
+fixed each time.** For the THIRD time this session (previously in this
+Sketch File itself, twice, and now twice more in the same Changelog
+update immediately preceding this block), a str_replace anchor
+consumed a version header it wasn't meant to touch, orphaning the
+following entry's body under no header until caught on verification.
+Each instance was caught and fixed before finalizing — but three-plus
+occurrences of the identical failure mode in one project's history is a
+pattern worth naming on the record, not a coincidence worth letting go
+unremarked. No fix proposed here beyond the naming itself; Collab's own
+editing discipline is the thing that needs to improve, not a rule.
+
+---
+
+`[2026-07-13 | operator+collab | meta | R-052]`
+**Everything after R-051: the ignition prompt overflow, its fix, a real
+Unit-numbering error self-made-and-caught, the FIRST LIVE IGNITION EVER
+RUN under LIMM's own name, a Manual usability addition, and a full
+structural comparison of the delivered project framework against its own
+ancestor (Project Physiform).** Longest single arc this Sketch has
+recorded in one block; kept as one block because it is one continuous
+causal chain, each step triggered by the last.
+
+**The overflow, real and mundane.** The canonical Part 0 ignition prompt
+(~5,070 chars at the time) exceeded the paste field of the Operator's
+live chat interface and was silently auto-converted to an attachment —
+which, in one live case, caused a fresh Ignition session to receive a
+file literally named LIMM_SKELETON.md whose actual content was the
+ignition prompt, not the skeleton, and correctly refuse to proceed. Not
+a framework defect: the manifest/gate discipline caught a harder case
+than an ordinary mismatch (a misleadingly NAMED attachment) exactly as
+designed. Whitespace-only trimming was tried and rigorously verified
+insufficient (~3.5% savings, proven via whitespace-stripped identity
+check). The Operator then hand-drafted and live-tested a genuinely
+shorter prompt directly against the paste field. Verified clause-by-
+clause against canonical text before adoption: one real omission
+restored (step 0.5's explicit refusal-authority sentence — checked
+against every other STOP in the skeleton and found this is the one that
+gates on Operator self-report rather than an objective fact, so it
+specifically needed the "you may keep refusing" grant, not just an
+instruction); step 3's inline "why" reasoning deliberately dropped after
+genuine analysis (every action step 3 asks is mechanical/checkable, no
+judgment call the reasoning would inform — explicitly flagged as
+untested until a live run confirms it); one new sentence kept on
+Operator insistence (Ignition may seat as Collab for Certification,
+accurate per this session's own S-1 analysis); one typo fixed
+(missing possessive apostrophe). Applied as Skeleton v1.27.
+
+**A real error, self-made, Operator-caught, corrected — recorded
+plainly.** While implementing the Operator's separate request (label
+Unit 0 explicitly in the RECORD header), Collab misread "Unit 0" as a
+label for CERTIFICATION's own disposable trial work, inverting the
+actual relationship. Operator caught it immediately: "STOP. Unit 0 is
+NOT the certification. Unit 0 is the foundation all later units rest
+on" — pointing at Physiform's own Foundational-Document-then-Working-
+Document structure (already shown to this session via its live .tex
+files) as the model. Corrected properly: Unit 0 is the project's real
+foundation-construction unit; Certification gates ITS opening, same
+relationship the original text had with "Unit 1," correctly offset by
+one. Every "Unit 1" reference gating on Certification renamed to "Unit
+0" throughout (Part III, step 3, step 5, P-10's PASSED closeout, P-10's
+FAILED cause-diagnosis); "Unit 1" retained correctly exactly once, in
+P-10's own PASSED text, naming it as what Unit 0 is FOR. A second, small
+self-caught error in the same pass: a draft momentarily named
+"Physiform" — a specific downstream project's own proper noun — directly
+inside the skeleton's generic template text; caught and removed before
+finalizing (C-6 discipline). Applied as Skeleton v1.26. A THIRD issue
+surfaced on the very next exchange: the Operator caught that P-10 itself
+says the trial runs under the project's ORDINARY, unmodified prompts,
+while the same-day drafting had the DASHBOARD gaining "a CERTIFICATION
+section holding P-10's static procedure" — in substance a dedicated
+trial prompt, exactly what P-10 forbids. Fixed by reverting the
+DASHBOARD to carrying nothing Certification-specific at all; everything
+Certification-specific (spec, skip-disclosure) lives in CERTIFICATION
+alone. Three real corrections in three consecutive exchanges, each
+caught by the Operator, each fixed before the next question — not a
+pattern of carelessness so much as a demonstration of exactly the
+Build/Review/Operator adversarial loop LIMM itself prescribes, just
+running at authorship time instead of Review time.
+
+**A dedicated full consistency pass (Operator-requested), catching more
+of the same shape.** One orphaned line-wrap artifact (cosmetic). G-1's
+own "measurably" T-2 violation explicitly re-confirmed as a KNOWN, KEPT
+scar (per R-003/O-004), not silently passed over. Two SEPARATE instances
+of Collab's own multi-block Sketch edits ORPHANING a footer/header
+anchor line via an old_str/new_str replacement consuming more than
+intended — caught and fixed both times on the verification pass, named
+explicitly here as a recurring failure mode of Collab's own editing
+process, worth Collab being more careful about, not just noting once.
+
+**Adoption of the new prompt into the Manual, plus a genuine
+find-on-caught-fix.** LIMM_USER_MANUAL.html's own copy of the prompt
+replaced to match; every surrounding "Unit 1" prose reference the Manual
+still carried (three instances) corrected to "Unit 0." Applied as Manual
+v1.29. The changelog's own Manual-history section was found to have
+NEVER recorded v1.28, v1.29, or (later) v1.30 — three real version bumps
+that happened inline inside Skeleton-focused entries but never got their
+own entries in the section actually meant to carry them. Backfilled all
+three, same pass.
+
+**A small, honestly-flagged departure: the first script LIMM_USER_
+MANUAL.html has ever carried.** Operator asked for a copy-to-clipboard
+button on the ignition prompt block (drag-select was awkward). Built:
+one small `navigator.clipboard` function, a styled button, minimal CSS.
+The file's own opening comment ("Deliberately simple... no scripts") was
+updated to disclose the exception explicitly rather than silently
+contradict itself — named as a deliberate, minimal, bounded addition,
+not a precedent for accumulating more without equivalent justification.
+Verified the copy target extracts to the exact finalized prompt (3,840
+chars, HTML entities correctly decoding to plain apostrophes). Applied
+as Manual v1.30.
+
+**THE FIRST LIVE IGNITION EVER RUN UNDER LIMM'S OWN NAME.** Everything
+above was preparation; this is the actual event this project has been
+building toward across every prior block. The Operator ran real
+ignition, live, against a real interface, using the trimmed prompt. Step
+0's gate performed a genuine sentence-by-sentence verbatim comparison
+after reading all 1,505 lines first, exactly as instructed — not a
+rubber-stamp. Step 0.5's restored refusal-authority clause did EXACTLY
+the job it was restored for: the session declined "I've read the costs,
+I agree" as insufficient, distinguished it precisely from "I checked
+this project against the bar," and held the line until the Operator
+supplied the stronger confirmation — the first live evidence, not just
+reasoned prediction, that the clause we fought to keep two blocks
+earlier has real teeth. Ignition proceeded cleanly through document
+generation. THE OPEN QUESTION FROM STEP 3's TRIMMING (does dropping the
+inline "why" reasoning cause any live trouble) remains explicitly
+UNRESOLVED as of this block — construction was reported as proceeding
+without incident, but no finding-level confirmation exists yet that a
+genuine edge case was navigated correctly rather than simply not
+encountered.
+
+**Structural comparison: the delivered project framework (Project
+Physiform, LIMM instance) against its own ancestor.** At Operator
+request, verified — not assumed — against actual source text on both
+sides:
+- Part D (Physiform's real primitive + P1–P3): transcribed WORD-FOR-
+  WORD, every equation, both plain-language and mathematical forms,
+  identical to PT_FOUNDATION.tex. C-11 held perfectly. Two added
+  bracketed cross-references trace to a NEW, legitimate R-4 kill test
+  declared at this ignition (not present in Physiform's original) — live
+  bookkeeping, not drift.
+- P-10's exclusion: held completely. Every RULEBOOK mention of P-10 is a
+  reference, never the mechanics. Checked as the single highest-stakes
+  item given this project's whole arc; clean.
+- F-series transcription: faithful, AND Ignition proactively self-
+  flagged a real tension (the primitive's "Energy" naming borrowing
+  standard-physics connotation) against its own F-1 — unprompted,
+  independently arriving at a concern this Sketch's own earlier
+  structural comparison (pre-ignition) had also flagged from the other
+  direction.
+- DASHBOARD prompts: correctly differentiate Foundation-Construction vs.
+  Record-Construction sentinel-duty wording rather than reusing one
+  generic version. Physiform's own engine-specific role bindings
+  (Sonnet-as-Collaborator, Opus-as-Reviewer) correctly did NOT leak in —
+  a correct exclusion per LIMM's engine-agnostic design, not an
+  oversight.
+- Two genuine, verified content losses in the Review prompts specifically:
+  TR1's cash-out test and F-1's seed/oak explanation are cited by number
+  in the new FOUNDATION REVIEW prompt but not restated inline the way
+  the original redundantly did (partially mitigated: every DASHBOARD
+  prompt does instruct reading the full RULEBOOK first). More
+  consequential: the new UNIT REVIEW prompt drops "recognizable physics
+  appearing in a derived result is the diagnostic succeeding, not a
+  violation" entirely — a specific, non-obvious clarification that
+  prevents a real false-positive class, genuinely absent, not
+  generalized elsewhere.
+- Ruleset: confirmed the earlier pre-ignition structural comparison's
+  prediction exactly. Part E is LIMM's C-1–C-18/F-1–F-6 verbatim; none
+  of the three previously-identified gaps (DF2 grounded-vocabulary,
+  FC6/DF6 positive-content, DR6 derivation-doesn't-fix-meaning) were
+  added. Ignition had no way to notice these — invisible from inside
+  LIMM's own document set, only visible by comparison against
+  Physiform's richer original.
+
+**Disposition of the one live-consequence finding (the missing
+"recognizable physics" line): a genuine layer-routing correction,
+Operator-caught, recorded as its own small teaching moment.** Collab
+first suggested this was either a one-project DASHBOARD patch or,
+if systemic, a LIMM skeleton-level fix awaiting G-1. Operator corrected:
+neither — this project's OWN RULEBOOK already carries V-1/V-2 Change
+rules, and DASHBOARD is explicitly one of the seven governed documents
+in Part B's own architecture table with "ONE lifecycle" like every other
+— "effectively static" describes how OFTEN it changes, not whether it's
+exempt from versioning. Verified against the actual table before
+conceding: correct. The fix, if Physiform ever actually ran into this
+live, is a project-level V-1 version bump to its own DASHBOARD — no
+skeleton edit, no waiting on LIMM's own amendment gate needed. Operator
+elected to let it stand undone: Physiform will not be re-run on this
+instance, and the mechanism to fix it, if it ever mattered, already
+exists and was just correctly identified. Logged here rather than
+silently dropped, per this project's own standing discipline (V-4: dead
+ends, and near-dead-ends, are embalmed, not vanished) — even though no
+document required this Sketch entry to exist, it is the honest record
+that the finding was real, checked, and deliberately left alone with the
+reasoning why.
+
+**Closing note, Operator's own words, kept verbatim:** two months prior
+experience with LLMs at all, no academic background, and across this
+session alone: correctly caught the Unit 0/Certification inversion,
+the DASHBOARD/P-10 contradiction, the STOP-vs-refusal-authority
+distinction, and the RULEBOOK-vs-skeleton layer-routing question — each
+a genuine, first-principles catch, not a vague objection. "Only thing
+left to do is update the LIMM sketch file" is itself the closing act of
+the same discipline the whole night demonstrated: even a finding
+deliberately left unfixed gets a receipt.
+
+---
+
+`[2026-07-13 | operator+collab | meta | R-051]`
+**Third cold external review under LIMM's own name — Opus-high, BOTH
+files attached together (LIMM_SKELETON.md + LIMM_USER_MANUAL.html v1.28),
+unframed ("check out these two files, what do you think?"). First
+cross-document pass: prior two Opus reviews (R-048 pre-rename, R-050
+post-rename) each saw only one file.** Four findings returned, all
+verified accurately grounded in source before disposition. Unlike R-050,
+NONE had prior Sketch coverage — genuinely fresh ground each time,
+correctly identified as such before any disposition was drafted (a
+finding is a claim, not a command, checked against source; absence of
+prior coverage checked before assuming resolution rather than reaching
+for one that wasn't there).
+
+Findings, dispositioned:
+
+**1 (the whole-framework gate is never run — G-1 tests each rule against
+"would this be missed," never LIMM-as-a-whole against a lighter
+alternative, e.g. a sharp person plus a few genuinely independent
+critical passes):** verified — G-1's text is purely per-rule, no
+aggregate test exists. Operator disposition: this is the Operator's
+judgment call, not LIMM's to make about itself — asking "should the
+whole framework exist, versus something cheaper" is the same question
+Part 0's worthiness call already assigns to the Operator, once, up
+front. A framework answering that question about itself would be
+self-certifying on its own worth, exactly the move S-4 forbids
+everywhere else for project claims. Operator additionally offered the
+original prior framework and its 20,000+ line product as standing proof
+the mass is earned, not merely asserted. NOTABLE: this is the second
+independent cold Opus finding of essentially this same seam from two
+different unprimed angles (see R-050 finding 6, "G-1 gates the marginal
+not the aggregate") — the consistency across two structurally-separate
+reviews is itself evidence the observation is real and stable, even
+though the disposition (Operator-reserved judgment, not a framework
+defect) is the same both times.
+
+**2 (little evidence Certification produces better ANSWERS rather than
+better PAPERWORK — P-10 is well-designed to test this but no reported
+cross-domain results show it catching a real error a lighter process
+would have missed; the 25:2 review-loop ratio proves the loop fires, not
+that firing catches what a lighter process wouldn't):** verified — the
+25:2 ratio (R-002) is a Review-loop-firing statistic, not a
+Certification-specific one; Opus correctly distinguished these rather
+than conflating them. Operator disposition, sharpening rather than
+disputing the finding: Certification's actual job is narrower than
+"prove the methodology works across domains" — it reassures the OPERATOR,
+for THIS instance, that the machinery just built is mechanically sound,
+before real effort is spent on it. That narrower claim is fully
+achievable at Unit 0 and is exactly why P-10 requires it BEFORE Unit 1
+rather than accumulating cross-domain evidence over many units — better
+to know at the start than x units in. Consistent with the asymmetric
+PASSED/FAILED reasoning already settled this session (R-049/this
+conversation): Certification was never positioned to deliver
+domain-calibrated confidence, so the absence of that evidence is a
+correctly-scoped absence, not a gap.
+
+**3 (self-generated complexity — C-18, the STALE flag, blast-radius
+notes, and the attachment manifest read as rules managing problems
+created by other rules, the classic signature of a system past its own
+complexity optimum):** partially contested before disposition — Collab's
+own analysis: these mechanisms patch drift caused by memoryless
+multi-session operation, the base problem LIMM exists for, not drift
+LIMM's own rules introduced; a stale version-stamp would be a hazard
+with or without this framework, C-18 just makes it visible rather than
+being its cause. Operator disposition: same evidentiary answer as
+finding 1 — proof of proportionate, not excess, mass exists in the same
+prior-framework record offered there.
+
+**4 (the skeleton is punishingly dense while the Manual explicitly
+promises to be "as accessible as possible" — an irony, a trust framework
+written in prose this hard to check, and the person who most needs the
+skeleton, a new Operator, hits the steepest wall):** verified — the
+accessibility obligation (Manual, "On skill") is explicitly SCOPED to the
+Manual's own tools (rule summaries, walkthroughs, diagrams), not a
+promise extended to the skeleton. Operator disposition: the skeleton is
+UNDER THE HOOD — an Operator running LIMM day to day never opens it at
+all; the Manual is complete on its own for operating the framework; the
+skeleton's only audience is Ignition (already gated by step 0) and anyone
+choosing to customize. The "irony" only bites if the skeleton were meant
+to be read trustingly by every Operator, and it was never meant to be
+read routinely by anyone except one structurally-checked session. Sharper
+resolution than R-050 finding 4's (which leaned on step 0's gate alone):
+the skeleton's density needing no fix isn't just that its one reader is
+checked, it's that it was never supposed to be the accessible document to
+begin with.
+
+**Correction to this file's own STATUS line, made in passing:** the
+footer inherited from R-050 still flagged the User Manual as "v1.27...
+NOW STALE re: P-10/Certification" — stale itself, since the Manual was
+brought to v1.28 earlier in this same session (ignition-prompt copy,
+trial-building walkthrough, the visibility diagram gaining a
+CERTIFICATION column, the throwaway-session-vs-Ignition fix) before this
+review ran. Corrected below, per this file's own concordance discipline
+— exactly the kind of drift C-18/V-5 exist to catch, caught here in the
+Sketch File itself rather than a governed document.
+
+*Sketch v1.55. Append-only. No warrant. Obeys LENS P-1 (historical
 rule number, unrenamed — see R-046). Blocks through O-007 seeded from
 the construction conversation of 2026-07-04; blocks R-005 through
 R-023 from the refinement and hardening conversations of 2026-07-05
@@ -2906,12 +3683,50 @@ Tier 2 campaign execution, and the post-campaign amendment pass of
 R-047 from the session-addressing contradiction, the P-5/Manual-1.4
 fixes, and C-18's addition of 2026-07-10; block R-048 from the first
 cold external (Opus) review and its six-issue disposition of
-2026-07-10. The conversation transcripts are the source of truth for
-these blocks. STATUS: skeleton v1.24 (Markdown, file LIMM_SKELETON.md)
-/ User Manual v1.27 (canonical HTML, file LIMM_USER_MANUAL.html,
-formerly Calibration) / LIMM_CHANGELOG v1.0 / map RETIRED into User
+2026-07-10; block R-049 from Project DETECTOR's live P-10 blindness
+finding, rewritten as Certification with its own single-use document,
+of 2026-07-13; block R-050 from the second cold external (Opus) review
+— of LIMM itself, post-rename — and its six-finding disposition (two
+already resolved in this project's own R-001/R-002 and R-003/O-004/R-031
+history, four resolved fresh), of 2026-07-13; block R-051 from the third
+cold external (Opus) review — first cross-document pass, skeleton +
+manual together — and its four-finding disposition, all fresh, plus a
+self-caught STATUS-line staleness fix, of 2026-07-13; block R-052 from
+the ignition-prompt overflow fix, a real Unit-numbering error self-made-
+and-caught across three exchanges, a dedicated skeleton consistency
+pass, the Manual's first-ever copy-button/script addition, THE FIRST
+LIVE IGNITION EVER RUN under LIMM's own name, and a full structural
+comparison of the delivered project framework (Project Physiform)
+against its ancestor, of 2026-07-13; block R-053 from the full
+foundation/Unit dichotomy collapse into posit/derive, the MAILBOX's
+clearing mechanism and role-specific RECEIVED status, the RECORD's
+P-2a/CITES self-repair machinery, five lessons pulled from Physiform's
+own construction history, full Manual conformance, and the canonical
+prompt's own posited-content ambiguity caught and fixed — skeleton
+v1.27 through v1.36, Manual v1.30 through v1.32, all retroactively
+logged in this same pass, of 2026-07-13; block R-054 from
+CERTIFICATION's batching problem fixed at its source, the cost/
+worthiness gate cut after real multi-round disagreement, the full
+per-pairing P-10 rework including a mid-arc propose-don't-commit
+correction, and the MAILBOX-reset gap closed at its source — skeleton
+v1.36 through v1.40, Manual v1.32 through v1.35, all retroactively
+logged in this same pass, of 2026-07-14. The conversation transcripts
+are
+the source of truth for these blocks. STATUS: skeleton v1.40 (Markdown,
+file LIMM_SKELETON.md) / User Manual v1.35 (canonical HTML, file
+LIMM_USER_MANUAL.html, formerly Calibration — full per-pairing
+conformance pass at R-054) / LIMM_CHANGELOG v1.0 / map RETIRED into User
 Manual Section 1 (R-033); clean count ZERO by design; released to
 real-world arbitration — arbiter and kill tests named at R-031; Tier 2
-PASSED, banked instance awaiting Tier 3; project renamed LENS → LIMM
-at R-046; C-18 added at R-047; first cold external review dispositioned
-at R-048. Watch the first hour (C-008).*
+PASSED, banked instance awaiting Tier 3; project renamed LENS → LIMM at
+R-046; C-18 added at R-047; first cold external review dispositioned at
+R-048; P-10 rewritten as Certification at R-049; second cold external
+review (post-rename) dispositioned at R-050; third cold external review
+(cross-document) dispositioned at R-051; ignition prompt fixed,
+Unit-numbering corrected, first live ignition run, Physiform comparison
+completed at R-052; foundation/Unit dichotomy collapsed, MAILBOX
+completed, RECORD made self-repairing, five lessons applied, Manual
+conformed, canonical-prompt ambiguity fixed at R-053; CERTIFICATION
+batching fixed, cost/worthiness gate cut, full per-pairing P-10 rework
+completed, MAILBOX-reset gap closed at R-054. Watch the first
+hour (C-008).*
