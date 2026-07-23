@@ -5,7 +5,7 @@
 This file holds the full change history — what changed, why, and what
 evidence motivated it — for both LIMM_SKELETON.md and
 LIMM_USER_MANUAL.html (formerly LENS_SKELETON.md / LENS_USER_MANUAL.html,
-themselves formerly LENS-CALIBRATION.md; renamed 2026-07-10, see the
+the Manual itself formerly LENS-CALIBRATION.md; renamed 2026-07-10, see the
 entries below — the pre-rename entries retain the LENS name accurately
 as history and are not rewritten).
 The shippable documents carry only their current version number; all
@@ -22,7 +22,1127 @@ session.
 
 ---
 
-# SKELETON CHANGE HISTORY (through v1.40)
+# SKELETON CHANGE HISTORY (through v1.59)
+
+#### Skeleton v1.59 — 2026-07-23
+
+**External cold consistency-and-accuracy audit (Claude Fable, all four
+framework files attached — both shippable files plus this changelog and
+the Sketch as resolution evidence), disposed finding-by-finding with
+the Operator; approved repairs batched and applied whole-file per
+H-24.** Three skeleton repairs, one decline:
+
+- **S-5's dangling version stamp cut (finding 1).** The parenthetical
+  "(Stated scope condition, v1.8; ...)" carried a historical skeleton
+  version number inside Spine text that transcribes into every
+  project's RULEBOOK, where "v1.8" resolves to nothing — the same
+  species as the AP-3 citation cut from G-2 at v1.50 and the stale
+  v1.17 diagram-currency claim cut the same pass. Survived six cold
+  passes, likely because it matches neither a rule-ID grep nor the
+  P-10 leak sweep's scope. Operator ruling: cut only ", v1.8" — the
+  "stated scope condition" label stays as an honest genre marker, and
+  the mechanism cross-references (logged-override, decision-entry,
+  cooling-interval, mandatory push-back — all resolving in-document
+  to G-2 and Part V) stay because they do work for a reader.
+- **P-10's closeout restoration header de-enumerated (finding 2).**
+  The restored RECORD header read "(... plus any permanent line R-1
+  seeded)" — an enumeration patched once when R-1's permanent line
+  arrived at v1.52 and not re-patched when v1.58 gave V-5's
+  concordance line the same ignition-seeding pattern; read literally,
+  the closeout restored a RECORD missing a line V-5 says is never
+  absent. Exactly the seam-between-rule-and-later-rule species
+  R-067's closing prediction named, reintroduced by v1.58's own new
+  text. Fixed sync-proof by construction, on the R-070 teach-the-
+  unity precedent: "plus every line a rule seeds into the header at
+  ignition, each brought current" — R-1's line and V-5's line both
+  fold in unnamed, "brought current" carries the update duty the
+  mutable concordance line needs, and any future header-seeding rule
+  is covered automatically.
+- **P-10's Verdict paragraph rewritten in the Operator's own wording
+  (finding 3, MINOR).** The v1.49 subject/object repair had left a
+  scar — "Build's output for that stage and the results," with "the
+  results" a dangling remnant of the old three-way compound subject —
+  plus three em-dash interruptions between subject and verb and "and
+  the Operator" doing double duty in one sentence. Restructured into
+  three sentences: Collab (parenthetical continuity note) and the
+  Operator jointly analyze Build's output; this is the standard
+  joint analysis; the Operator then declares PASSED or FAILED. No
+  substantive change — analysis still precedes declaration, both
+  standard-lock-declaration comparisons survive, the S-1 continuity
+  sentence untouched.
+- **DECLINED (finding 4): Part II "Seen by: Everyone" vs. Collab's
+  wild-mode withholding of RULEBOOK and FINDING LOG.** Raised as a
+  possible footnote-routing gap distinguishable from the v1.58
+  Seen-by grain-mix acceptance. Operator ruling: declined on
+  grounds — "Everyone" states potential visibility, and in practical
+  use even a wild-mode session will almost certainly see both
+  documents as its job morphs from wild mode to scoped mode within
+  the same continuous session (Part V's registers-not-assignments
+  clause). No table change.
+
+Ignition-prompt skeleton/Manual parity re-verified byte-identical
+(entity-decoded) after all edits. C-18 sweep: title and closing-line
+stamps checked and agree at v1.59, dated 2026-07-23. (The same audit's
+findings against this changelog itself — the lost v1.49 and Manual
+v1.27 entry headings, and the intro's rename-lineage wording — were
+dispositioned on Operator direction in a same-day follow-up: both
+headings restored with disclosure notes at their sites, the intro's
+"themselves" scoped to the Manual alone. See Sketch R-074.)
+
+#### Skeleton v1.58 — 2026-07-23
+
+**Sixth cold consistency-and-accuracy pass (Fable; both shippable
+files, Sketch and Changelog attached mid-pass as resolution evidence —
+three findings retracted against them as duplicates of closed
+dispositions, per RV-4), disposed finding-by-finding with the Operator,
+repairs batched and applied whole-file per H-24.** Skeleton changes:
+
+- **P-10 leak species reintroduced by v1.57's own new text — closed at
+  the source, both instances (findings 1–2, BLOCKING).** The R-067
+  corollary (no transcribed rule text may name P-10, the trial, or
+  CERTIFICATION) was violated by two v1.57 additions: the Part II
+  "Written by" cells for RECORD and SKETCH FILE, carried into every
+  session-facing header by the new header-line clause; and Part V's
+  Collab-mandate sentence ("P-10's verdicts and closeout run through
+  it"), a transcribed session-role clause. Fixed per the R-067
+  precedent — template source, no ignition-time redaction (S-5):
+  the header-line clause now DERIVES standing-operation writers only
+  (one-time acts are finished business, governed where defined; the
+  full cells, P-10 references intact, remain in the table no project
+  session sees; where the line is silent, the table governs); the
+  Part V sentence reworded leak-free ("from first drafting through
+  the project's readiness for Unit 0"), with the amendment mandate
+  (V-1/V-2a) added explicitly — the R-071 rationale's fourth mandate,
+  previously unstated in the sentence recording the other three.
+  Landed exactly on R-067's own closing prediction: seams between a
+  rule and its exception, where text written at different times meets.
+- **Both-fates trial shape fixed at reading (a) (finding 3,
+  AMBIGUITY).** "One full unit per pairing" vs. "each passing through
+  every mode-pairing" supported three stage-count readings. Operator
+  ruled: both fates run within the pairing's single unit — the
+  accepted candidate locks as warranted content, the rejected one as a
+  warranted negative result at its own address, a shape real units
+  lawfully take (R-3's negative-result type; V-4) and field-attested
+  in the predecessor RECORD (PT_WORKING: S2's exclude-all-candidates
+  result; S3's two-transformation comparison). "Pipelined across
+  stages" scoped to dependency ordering between pairings' units,
+  never stage multiplication. The reviewing session's initial
+  "unlike real work" objection to (a) was Operator-corrected and
+  conceded against statute and field receipts before the ruling.
+  Manual walkthrough synced (one sentence, both-fates bullet).
+- **Cause-two amendment given its actor: the review loop adapted to
+  amendment (finding 4, AMBIGUITY).** P-10's "On FAILED" path left
+  "the session performing that amendment" unidentified while the
+  suite review (v1.57) had applied the finding firewall to Ignition's
+  authorship — two v1.57-era commitments pulling opposite ways.
+  Operator ruled the P-12 pattern, seats mapped to the arc: the
+  diagnosis passes verbatim to a fresh Collab session (the authoring
+  seat) and to Ignition-as-Collab, separately; independent analyses;
+  Ignition compares — comparing, never refereeing; the Operator
+  decides; the fresh session authors the amendment, AMENDMENT LOG
+  entry, and refreshed restoration image; Ignition never authors a
+  RULEBOOK edit after ignition. Written as a NAMED divergence from
+  the firewall's analysis bar with grounds stated (no-warrant seat,
+  blind-Review origin, pre-contact independence, Operator referees);
+  the authoring bar untouched. Self-contained in P-10; Part V
+  deliberately untouched (a Part V pointer would be the finding-1/2
+  leak species). A first draft inverting the comparer/author seats
+  was Operator-corrected mid-pass. Manual FAILED bullet synced.
+- **Concordance line given its creation moment (finding 6, MINOR).**
+  V-5 named update triggers but no birth; P-10's restoration-image
+  refresh presupposed the line at trial time. Resolved with the R-067
+  finding-15 precedent over the v1.55 derivability decline, on the
+  dependency distinction: seeded by the ignition session at the
+  RECORD's first creation, by force of the rule, R-1's seeding
+  pattern. Leak-checked: the transcribed clause justifies itself on
+  V-5's public drift grounds; the P-10 dependency stays in P-10.
+- **DASHBOARD's checker named (finding 7, MINOR).** V-1's
+  "version everything checked" criterion derived to a shrug for the
+  DASHBOARD, against the settled Physiform disposition (versioned;
+  "effectively static" is frequency, not exemption). One token:
+  DASHBOARD vW added to V-5's concordance enumeration — the
+  concordance now checks it by construction, the criterion then
+  versions it, the withheld-document skip clause already covers
+  every session.
+
+Dispositioned without repair: Part II "Seen by" grain mix
+(finding 5) — accept-with-known-limitation, Operator grounds: no
+content claim is wrong; the daylight resolves for any reader who
+reaches Part V. Retracted as duplicates (RV-4, no new grounds):
+v1.5-notation ambiguity (declined at v1.55, counter convention);
+NO KILL TESTS prompt parenthetical (declined at R-067 finding 6);
+skeleton change-log location (resolved by this Changelog's own
+design). Confirmed still-standing from the v1.54 logged-not-edited
+list: P-10's Part III/Part 0 mandate attribution nit.
+
+Ignition-prompt skeleton/Manual parity re-verified byte-identical
+(entity-decoded) after all edits. C-10 pattern sweep re-run on the
+POST-repair corpus, scope: every P-10 / CERTIFICATION /
+Certification / "trial" reference, grep across the full skeleton,
+bucketed by Part and Protocol. Result: every remaining reference
+lives in exactly four lawful homes — P-10 itself (never
+transcribed), Part 0 (never transcribed; the ignition session
+lawfully knows), Part II's table cells (not a transcribed category;
+header lines now derive past them), and Part III's self-declared
+non-transcribing ritual prose. Zero references in Parts I, IV, V,
+or Protocols P-1–P-9/P-11/P-12. C-18 sweep: skeleton header and
+footer checked and agree at v1.58.
+
+#### Skeleton v1.57 — 2026-07-22
+
+**Feature slate (same session as the fifth cold pass; four Operator-
+directed features and adjustments, disposed and designed one at a time,
+applied whole-file per H-24).** Full narrative at Sketch R-071.
+Skeleton changes:
+
+- **Collab made a standing, mandatory seat; P-12's optional-Collab
+  fork deleted.** Prompted by an Operator question the statute itself
+  answered: Collab was already mandated at four points (ignition is
+  Collab by definition; P-10's verdicts and closeout; P-8's tending;
+  amendment work), so "where no Collab seat exists" described an
+  architecture no LIMM project can lawfully have — the surviving
+  skeleton-side sibling of the Manual's "optional" label dropped at
+  R-062. Operator doctrine now in Part V's Collab opening: a project
+  simple enough to run without this seat is too simple to need this
+  framework. P-12's fork paragraph collapsed to the single required
+  dual-analysis form; "degrades gracefully" removed from the corpus.
+- **Review's verdict format completed: "CLEAN or NOT CLEAN."** The
+  bare "NOT" was the corpus's lone holdout (the Manual's diagram and
+  Part VII's doctrine line already used the full form) and the one
+  place the short form propagates from, being the output spec that
+  transcribes into every RULEBOOK. S-6's own standard applied: a
+  verdict should carry its identity in itself.
+- **Part II gains a "Written by" column — the write-permission map
+  made statute.** Eight cells ruled by the Operator, closing two
+  never-specified writers: DASHBOARD (Ignition writes it; thereafter
+  Collab only when procedure itself changes — FAILED-trial rewrite or
+  amendment-driven repair; no session writes or views it in ordinary
+  operation) and CERTIFICATION (Ignition writes the spec; the
+  Ignition-as-Collab session writes trial-window content and the
+  single closeout write, then the document is archived; thereafter
+  only amendment-driven Collab repair). The amendment trigger reads
+  "an amendment within the instance's governed documents that reaches
+  procedure or archived trial content" — Operator-approved over the
+  narrower RECORD-only phrasing. Every cell also names Ignition's
+  creation role, per the Operator's pattern. Two "Seen by" cells
+  narrowed to match the ruling (CERTIFICATION's "Operator and Collab
+  always" was too broad — Collab's contact is episodic; DASHBOARD's
+  cell now states the drafting/repair exception). New clause: every
+  instance document's header carries a write-permission line
+  transcribed from the table — traveling permission, same measured
+  logic as the whole-attachment clause; flows through ignition step
+  3's "generate from Part II" with no prompt edit.
+- **The suite review (new Part 0 subsection; the release's one prompt
+  edit).** Mandatory cold consistency-and-accuracy pass on the
+  complete eight-document suite, between document approval and the
+  trial — the same species of pass that built LIMM itself, now given
+  to every project at day one. Design points: Review-style stance in
+  a Collab seat (blind audit impossible for a session shown
+  everything — the step-8 seat doctrine applied); a fresh session,
+  never Ignition (finding firewall: it authored the suite); reviewer
+  drafts approved repairs, Operator file-replaces; skeleton not
+  attached (needing it to resolve a confusion is itself a finding);
+  reviewer retired afterward, trial-poisoned by CERTIFICATION's
+  expected answers. Stringency, Operator-set: one mandatory pass;
+  a further mandatory pass after any BLOCKING/AMBIGUITY-equivalent
+  repair, until a pass raises nothing beyond Minor-equivalent —
+  deliberately lighter than RV-5's lock. Canonical suite-review
+  prompt fixed in statute (the Operator's own field-tested wording,
+  five productive passes on LIMM itself as its receipts; manifest
+  pre-filled by Ignition, which transmits fixed text and authors
+  nothing). Ignition prompt: new step 7 ("On approval of DASHBOARD,
+  pause for the suite review (Part 0)." — trimmed to the hinge on
+  Operator direction, pause/resume semantics living in the
+  subsection), old step 7 renumbered to 8 and re-anchored ("On
+  completion of the suite review"), completion line now Steps 1-8.
+  Field-fit of the grown prompt confirmed by the Operator; Manual
+  copy synced, parity re-verified byte-identical.
+
+Clean count reset for touched regions per standard practice.
+
+#### Skeleton v1.56 — 2026-07-22
+
+**Fifth cold consistency-and-accuracy pass (Fable; both shippable
+files, Sketch and Changelog attached as resolution evidence), six
+findings disposed one at a time with the Operator, repairs batched and
+applied whole-file per H-24.** Full narrative at Sketch R-070.
+Skeleton changes:
+
+- **P-7 step 2's phantom "the Ledger" referent removed.** The STALE
+  clause pointed at a ledger never defined in any version — the
+  Changelog's own introducing entry ("added to the Ledger (P-7 area)")
+  carried the ambiguity from birth, vocabulary inherited from the
+  source project's assumption-ledger concept without its object. It
+  cannot mean C-10's Excision Ledger (excised content, not open
+  items). Reworded: STALE is marked on the open item's own entry,
+  wherever that item is recorded (the unit's reconciliation area for
+  flags and assumptions). No new document defined — an Open-Item
+  Ledger was considered implicitly and fails G-1.
+- **P-1's "exactly two writers" scoped with one word: "standing."**
+  The quantifier was contradicted by the Ignition entry the same
+  protocol names as "a third case" one paragraph later. A second
+  suspected contradiction — P-3's Mailbox clearing receipts — was
+  WITHDRAWN on Operator correction: receipts are written by the same
+  two standing writers on their own clock; P-3 already states the
+  timing exception. "Standing" makes the quantifier true; Ignition's
+  one-time, pre-unit entry stands as the named exception it was
+  always meant to be.
+- **"Build-side" firewall label replaced with the process/product
+  framing (Part II, three locations).** Collab loads Sketch and
+  Mailbox, writes Sketch entries (P-1), and proposes RECEIVED on
+  FROM-BUILD (P-3) — yet sits on the Operator's side per the ignition
+  prompt's own step 7, so "Build-side" mislabeled the side it named.
+  Operator-articulated doctrine now in the text: the firewall
+  separates PROCESS from PRODUCT — Review sees the product (RECORD),
+  the law (RULEBOOK), and its own verdicts (FINDING LOG, for RV-4's
+  reopen gate), never any trace of the process that produced the
+  product. Table rows for SKETCH FILE and MAILBOX now read "Process
+  side (Build, Collab, Operator) — never Review"; the commentary's
+  "Build-side's private half" reworded to match. Part V's two
+  remaining per-role uses of "Build-side" (the finding firewall's
+  "Build-side analysis," the pointer method's "Build-side or
+  review-side per the role it serves") are self-defining role
+  shorthand, not firewall side-labels — verified, left unchanged.
+  Sketch C-003's original "Build-only side" phrasing stays as
+  accurate history, append-only.
+
+No prompt edits this pass; ignition-prompt skeleton/Manual parity
+re-verified byte-identical (entity-decoded) after all edits. Clean
+count reset for touched regions per standard practice.
+
+#### Skeleton v1.55 — 2026-07-22
+
+**Fourth cold consistency-and-accuracy pass (Fable; both shippable
+files, plus — for the first time — this changelog and the Sketch
+attached as resolution evidence), nine findings disposed one at a time
+with the Operator, repairs batched and applied whole-file per H-24.**
+Full narrative at Sketch R-069. Skeleton changes:
+
+- **Ignition prompt step 7 rewritten (the pass's only prompt edit).**
+  The trial's division of labor now stated inline: Build/Review stages
+  run as fresh, ordinary sessions the Operator opens and carries
+  documents between; the ignition session's Collab seat sits on the
+  Operator's side of the firewall (sequencing, stage analysis, joint
+  verdicts). Doctrinal note recorded with it: ignition's ACTIVITIES
+  blend Build-like drafting and Review-like challenge, but its SEAT
+  does not — Build's defining property (warranted construction) and
+  Review's (blind audit) are both structurally impossible at ignition,
+  and what remains is Collab's definition exactly; step 7 is the hinge
+  where one-seat-per-session first acquires teeth, and the prompt now
+  names the division that makes the seat matter there. Manual copy
+  synced; entity-decoded verbatim diff re-verified post-edit.
+- **The R-066 attachment/attention sweep's missed load-list closed.**
+  Part V's Collab full-scope bullet reworded attachment-first (attached
+  set per visibility, every file whole, RECORD included; full-scope
+  names working attention), and P-2a's Collab paragraph gains "in
+  attention" — the last statute instances of "given / in full" that
+  still read as attachment claims. Fourth pass on this seam; the
+  statute text itself is now single-reading.
+- **V-5 gains the withheld-document clause:** a document a seat's
+  visibility withholds is skipped in the concordance cross-check, never
+  reported — closing the impossible-check assignment (Build/Review
+  cannot verify the AMENDMENT LOG line against a header they never
+  see). The companion leak concern (concordance exposing AMENDMENT
+  LOG's version to all seats) was DECLINED with grounds: the count is
+  already lawfully visible via the RULEBOOK's own bare version, which
+  moves in lockstep by V-5's sync rule, and the drift check is worth
+  more than the nothing a bare count reveals.
+- **P-9's global partition renamed POSIT-UNIT → POSITED-CONTENT
+  findings.** The R-061 name predates the R-064/R-067 mode-not-phase
+  doctrine; findings against add-gate posited items belong in the
+  global partition regardless of originating unit, which the old name
+  obscured. One location; second rename of this field, accepted
+  knowingly.
+
+Declined, with grounds: version-notation ambiguity (counter convention
+established; project-wide renotation fails G-1); initial version
+stamps for the five unstamped ignition documents (derivable from the
+transcribed V-1/V-5 rules; the prompt needn't restate what the
+RULEBOOK carries). Permanent-gap disclosures added this release — see
+the gap entries below at v1.47 and v1.41–v1.44 and the Manual history
+at v1.36–v1.37. C-18 sweep: header and footer checked and agree at
+v1.55.
+
+#### Skeleton v1.54 — 2026-07-21
+
+**Third cold consistency-and-accuracy pass (Fable, this time run across
+both shippable files at once), disposed finding-by-finding with the
+Operator — seventeen findings, every disposition Operator-decided.**
+Full reasoning and per-finding narrative in Sketch R-067; the changes,
+by finding:
+
+- **P-10 transcription leak closed at the source (finding 1).** Three
+  transcribable rules named P-10 / the Certification trial / the
+  CERTIFICATION document inside the RULEBOOK every trial-stage Build
+  and Review session loads — P-1's Ignition-entry clause, V-1's
+  leak-rationale citation, V-5's CERTIFICATION contrast — handing a
+  blind session exactly the "bare RECORD, so this must be the trial"
+  inference P-10 refuses transcription to prevent. Fixed by removing
+  the references from the template text rather than by a redaction
+  step at ignition (no clerical dependency, per S-5): P-1's entry
+  rewritten (Operator's own wording; the trial-outcome instruction
+  already lives in P-10's closeout text, so nothing was orphaned);
+  V-1's citation deleted as self-justifying ornament; V-5's contrast
+  deleted with its content relocated into P-10 itself. A corollary
+  added to Part 0's self-containment confirmation: no transcribed rule
+  text may name P-10, the trial, or CERTIFICATION — absent in name as
+  well as substance.
+- **S-4/R-1 spine contradiction resolved (finding 2).** S-4 ("cannot
+  name its arbiter is a belief system") flatly contradicted R-1's
+  arbiter-less exception, and Part I designates the spine as the
+  tie-breaker — a session resolving by the spine would rule
+  arbiter-less projects illegitimate. S-4 rewritten as a blend: the
+  arbiter-less path folded in as a named, deliberately weaker
+  *instance* ("what this principle forbids is not the weak judge; it
+  is the unnamed one"), teeth kept for the unnamed case. "Claims about
+  the world" tightened to "claims about the real world" in both S-4
+  and R-1 so spine and rule cannot drift (fiction/world-building reads
+  its path immediately; genuine edge cases stay with the ignition
+  walkthrough where they belong).
+- **FAILED-cause-two dead-end repaired (finding 3).** "DASHBOARD and
+  the RULEBOOK are untouched throughout" was false on the cause-two
+  path (P-10 itself orders a mid-trial RULEBOOK amendment), and
+  restoration-by-image would restore a RECORD whose V-5 concordance
+  line names the pre-repair RULEBOOK version — a guaranteed STOP with
+  no lawful clear. Wording corrected to "never reset and never folded
+  in" with the cause-two amendment named as lawful maintenance; the
+  restoration clause gains a maintenance duty: the amending session
+  presents a refreshed restoration image (concordance line updated)
+  alongside the amendment, Operator's part approval and
+  file-replacement only, never an edit (S-5) — first draft assigning
+  the Operator a hand-edit was Operator-rejected and reworked; V-5's
+  stop remains the backstop if the refresh is missed.
+- **Verdict granularity fixed at the root (finding 4).** P-10 answered
+  "what is the unit of verdict?" three different ways. Resolved: the
+  pairing is the sole unit of verdict (PASSED / FAILED with CAUSE and
+  RESTS-ON / SKIPPED with grounds); the trial's only trial-level event
+  is CONCLUSION, a derived state — every pairing at PASSED or SKIPPED
+  — never a declared one. "On PASSED" renamed "On CONCLUDED" with the
+  degenerate all-SKIPPED case given its lawful exit (file closed,
+  Ignition entry written, nothing to fold); the diagnostic-review
+  clause rescoped per-stage ("the blindness this document protects is
+  per-stage"); Part II's CERTIFICATION row rewritten to match,
+  retiring the self-contradictory "closes for good on PASSED (only
+  re-opens on FAILED)" (finding 13 absorbed here at zero further
+  edits); ignition prompt step 7 updated — the release's only prompt
+  change (~25 characters), Manual copy synced, step-0 gate protecting
+  the pair.
+- **Floors/caps inversion corrected (finding 5).** C-17 and R-1(1)
+  said the arbiter-less declaration "floors" the language at
+  tier 3 — a floor is a minimum, so a strict reading granted
+  arbiter-less results with open conditions *higher* language than
+  arbitered ones. Now "caps," with the composition stated: a ceiling,
+  never a floor; the table still governs beneath it; an open condition
+  still floors at the bottom tier.
+- **R-4's conditional made a named declaration (finding 6).** "If the
+  project makes claims" left no path through the prompt's mandatory
+  four declarations. Mirroring R-1's own pattern: the no-candidate
+  declaration (NO KILL TESTS, with grounds) — about the project's
+  shape, never its judge; late-emerging driving questions register
+  through the amendment machinery, pre-candidate or disclosed. Prompt
+  untouched: a proposed step-2 parenthetical failed G-1 (the session
+  walks Part III's text, which now contains the exception).
+- **V-1 quantifier scoped by criterion (finding 14).** "Version
+  everything" contradicted the lawfully unversioned CERTIFICATION.
+  Retitled "Version everything checked": versioning attaches to
+  documents something checks against; the criterion clause states the
+  reason (a stamp exists to catch mismatch), picks out CERTIFICATION
+  uniquely without naming it (leak-free in transcription), and the
+  Part II row gains the "unversioned (P-10)" breadcrumb.
+- **Arbiter-less header line given an actor (finding 15).** R-1(3)'s
+  "seeded at Unit 0" named a moment, not an actor, and the ignition
+  walkthrough never seeded it. Now: present from the RECORD's first
+  creation at ignition, seeded by the ignition session by force of the
+  rule; On CONCLUDED's header parenthetical gains "plus any permanent
+  line R-1 seeded" so restoration verification cannot misread the line
+  as surplus.
+- **Wild mode's loadout stated (finding 8).** The Skeleton was silent
+  on the RECORD in wild mode and the two Manual tellings had drifted
+  apart. Now explicit: SKETCH FILE and RECORD first (content to roam
+  over, not rules to be constrained by), RULEBOOK and FINDING LOG late
+  or never — the Skeleton catching up to what the Manual's visibility
+  diagram already claimed.
+- **"Rule category" misnomer (finding 17).** P-10 is a rule, not a
+  category; two words in Part 0, one hardening word in P-10's opening
+  ("every other rule and category").
+
+Findings 7, 9, 10, 11, 12, and 16 were Manual-side; see the Manual
+v1.46 entry. C-18 sweep: header and footer checked and agree at v1.54.
+Observed and deliberately not edited (logged for a future pass): P-10's
+opening attributes the self-containment mandate to Part III; the
+mandate's text lives in Part 0, which Part III invokes — defensible as
+written, flagged as a wording nit outside this pass's approved slate.
+
+#### Skeleton v1.53 — 2026-07-21
+
+**The attached-vs-loaded distinction promoted from Manual-only teaching
+to binding, session-facing statute — motivated by field evidence that
+sessions were misreading "load" as an attachment claim.**
+
+The evidence: sessions repeatedly failed to internalize the core
+operating concept — every file a session is permitted to see is attached
+whole, every time, while working attention stays on the Active Unit,
+with everything else reached by address. The diagnosis, once looked for,
+was structural rather than expository: the one clean statement of the
+distinction (the v1.43/R-062 vocabulary note) lives in the Manual, which
+by design never travels to any session; meanwhile the texts sessions
+actually see said "They load: ... RECORD (... never the whole document)"
+— which, to a fresh session with no established special meaning for
+"load," reads as an attachment claim, directly contradicted by the
+complete RECORD sitting in its manifest. From there the observed
+failures follow: flagging a contradiction, assuming the Operator should
+have excerpted, or pantomiming not-reading attached content. The
+framework's own rule-contact principle predicts this exactly:
+instructions embedded in governed documents are measured-unreliable;
+only what physically travels in the prompt reliably lands — and the
+disambiguation wasn't even in a governed document a session sees; it was
+in the one document that never ships.
+
+**Three edits, all applying that principle:**
+
+- **P-2a gains an opening vocabulary clause (binding, transcribes into
+  every RULEBOOK):** attachment and load are different claims; every
+  permitted file is attached whole, always; "load" and "never the whole
+  RECORD" bound attention, never attachment; ACTIVE is worked, CLOSED
+  exists to be cited, and closed content is never a re-verification
+  precondition. Scoped to "load" as used for the RECORD, explicitly
+  carving out deliberate withholding (visibility firewall, Collab wild
+  mode), which is a genuine attachment decision and stays one.
+- **Part V's Build and Review load-lists reworded** to say what they
+  always meant: "working focus on the Active Unit / unit under review
+  ... the whole document is attached, never the whole document in
+  focus," with an inline pointer to P-2a's vocabulary clause. The
+  ambiguous bare phrasing ("never the whole document") no longer appears
+  anywhere without its attention qualifier.
+- **Part V gains the whole-attachment clause (required in every role
+  prompt, immediately after its manifest)** — the third member of the
+  travels-in-the-prompt family, alongside the review-response and
+  rule-contact clauses, and placed earliest of the three because the
+  misreading it prevents happens at file contact, before any rule has
+  been read. Fixed inline text: completeness is expected and never an
+  error; working focus is the Active Unit; everything else is reference
+  reached by address; do not hold the whole store in mind, do not treat
+  closed content's presence as an instruction to re-verify it, do not
+  report an attachment's size or completeness as a problem.
+
+Considered and declined: retiring the word "load" entirely (renaming to
+"focus"/"working attention" throughout). The G-1 case for the smaller
+edit: with a binding definition at P-2a and the qualifier applied at
+every Part V use for the RECORD, the ambiguity is closed at strictly
+lower churn — a rename would touch every project's transcribed RULEBOOK
+vocabulary for no additional protection beyond what the traveling prompt
+clause already provides. Revisit only if field evidence shows the
+defined term still misreading.
+
+No ignition-prompt change: the new clause reaches project DASHBOARDs the
+same way the review-response and rule-contact clauses do — the ignition
+session drafts role prompts against Part V's requirements — so the
+canonical prompt text is untouched and the skeleton/Manual byte-match
+stands without reverification beyond the standing check.
+
+#### Skeleton v1.52 — 2026-07-20
+
+**The arbiter-less design fork (spun off at v1.49/R-061) resolved in
+full, and built.** A dedicated session worked through
+PROPOSAL_no_arbiter_projects.md's six open questions with the Operator,
+one at a time, before writing anything.
+
+1. **Should this be built at all?** Run honestly against G-1: removing
+   the feature doesn't loosen S-4 for any project that doesn't
+   explicitly opt out, but its absence forecloses a real population
+   (philosophical systems, fictional-world internal logic, personal
+   frameworks wanting the anti-smuggling/contradiction-search machinery
+   without ever intending arbiter-contact) — and the closest available
+   workaround today, a token unchecked arbiter, is *less* transparent
+   than an honest opt-out would be, since S-4 requires naming an
+   arbiter, never proving contact occurs. Decision: build it.
+2. **Project-wide, or per-Unit?** Project-wide only. C-7's per-result
+   contact-class tracking was raised as a counter-argument but doesn't
+   actually support per-Unit granularity — it tracks whether a given
+   result has been checked yet against one declared arbiter, not
+   whether an arbiter exists for that Unit at all. More decisively, R-1's
+   own existing text already treats a domain that can never reach a
+   non-vacuous class as a *failed* arbiter declaration, not a legitimate
+   mixed state — supporting real per-Unit mixing would need a carve-out
+   to that exact sentence, which is real added scope Section 4 of the
+   proposal never priced in. Two separate projects is the correct
+   LIMM-native answer for genuinely mixed work.
+3. **Does an arbiter-less project still need R-2/R-3?** Yes,
+   unconditionally — both are pure domain-taxonomy and construction-
+   discipline rules with no reference to external contact anywhere.
+   Confirmed nothing else in Part III assumes an arbiter beyond R-1 and
+   R-4, both resolved separately.
+4. **Interaction with S-2?** None — orthogonal by design. S-2's warrant
+   chain is a three-way disjunction (prior recorded claims / declared
+   assumptions / declared external sources); an arbiter-less project
+   runs entirely on the first two, which F-1 through F-6 already govern
+   with no arbiter-dependency of their own.
+5. **Naming.** The declared term stays NO EXTERNAL ARBITER (direct
+   negation of S-4/R-1's own vocabulary, so the Manual can teach it by
+   cross-reference) — but the actual disclosure text baked into every
+   artifact is a separate, self-explaining plain sentence, since the
+   stamp's audience includes readers who've never read this skeleton at
+   all: "checked for internal consistency only; no claim here has been
+   verified against anything outside the project itself."
+6. **Once-only ritual disclosure (P-10-style), or a permanent stamp
+   (V-5-style)?** Permanent stamp. P-10's whole architecture exists to
+   produce *blindness*; this declaration needs the opposite property,
+   maximum permanent visibility. Reusing V-5's concordance-line pattern
+   — a field in the RECORD's status header, seeded at Unit 0, carried
+   forward automatically by the existing seeded-placeholder handoff
+   (P-7), cross-checked like any other version-bearing location (C-18)
+   — needs no new document, no new visibility rule, and reaches every
+   session by construction.
+
+**A rigor sweep followed, checking nothing here weakens LIMM for
+domains that require external verification** (the Operator's explicit
+condition on building this at all). Review rules (RV-1–9), Consistency
+rules (T-1/T-2), the rest of Construction rules, and Posited-content
+rules (F-1–6) all confirmed to reference external contact nowhere — the
+actual rigor-producing machinery is identical either way. One real
+correction surfaced on close reading of C-16: the proposal's own claim
+that "rungs 1 and 2 assume something external" doesn't hold up — rung
+1's "the derivation is rerun, the code re-executed" and rung 2's
+"already-trusted item" are both satisfiable purely internally, meaning
+a purely formal derivation could in principle earn "confirmed / proven"
+language even under a no-arbiter declaration. Per the Operator: the
+confidence-language CEILING (C-17) floors permanently at tier 3
+regardless of which rung is actually reached, project-wide, precisely
+because those words carry truth-connotations no disclosure stamp
+reliably survives once a result is read in isolation — the rung still
+gets recorded honestly per C-16's own rule, only the language available
+to describe it changes. A related miss caught later, adversarially,
+against a fiction-worldbuilding example: R-4's kill tests were initially
+scoped as "structurally inapplicable" for arbiter-less projects,
+reasoning that no arbiter means no falsifiable claim. Wrong — internal
+claims (does this spell violate the established cost rule) are exactly
+as real, and exactly as vulnerable to post-hoc goalpost-moving, as any
+arbiter'd claim; R-4's freeze discipline is general defense against
+motivated reinterpretation, not an artifact of externality. Corrected:
+kill tests remain mandatory, with only the arbiter-contact component
+replaced by an internal-consistency check.
+
+**Built into the skeleton, four locations:**
+
+- **R-1** gains a full arbiter-less declaration clause: the permanent
+  vacuous contact class ("no-contact — by design," explicitly exempted
+  from the existing even-in-principle diagnostic), and its three fixed
+  consequences (confidence ceiling floors at tier 3; kill tests remain
+  mandatory with the internal-consistency substitution; the RECORD
+  status header carries the permanent disclosure line). Subject to the
+  freeze rule (v1.51) like any other arbiter declaration.
+- **C-17** gains the project-wide tier-3 floor, stated as its own
+  sentence alongside the existing open-condition floor.
+- **R-4** gains an explicit cross-reference confirming kill tests stay
+  mandatory under the declaration, with the substitution named.
+- **P-10**'s "Crafting the test specification" gains one sentence: an
+  arbiter-less project's stand-ins must be pure derivations from the
+  project's own stated premises, since there's no external fact left to
+  pin an expected answer to.
+
+**Part VII** gains a single sentence in its opening framing,
+acknowledging R-1's named exception once rather than caveating every
+individual ethos bullet — matching how the self-containment mandate
+names P-10 as its one exception, stated plainly in one place rather than
+scattered.
+
+**Ignition prompt step 2** updated to offer the declaration and its kill-
+test substitution explicitly — landed identically in both this document
+and the Manual's derivative copy, byte-match reverified after.
+
+C-18 sweep: title and closing-line stamps checked and agree at v1.52,
+dated 2026-07-20.
+
+#### Skeleton v1.51 — 2026-07-20
+
+**R-1 gains a freeze rule**, mirroring R-4's existing one verbatim in
+structure ("modified, weakened, or reinterpreted," after alignment —
+see below): once declared, the arbiter and its contact classes cannot be
+weakened or reinterpreted, and any change runs through V-2a's
+supersession gates like any other locked content, never as a quiet
+edit. Raised as a wording nit against the arbiter-less proposal (would
+an Operator need this to keep a hard-science project honest if an
+opt-out existed?) and immediately generalized by the Operator: R-1 was
+missing this protection regardless of whether the arbiter-less proposal
+is ever built — a real project could otherwise redeclare its arbiter
+away mid-project the moment it started ruling against a candidate,
+exactly the physics-domain failure mode a reviewing session raised
+directly. Logged and fixed as its own standalone item, independent of
+the proposal's eventual fate. First drafted with a narrower verb triplet
+("weakened, narrowed, or replaced"); realigned one exchange later to
+match R-4's broader "modified, weakened, or reinterpreted" after the
+Operator noted the narrower wording left a reinterpretation-shaped gap.
+
+C-18 sweep: title and closing-line stamps checked and agree at v1.51,
+dated 2026-07-20.
+
+#### Skeleton v1.50 — 2026-07-20
+
+**Second cold consistency-and-accuracy review pass, disposed one
+finding at a time with the Operator** — same method as v1.49/R-061, a
+fresh independent pass over both documents rather than a continuation
+of the prior one. Twelve findings disposed, plus one standing
+instruction added at the Operator's request once the review itself was
+complete:
+
+1. **A dangling AP-3 citation, cut from G-2's Override bullet.** No
+   AP-series rule exists anywhere in the document; the citation resolved
+   to nothing. Per the Operator: the skeleton's own edit history lives
+   externally (this changelog, the Sketch), not inline the way a
+   Project's RECORD carries its own provenance — the whole parenthetical
+   was cut rather than repaired.
+2. **A phantom "Changelog discipline, Part II" pointer in the header,
+   repointed to V-1, Part IV.** Part II holds no such section; the rule
+   that actually says "bump the version and log why" is V-1.
+3. **CERTIFICATION's reopen-count table cell, corrected.** "Re-opens
+   once on FAILED" implied both a document-wide single reopen and a cap
+   P-10's own per-pairing, independent, uncapped re-diagnosis text never
+   stated. Fixed to "only re-opens on FAILED," removing the false cap
+   without adding one that isn't there. Matching fix landed in the
+   Manual (its own echo of the same cap, in the 1.3 diagram footnote at
+   the time — later relocated, see v1.52's audit note below).
+4. **P-12 step 5's "neither of the other two seats ever edits a
+   document," scoped to the FINDING LOG specifically.** As written it
+   was false on its face — Collab writes to the Sketch File (P-1's
+   two-author protocol) and the Mailbox (P-3's housekeeping) elsewhere
+   in the same Part. The actual guarantee this line was protecting
+   (only Build ever writes to the FINDING LOG) survives; the
+   over-generalization doesn't.
+5. **The Certification "On PASSED" closeout, extended to cover SKETCH
+   FILE.** Trial stages run "exactly like a real unit," meaning Build
+   and Collab write genuine Sketch entries during the trial per the
+   ordinary two-author protocol — but the closeout only ever named
+   RECORD, FINDING LOG, and MAILBOX as trial-generated and resettable.
+   Per the Operator: Sketch File content generated during the trial is
+   supposed to transfer into CERTIFICATION and the file itself reset to
+   fresh, same as the other three, with the Ignition entry written only
+   after that reset as the file's genuine first entry. A related,
+   adjacent tension in CERTIFICATION's own "contents (fixed; nothing
+   else is ever added)" line was resolved the same pass: rescoped to
+   describe the trial's open/in-progress phase specifically — a
+   mid-trial integrity guarantee, not a permanent ceiling that would
+   forbid the one-time post-conclusion fold-in this same fix performs.
+6. **P-2a's "loaded" vs. "attached" distinction, made explicit for the
+   first time.** Raised as an apparent conflict (H-22's wild-mode load
+   list vs. P-2a's bounded-load language) that turned out to be a
+   terminology gap, not a contradiction: every document a seat is
+   permitted to see is attached in full, always, regardless of project
+   size; "load" describes a session's working attention within an
+   already-attached document, never a technical presence claim.
+   Addressing (the card catalog) is load-bearing from a project's first
+   unit, part of the warrant process itself — not a convenience adopted
+   once a document grows large. One existing phrase in P-2a directly
+   contradicted this once stated plainly ("without the whole document
+   present," describing the seeded scaffold) and was corrected to match.
+   A new opening paragraph added to P-2a states the distinction
+   explicitly; the Manual gained a matching explanation (see v1.43,
+   below).
+
+**Manual-only findings, same pass:**
+
+7. **A stale "redrawn current to Skeleton v1.17+" diagram-currency
+   claim.** The diagrams demonstrably track the current skeleton (they
+   already covered Certification, added long after v1.17) — the note
+   was a leftover from LENS_MAP's original migration into inline form,
+   never updated. Resolved by cutting the entire LENS_MAP-retirement
+   paragraph outright, per the Operator: its content already lives in
+   this changelog and the Sketch, and the diagram-authority rule it
+   restated is already captioned under each inline diagram.
+8. **A Sonnet-first review-sequence enhancement and its supporting
+   receipt, cut.** Per the Operator: no real cost/benefit case over
+   Opus-only in practice. Cut cleanly rather than retracted-and-marked
+   (H-17-style), on the Operator's stated preference for Manual
+   readability over preserving every dead end inline.
+9. **Section 1's statute-anchor lines, four separate repairs.** The
+   section's own binding rule ("every subsection names its statute
+   anchor") was violated or inconsistently followed in four places: 1.1
+   had a redundant explanatory parenthetical, cut, with the section left
+   deliberately anchor-less (Manual-only content, nothing to anchor to);
+   1.7 had no anchor at all despite substantially restating P-5, now
+   anchored on P-5; 1.2's one citation was buried inline mid-bullet
+   rather than in the section's own declared format, moved to a
+   dedicated anchor line; 1.6's anchor line mislabeled two Manual-only
+   Layer 1 heuristics (H-10, H-19) as "statute," reworded to separate
+   genuine Skeleton statute from Manual cross-references.
+10. **Section 1.3 substantially restructured**, resolving the H-22 vs.
+    P-2a apparent conflict (item 6, above) once it was understood as
+    terminology rather than substance. The AI Sessions list gained an
+    IGNITION entry carrying the self-containment mandate explanation,
+    and dropped COLLAB's "(optional)" label. The long diagram caption —
+    which had also drifted to carry several facts stated nowhere else in
+    the Manual (the self-containment mandate's own reasoning, Build's
+    Sketch/Mailbox usage pattern, DASHBOARD's safety reasoning) — was
+    diligence-checked fact by fact before being cut to a single
+    authority sentence; the self-containment reasoning relocated to the
+    new IGNITION list entry, the Build/Review conditional-cell facts
+    relocated into the diagram's own SVG box as a new third point,
+    DASHBOARD's extra safety reasoning dropped as genuinely redundant.
+    The SVG's own "conditional" coloring on Build's Sketch/Mailbox cells
+    was checked against Part V's Build load-list (exhaustively — Part
+    II's table, Part V's definition, both Build modes, P-1's Sketch
+    authorship, P-3's Mailbox rules, and a full negation search) and
+    found to be miscolored: Build's access to both is unconditional,
+    only its use pattern is fixed. Recolored to match, with the box's
+    point 3 rewritten to correctly separate "unconditional but
+    disciplined" (Build) from "genuinely conditional" (Collab, Review's
+    one Certification cell).
+11. **1.4 step 8, gained SKIPPED as a valid trial outcome.** Said "runs
+    the trial through to a PASSED verdict per pairing," omitting SKIPPED
+    even though the same section's step 5 and the Building-a-trial
+    walkthrough both already allow it.
+12. *(Covered under item 10, above — the Build/Mailbox recolor.)*
+
+**Standing instruction added, once the review itself was complete:**
+raised by the Operator as a genuine gap rather than a review finding —
+does the live Ignition session ever actually explain to the Operator
+what each document it generates is *for*? Checked: no, Part 0's
+procedure only ever says "present... for approval," never "explain."
+Given the Operator need not have read this skeleton at all before
+igniting a project from it, the ignition conversation is the one
+guaranteed touchpoint every Operator has. Added to the prompt's opening
+framing as a standing instruction ("Whenever you present a document for
+my approval, briefly explain its purpose and how it will be used going
+forward — not just its contents") rather than a new numbered step,
+since the six documents are created across three different steps and a
+single step-bound instruction would necessarily miss some of them.
+Landed identically in this document and the Manual's derivative copy.
+
+C-18 sweep: title and closing-line stamps checked and agree at v1.50,
+dated 2026-07-20.
+
+#### Skeleton v1.49 — 2026-07-20
+
+*(This entry's heading and the opening words of its first line were
+lost in a prior edit, leaving its content stranded under the v1.50
+heading above; restored 2026-07-23, during the external audit's
+follow-up, from the surviving fragment "…time with the Operator" and
+the Sketch's R-061 record. Everything after the restored opening is
+the original text, untouched.)*
+
+**First cold skeleton/Manual consistency review, disposed one finding
+at a time with the Operator.** Not a change triggered by a live incident —
+a deliberate, from-scratch reread of the skeleton and Manual for
+internal contradictions, dangling citations, and drift, disposed
+finding-by-finding rather than batch-applied on the reviewing session's
+own authority. Eight dispositions closed as ACCEPT this pass (two more
+withdrawn as the reviewing session's own misreads once the Operator
+supplied the correct mechanics; one substantial design question spun
+off to its own future session rather than resolved under pressure):
+
+1. **Ignition-complete condition, tightened, and DASHBOARD creation
+   reordered.** Two findings collapsed into one fix. First: Part 0's
+   completion line declared ignition complete the moment CERTIFICATION
+   was *created* with real content — before the trial it holds had
+   actually run. P-10's own closeout text already treated PASSED as
+   ignition's true completion point; the two disagreed. Second,
+   Operator-raised: DASHBOARD's CERTIFICATION PROCEDURE section
+   sequences the trial, so it makes more sense drafted once the test
+   specification exists than drafted blind at step 3 alongside the
+   other six documents. Resolved together, and the Operator supplied
+   the actual replacement prompt text rather than accepting an
+   incremental patch: CERTIFICATION and DASHBOARD both moved out of
+   step 3's six-document set into their own steps (5: create and
+   approve the test specification; 6: create and approve DASHBOARD,
+   now able to cite the resolved spec; 7: seat as Collab, run the
+   trial through to PASSED, then perform P-10's "On PASSED" tasks),
+   each gaining its own explicit approval gate. Net effect on the
+   ignition prompt's hard field-length budget: **38 characters
+   shorter** than the prior canonical text, despite the added
+   structure. Two guardrail phrases from the prior text ("Do NOT
+   create CERTIFICATION here," "never as an empty placeholder") were
+   deliberately not carried into the new wording — the Operator's
+   call, on the grounds that step 3's six-item enumeration already
+   excludes them by omission; logged here per C-19's own spirit, so
+   the omission is a recorded decision, not a silent one, and can be
+   revisited if a future ignition repeats the historical failure mode
+   (a drafting session once conflated "create the document" with
+   "populate its first real content" — see this file's earlier
+   entries) that motivated those phrases originally.
+2. **The RULEBOOK/Sketch boundary for Part III, made explicit — and a
+   new document mechanism to hold the other side of it.** Investigating
+   why Part III's closing P-10 pointer sits in apparent tension with
+   P-10's absolute Build/Review non-disclosure rule surfaced a real
+   gap: nothing in the skeleton actually said whether Part III's ritual
+   prose (as opposed to the four declarations' own content) transcribes
+   into the RULEBOOK at all. Resolved, per the Operator: it doesn't —
+   only the declarations' actual content does, exactly as AMENDMENT LOG
+   already holds the "why" RULEBOOK's bare version number doesn't
+   carry, one level earlier. The reasoning needs a home, so P-1 gains a
+   new, named entry kind: before retiring, the Ignition session writes
+   its own sealed Sketch entry (day-one ritual reasoning plus the
+   Certification trial's outcome) — not the two-author Build/Collab
+   protocol, its own one-time case, same species as the Mailbox's
+   clearing receipt. P-10's "On PASSED" text updated to point at this
+   mechanism instead of the bare "updates the SKETCH FILE with the
+   outcome" it said before. Three-part fix, zero cost to the ignition
+   prompt, since Step 7 already deferred to "P-10's 'On PASSED' tasks."
+3. **P-10's verdict-field modality, harmonized to mandatory.** The
+   preamble stated an absolute — the FAILED-diagnosis reviewer is never
+   shown the verdict field until after the spec inspection returns —
+   while the procedural text one page later called the same withholding
+   something "the Operator can" do, discretionary. Resolved toward the
+   stricter reading: revealing the verdict here is exactly the
+   foreknowledge the diagnostic's independence depends on not having: a
+   discretionary Operator could unknowingly bias the one review whose
+   value is not knowing yet.
+4. **Every skeleton-side reference to the User Manual, by name or by
+   bare Manual-only rule-ID, removed from the sites that actually
+   matter.** Two categories, resolved differently on Operator
+   direction. Four bare H-series citations sat in transcribed statute
+   text pointing at heuristics that exist only in the Manual, which no
+   session — Ignition included — ever sees: C-16 and RV-8 repointed to
+   the skeleton's own RV-7, which already states the same concepts
+   in-house (same-family/cross-family blindness; reviewer variance
+   sampling the flaw space); P-1's "(H-9)" and P-4's "— H-10" had no
+   in-skeleton equivalent and were dropped outright, the sentences
+   standing complete without them. Separately, three literal "User
+   Manual" mentions inside transcribed Part V content and one inside
+   P-5 were removed the same way (two were bare citations trimmed from
+   otherwise-intact sentences; one dropped a whole parenthetical
+   outright). Explicitly, per Operator direction, NOT touched: the
+   front-matter maintainer note, Part 0's "Day zero" framing and its
+   "Procedure" paragraph, and P-10's own Manual-parallel analogy — none
+   of these are transcribed into any RULEBOOK, and the Operator judged
+   them acceptable to leave as they are launching a new architectural
+   principle, not merely patching a citation.
+5. **A dangling Sketch-address citation, removed from P-6.** "(R-030's
+   own registered, unproven prediction...)" is unresolvable by any
+   skeleton reader — no session ever loads the Sketch, Ignition
+   included — and collides visually with the R-1..R-4 rule family in
+   the same document. The prediction is kept; only the address is
+   gone, the claim now standing on the same footing as everything else
+   in P-6. (The Manual's own parallel citation, "the framework's own
+   Sketch, R-040," was checked and left alone on Operator direction —
+   the Manual is Operator-facing and the Operator does have Sketch
+   access, so that one is a live, resolvable pointer, not a dangling
+   one.)
+6. **P-10's Verdict paragraph, a subject/object repair.** As written,
+   "a Collab session... Build's output across every stage, and the
+   Operator jointly analyze the results" read as a three-way compound
+   subject with output itself doing the analyzing. Reworded so Build's
+   output is what gets analyzed, not a co-analyst; no substantive
+   change.
+7. **P-9's FOUNDATIONAL findings, renamed POSIT-UNIT.** Same category,
+   clearer name — ties the "always loaded, global" findings to *why*
+   they're global (posited content is what RV-8/RV-9 already call
+   always-maximal blast radius) instead of the vaguer, retired-adjacent
+   "foundational."
+8. **P-7's closure checklist, a repair-triggers-full-rerun clause
+   added.** Nothing previously said what happens to steps 1–3 (the
+   consistency verdict, the reconciliation, the catalog cards) if step
+   4's review sequence forces a repair. Per the Operator: all three
+   re-run in full against the unit's current content before
+   resubmitting for review — not merely against what the repair
+   touched, matching C-10's own sweep-the-pattern-not-the-spot
+   discipline. Otherwise P-2's "current by construction" catalog
+   guarantee, and the consistency verdict alongside it, would go stale
+   exactly at the moment they matter most.
+
+**Two findings raised and withdrawn as this reviewing session's own
+misreads**, once the Operator supplied the actual mechanics: (a) the
+Section 1.3 Manual diagram's Collab/RECORD cell, and (b) the Manual's
+H-22 opening line — both assumed RECORD access followed the same
+search-then-retrieve *attachment* model P-2a/H-13 describe for
+Build/Review's citation *scope*. Per the Operator: RECORD (and FINDING
+LOG) are each one ever-growing file, attached whole to every session,
+always, regardless of role or mode; P-2a's bounded-load language
+governs what a session treats as active/citable, never what's
+physically present. Recorded here rather than silently dropped, since
+the misread touched two findings, not one, and the underlying fact
+pattern is worth having on record for whoever reads this changelog
+next. (A related, adjacent question — whether P-2a/P-9/Part V's own
+"loaded"/"never the whole document present" wording should be
+reworded to state this attachment-vs-reliance distinction explicitly —
+was raised and explicitly REJECTED by the Operator as its own issue;
+not fixed, not scheduled, and per Operator instruction not treated as
+bearing on any other disposition this pass.)
+
+**One design question spun off, not resolved under pressure:** whether
+LIMM should support a project with no external arbiter (S-4 currently
+forecloses this as "a belief system this framework will not help").
+The Operator identified a real use case (systematizing a philosophical
+or ethical position, formalizing a personal value system) that wants
+LIMM's anti-smuggling/contradiction-search machinery without ever
+intending arbiter-contact. This is a Spine-level (S-4) design fork
+touching R-1, R-4, and C-17's confidence ceiling, not a wording fix,
+and the Operator directed it be separated into its own proposal
+document for a dedicated future session rather than decided inside
+this review pass.
+
+C-18 sweep: title and closing-line stamps checked and agree at v1.49,
+dated 2026-07-20.
+
+#### Skeleton v1.48 — 2026-07-20
+
+**P-7 closure-order inversion, corrected.** Steps 4–6 of the unit-closure
+checklist (Part VI, P-7) were sequenced wrong: the closing review
+sequence (step 6, as written) sat AFTER seeding the next unit's scaffold
+and updating the status header to "unit closed" (steps 4–5) — meaning a
+unit's header could mark itself closed, and its content could already be
+forward-seeded as the next unit's starting given, before the review
+sequence that is supposed to certify that content had run at all. This
+directly undercuts RV-5's own text ("a unit closes after N consecutive
+clean reviews" — closure is downstream of the reviews, never upstream of
+them) and C-11's transcription-integrity guarantee for scaffolded
+givens, which only means something if what's carried forward in full
+has already cleared review.
+
+Corrected order: steps 1–3 (T-1/T-2, reconcile/STALE, catalog cards)
+unchanged; step 4 is now submit for the closing review sequence per
+RV-5; step 5 is now seed the next unit's scaffold and write the closure
+manifest; step 6 is now update the status header and concordance line.
+Scaffold-seeding and the "closed" header stamp now both follow, rather
+than precede, the review sequence that earns them.
+
+Conforming edit found on the same pass: V-5's own text cited the
+status-header-update step by number ("P-7 step 5") — stale by the swap,
+corrected to "P-7 step 6." Same species as the v1.17 footer-stamp
+incident and the v1.16 category-list gap: fixing an enumerated list
+without sweeping its own internal citations leaves a correct list next
+to a now-wrong pointer into it.
+
+EVIDENCE: caught live, by the Operator, mid-use on Project DETECTOR —
+not by either watcher, not by a scripted review. Same pattern as R-013
+(Seventh transfer gap) and the v1.14 bracket-discipline catch: the
+deepest review instrument remains the person actually running the
+thing, at the moment they run it. See Sketch R-059 for the full
+narrative.
+
+MAINTENANCE NOTE — logged gap, not backfilled: this changelog's skeleton
+history previously ended at v1.46; no entry exists here for v1.47
+either, and this session holds no transcript establishing what v1.47
+changed, or whether the P-7 inversion originated there or earlier.
+Flagged for backfill from source transcripts rather than invented, per
+this document's own standing convention (see the v1.41–v1.44 gap logged
+at v1.45).
+
+G-1: without this fix, every unit closure marks itself "closed" and
+forward-seeds its content before the one mechanism that is supposed to
+certify that content is sound has run — the checklist reads complete
+while skipping the step that gives the others their warrant.
+Load-bearing.
+
+#### Skeleton v1.47 — entry unrecoverable
+
+Source transcripts lost; permanent gap, accepted 2026-07-22 on
+Operator attestation. The version's effects survive in the shipped
+documents; its rationale does not. (P-5's own lesson, receipted
+against the framework's own history: a transcript that cannot be
+located is not a source of truth.)
+
+#### Skeleton v1.46 — 2026-07-17
+
+Added the finding firewall (Part V, after session lifespan and
+rotation), with conforming edits to the Build-sessions paragraph and
+P-12 step 3: the session that authored a piece of work is disqualified
+from analyzing findings raised against it and from judging its own
+repair. Finding-analysis and repair always run in a fresh Build session
+loaded from the documents plus the verbatim findings; the rule is
+standing (the repair session authors the repair, so the next round's
+findings go to yet another fresh session — findings and the author of
+their target never share a context window). Ordinary construction is
+untouched: one session per unit remains the norm; the boundary is the
+arrival of findings, never submission.
+
+EVIDENCE (the receipts v1.45's entry noted the original proposal
+lacked, now supplied from live testing): the Operator reports a
+recurring pattern in which reviews keep finding NEW issues introduced
+by previous repairs, and the authoring session, questioned, answers in
+effect "oops, I forgot to do X" — about matters discussed in that very
+session. The mechanism is the one the anti-simulation clause already
+names (a session that helped build an argument inherits its framing and
+will defend it), compounded by repair-from-memory: the authoring
+session repairs from what it remembers rather than from what the
+documents say, and drops silently whatever its memory silently held.
+Each such regression costs a full additional Review cycle to catch —
+Review sessions being expensive in time and tokens — plus real Operator
+attrition. The firewall converts that recurring cost into one cheap
+session swap at the finding boundary.
+
+Provenance: this is the Dilution Amendments Proposal's Amendment B
+(submission-as-discard), adopted in its defensible core and declined in
+its expensive remainder, per the split recommended at analysis: the
+decisive argument (authorial self-defense in finding-analysis) never
+required per-submission discard, only freshness at the finding
+boundary; per-submission discard collided with P-11's atomic-approval
+granularity and mispriced session re-load as abort-loss; and C-19
+(v1.45) already attacks the dilution and precedent-compounding benefits
+at their mechanism. Narrowing to the firewall also dissolves the
+proposal's closure regress (presenting an analysis is no longer a
+lifecycle-ending event, so P-12 step 5's mechanical append always has a
+live Build session to perform it — the analysis/repair session itself).
+G-1: without the rule, the demonstrated repair-regression loop recurs
+at full review cost per iteration; with it, the loop is structurally
+impossible. Load-bearing, now with receipts.
+
+#### Skeleton v1.45 — 2026-07-17
+
+Added C-19 (Part IV, Construction rules) and the rule-contact clause
+(Part V, alongside the review-response clause), addressing RULE DILUTION
+— the decay of the rules' grip on a session's behavior over the
+session's own lifespan.
+
+The problem, as the Operator stated it after working through a broader
+amendments proposal: sessions forget what they're supposed to do and how
+to do it, and the only existing detector was Operator vigilance for
+subtle signs that don't become obvious until after the damage is done —
+exactly the human-checksum dependency S-5 forbids. The mechanism
+identified: a session asked to repeat a task does not consult the rules
+again; it copies its own most recent performance of the task, so its
+in-context precedent quietly replaces the RULEBOOK as its reference, and
+one unflagged deviation trains every repetition after it. Dilution
+compounds; it doesn't merely accumulate.
+
+The fix bans precedent as a source and prices the ban into a checkable
+artifact. C-19: every work item entering the RECORD carries a
+rule-contact block — the specific rules the item invokes, quoted
+verbatim from the RULEBOOK (never from memory or a prior block), each
+with a satisfied-at address. Either the session genuinely made the trip
+back to the book (the intended effect — rule text re-injected at the
+point of use, not the start of the session), or its quote won't match
+and Review catches the mismatch mechanically, with no judgment call and
+no Operator vigilance. The block lives in the RECORD with the item,
+never in the conversational reply, which stays atomic per P-11 — its
+audiences are the session and Review, never the Operator (the Operator's
+objection that per-task compliance text would bury the actual content in
+walls of chat text is what forced this routing, and it is the right
+routing regardless). Granularity is per work item as R-3 defines one,
+never per derivation step, with RV-9 licensing finer contact on
+load-bearing chains — the G-2 guard against the rule becoming its own
+grind. The Part V clause puts the instruction in every Build prompt per
+the existing doctrine that only what physically travels in the prompt
+reliably lands; C-19 remains the authority the clause quotes, matching
+the review-response clause's pattern exactly.
+
+Provenance: distilled from the Dilution Amendments Proposal v1.0
+(2026-07-17, drafted against v1.44), whose Amendment A this supersedes
+in reworked form. Two of the proposal's defects were repaired in the
+rework: "verbatim or near-verbatim" restatement would have let a session
+quote its own earlier in-context restatements — the banned precedent
+wearing a compliance costume — so C-19 requires verbatim quotation from
+the RULEBOOK with quote-fidelity itself reviewable; and per-step contact
+would have collided with C-1's fine-grained-step mandate at real G-2
+cost, so contact is per work item. The proposal's remaining items — the
+event-anchoring S-5 corollary, submission-as-discard, the Collab
+mandate, the approval-response template — are NOT adopted in this
+version; each awaits its own G-1 pass, with identified repairs on
+record (the P-8 tending-trigger softness, the work-item granularity
+definition, the ignition-prompt DASHBOARD-description collision).
+
+MAINTENANCE NOTE — logged gap, not backfilled: skeleton versions
+v1.41–v1.44 (v1.44 dated 2026-07-16) and User Manual versions
+v1.36–v1.37 have no entries in this changelog, whose skeleton history
+previously ended at v1.40 and Manual history at v1.35. The same lapse
+the R-053 sketch entry corrected once before recurred. The entries are
+not reconstructed here because this session does not hold the
+transcripts that are their source of truth (P-1); flagged for backfill
+from those transcripts rather than invented.
+
+#### Skeleton v1.41–v1.44 — entries unrecoverable
+
+Source transcripts lost; permanent gap, accepted 2026-07-22 on
+Operator attestation. The versions' effects survive in the shipped
+documents; their rationale does not.
 
 #### Skeleton v1.40 — 2026-07-14
 
@@ -1279,7 +2399,616 @@ Note: V-3 renumbered dead-ends to V-4; RV-5 references V-3's reset.
 Renumbering note: former V-3 (dead ends) is now V-4.
 ---
 
-# CALIBRATION / USER MANUAL CHANGE HISTORY (through v1.35)
+# CALIBRATION / USER MANUAL CHANGE HISTORY (through v1.52)
+
+### Companion to LIMM_SKELETON v1.59 — User Manual v1.52 — 2026-07-23
+
+Mechanical companion-stamp sync only: title tag, masthead, and footer
+updated from companion v1.58 to v1.59 alongside the skeleton's v1.59
+audit repairs (see that entry). The external audit found no defect in
+the Manual itself — no content change; version bumped per C-18/V-1
+(any edit to a versioned document is a new version). Ignition-prompt
+copy untouched and re-verified byte-identical against the skeleton's.
+C-18 sweep: title tag, masthead, and footer checked and agree at
+v1.52 / companion v1.59.
+
+### Companion to LIMM_SKELETON v1.58 — User Manual v1.51 — 2026-07-23
+
+Manual half of the sixth cold pass (skeleton half at v1.58;
+ignition-prompt copy parity re-verified byte-identical after
+HTML-entity decoding):
+
+- **1.5's C-19 either/or scoped (finding 11, MINOR).** "Either the
+  session re-read the rule or its quote won't match" omitted the
+  evasion C-19 itself names — a session copying its own earlier
+  block, match intact. Two sentences added: the evasion named as
+  banned by name, its actual tell located where the statute puts it
+  (satisfied-at lines against content, caught by Review).
+- **Visibility diagram's "—" mark returned to its legend (finding 12,
+  MINOR).** The mark, defined "never travels to any session" (true of
+  the MANUAL column), was reused for BUILD/REVIEW × DASHBOARD — false
+  of a column whose Collab cell is conditional. Operator ruling: both
+  cells recolored to ✕ (true per legend: never, by design) and the
+  DASHBOARD column header gains an asterisk on CERTIFICATION*'s
+  existing convention, routing to the footnote block that already
+  carries the DASHBOARD condition — closing an unflagged routing gap
+  (the condition sentence previously rode under CERTIFICATION's
+  asterisk with no mark of its own). "—" now appears only where its
+  definition is exactly true. Write-permissions diagram verified
+  unaffected (no "—" marks; DASHBOARD cells already ✕/amber).
+- **Both-fates and FAILED-path walkthrough bullets synced** to the
+  skeleton's finding-3 and finding-4 repairs (one sentence each; see
+  skeleton v1.58 entry).
+
+The masthead's historical "new at Manual v1.50" note left intact as
+a dated fact, not a stamp. C-18 sweep: title, masthead, and footer
+checked and agree at v1.51 / companion v1.58.
+
+### Companion to LIMM_SKELETON v1.57 — User Manual v1.50 — 2026-07-22
+
+Manual half of the feature slate (Sketch R-071; skeleton half at
+v1.57; ignition-prompt copy parity re-verified byte-identical after
+HTML-entity decoding):
+
+- **Loop diagram's optional-Collab footnote deleted outright** ("No
+  Collab seat? The loop degrades gracefully...") on Operator direction
+  — the diagram explains the procedure; the mandate now lives in
+  skeleton statute. SVG trimmed to close the vacated band (viewBox
+  470→405); no content moved.
+- **DOCUMENT WRITE PERMISSIONS diagram added** beside the visibility
+  matrix, same visual grammar (green / conditional / ✕; IGNITION row
+  in draft-circles), derived from Part II's new "Written by" column,
+  which the caption names as authority. Notes carry Review's all-✕
+  row (sees three documents, writes to none — Build alone performs
+  the FINDING LOG append), Collab's conditions, the Operator-as-
+  footnote doctrine (authorizes every write, performs every file
+  replacement, authors nothing in-file — S-5/H-24), and the header
+  write-permission line. Teaching paragraph: seeing and changing are
+  different powers, and the shapes are deliberately not the same.
+- **Visibility matrix synced to the Part II ruling:** COLLAB's
+  CERTIFICATION cell recolored unconditional→conditional (trial and
+  closeout; archived thereafter; amendment-driven repair only) and a
+  conditional COLLAB DASHBOARD cell added (drafting/repair only);
+  footnote block extended accordingly.
+- **1.4 walkthrough gains the suite-review step** between DASHBOARD
+  approval and the trial: canonical prompt surfaced by Ignition with
+  manifest pre-filled, findings disposed finding-by-finding, reviewer
+  drafts repairs and is retired trial-poisoned, repeat criterion
+  stated — with the honest provenance note that this pass is the
+  species that built LIMM itself. The "steps 5–7 above" Certification
+  cross-reference re-anchored to 5–8; ignition-prompt copy updated
+  (new step 7, renumbered step 8, Steps 1-8 completion line).
+
+### Companion to LIMM_SKELETON v1.56 — User Manual v1.49 — 2026-07-22
+
+Manual half of the fifth cold consistency pass (Sketch R-070; skeleton
+half at v1.56; ignition-prompt copy parity re-verified byte-identical
+after HTML-entity decoding):
+
+- **Collab task list de-enumerated (both spots).** The intro sentence
+  listed four tasks, called them five, and both counts disagreed with
+  Part V's six — a sync failure between the teaching prose and the
+  statute it quotes. Per Operator direction the section now teaches
+  the role's unity without enumerating: "...and the rest of Part V's
+  list. They look like unrelated jobs. They are one job wearing many
+  hats..."; the closing parenthetical softened to match ("brainstorm,
+  diagnose, compare, whatever Part V names"). Sync-proof by
+  construction — the section can no longer fall out of count with a
+  list it was never the authority for.
+- **Layer 2 Ignition row's grounds cell corrected — the R-069 layer
+  boundary restored.** The cell attributed "at its minimum effort" to
+  Layer 1 ignition guidance; Layer 1 (H-14 addendum) states only
+  most-capable engine, maximal blast radius. The minimum-effort
+  setting is Layer 2's own calibration on the v1.13 receipts — the
+  exact demotion R-069 performed, undone by one phrase in the cell
+  recording it. Rewritten in the sibling rows' citation style, with
+  the trait-vs-knob resolution (per H-15) inline and the boundary
+  named as its own tripwire.
+- **1.3's IGNITION entry scoped: "no project session after ignition
+  sees it again."** The unqualified universal was contradicted by the
+  skeleton's own front-matter (analysis/review/maintenance readers
+  expressly carried past the tripwire) and by this framework's own
+  maintenance history. One word; the self-containment teaching force
+  is untouched.
+- **H-14 addendum's "discuss-first ledger" defined by replacement.**
+  The noun implied a dedicated artifact nobody maintains. Operator
+  clarification: it is the finding-by-finding disposition history the
+  passes already produce. Now reads "the discuss-first disposition
+  trail — the finding-by-finding record every disposition pass
+  already leaves, no separate artifact" — the warming detector kept,
+  its evidence source named, the phantom document dissolved. Sibling
+  instance of the same undefined-ledger species as the skeleton's P-7
+  fix this pass, caught by the C-10 pattern sweep.
+
+### Companion to LIMM_SKELETON v1.55 — User Manual v1.48 — 2026-07-22
+
+Manual half of the fourth cold consistency pass (Sketch R-069;
+skeleton half at v1.55, ignition-prompt copy synced and re-verified
+byte-identical after HTML-entity decoding):
+
+- **Visibility-diagram footnote tightened to P-10's actual trigger:**
+  REVIEW's CERTIFICATION cell "opens only to diagnose a closed FAILED
+  stage" — the prior footnote stated the permission rationale (stage
+  closed) without the trigger (FAILED), licensing on paper an access
+  the Skeleton never grants.
+- **Layer 1's header definition gains the placement-policy caveat**
+  the v1.31-era entry recorded but the shipped text never carried
+  (product-named evidence may ground a durable principle, labeled
+  per-family; non-generalizing guidance lives in Layer 2) — closing
+  the contradiction between the layer's self-description and its
+  Operator-confirmed policy. The broad Layer-1-contamination finding
+  was WITHDRAWN under RV-4 against that prior disposition.
+- **Ignition seating restructured to match the policy.** The H-14
+  addendum now carries the durable principle, Operator-articulated
+  this pass: seat the most overall-capable engine available, whatever
+  the vendor — the ignition session drafts the framework an entire
+  project rests on, its blast radius is maximal, and capability is
+  never traded against cost there (RV-9's allocation principle applied
+  to seating). The Fable-at-minimum recommendation moves to a new
+  Ignition row in Layer 2's seating table with the v1.13 receipts —
+  and 1.4's "Layer 2's seating table" pointer now lands on a row that
+  exists.
+- **Specimen traceability completed** (C-10 pattern-sweep of the
+  R-067 erratum's own neighborhood): T7 and T8 rows gain their
+  confabulation annotations, T1 harmonized — the three-specimen
+  signature now readable from the table alone; pattern-level wording,
+  no place names. A second uncorrected clause found in R-040
+  conclusion 4 ("right state" asserted for all three specimens; T8's
+  own leg detail says different state) — erratum logged at Sketch
+  R-069.
+- **H-13 reworded attachment-first**, matching the skeleton's Part
+  V / P-2a fix — the sweep's third instance, and the one that
+  instructed the Operator's own hands.
+- **1.7's provenance pointer repaired:** repointed to P-1 for the
+  provenance line, and Layer 2 gains the missing instantiation
+  (engine class | effort | seat stamp; naming-plus-stamp stated as
+  the two halves of the P-5 provenance chain).
+- **CSS-comment changelog citation updated:** "pending backfill" →
+  "permanently unrecoverable," per the Operator's attestation that
+  the source transcripts for all three standing backfill debts are
+  lost (gap entries added in this changelog; Sketch flags closed at
+  R-069).
+- **Intro grammar:** "were all three" → "displayed all three."
+
+Declined: 1.3's unconditional retirement phrasing (within Section 1's
+declared teaching register). C-18 sweep: title, masthead, and footer
+checked and agree at v1.48 / companion v1.55.
+
+### Companion to LIMM_SKELETON — User Manual v1.47 — 2026-07-21
+
+**H-24 added: the Operator's execution-safety test, promoted from
+R-067's logged candidate to a numbered Layer 1 heuristic on Operator
+direction.** The heuristic is the calibration-side statement of S-5
+and the bracket discipline, generalized from prompts to every
+workflow: any proposed procedure passes one acceptance test — does it
+assign the Operator anything beyond approve, copy/paste, download, or
+file-replace? — and is reworked until the answer is no. Rationale
+stated structurally, per H-16 discipline: the four safe verbs move
+whole artifacts across boundaries, landing upstream of every existing
+tripwire (step-0 gate, attachment manifest, version headers,
+concordance line), while an in-file hand-edit bypasses them all — its
+failure mode is silent corruption wearing a current version stamp.
+The verb set is deliberately closed (no "and similar" escape hatch;
+admitting a new safe action costs an amendment, which is the correct
+price). Attested-vs-checkable split marked inline: the failure rate
+of Operator hand-edits is Operator-attested practice; the invisibility
+of those failures to the existing gates is checkable from the
+Skeleton's own text. Origin receipts: articulated by the Operator
+rejecting a proposed hand-edit at the v1.54 pass's finding 3, then
+applied as a test three times in that same session (Sketch R-067;
+promotion recorded at R-068). Adopted ahead of further recurrence on
+the Operator's judgment — G-1's three-receipts question answered by
+the party holding the unrecorded prior experience the receipts
+sample. Skeleton untouched at v1.54; no statute change was needed —
+the statute (S-5) already existed, only its operational form was
+missing. C-18 sweep: title, masthead, and footer checked and agree at
+v1.47 / companion v1.54.
+
+### Companion to LIMM_SKELETON — User Manual v1.46 — 2026-07-21
+
+Manual half of the third cold consistency pass (Sketch R-067; skeleton
+half at v1.54, including the synchronized ignition-prompt step-7 copy,
+re-verified byte-identical after HTML-entity decoding):
+
+- **Intro vendor count corrected — an erratum with receipts (finding
+  16).** The introduction claimed "three different vendors" invented
+  the Operator's location; R-040's own legs attribute the three
+  specimens to two vendors (T1 Claude, T7 and T8 Grok). The error
+  traces to R-040 conclusion 4's "three families" clause — the one
+  clause R-041's erratum did not correct — and rode into the Manual
+  via R-041's "three-vendor" promotion language. Corrected to "three
+  sessions, two vendors," with the third vendor's different failure
+  (T4's fabricated capability promise) now named alongside; "No
+  engine choice avoids it" restated as "No engine choice earned
+  trust," which the campaign's receipts actually support. Erratum
+  against R-040/R-041 logged at Sketch R-067. The Layer 2 scope
+  paragraph gains the screening-vs-operating distinction (multi-vendor
+  rows are single-prompt compliance observations; the operating track
+  record remains Claude-only).
+- **Eight-leg count vindicated, T1 restored (finding 7, reopened on
+  new grounds per RV-4).** An earlier disposition this pass had
+  approved changing "eight-leg" to "seven" to match the table; R-040's
+  receipts, produced mid-session, showed eight legs with the table
+  missing T1 — the dormant-case control (Sonnet, control prompt,
+  correctly did NOT fire; confabulation specimen one). "Eight" stands;
+  the T1 row added as the table's first; the trial-intro clause now
+  distinguishes the seven misuse legs from the one false-fire control.
+- **1.4 step 8 rewritten (finding 10).** "The session seats itself as
+  Collab and runs the trial" read as the Ignition session executing
+  blind stages — the anti-simulation clause's forbidden shape,
+  described approvingly in the quick start. Now: the trial is run by
+  YOU; the Ignition session stays seated as Collab on your side of the
+  firewall (sequencing, analysis, verdicts); "On CONCLUDED" and the
+  conclusion trigger synced with skeleton v1.54. The 1.3 IGNITION
+  bullet's "retires once Certification's trial resolves PASSED"
+  likewise updated to conclusion vocabulary.
+- **1.5's seat clause scoped (finding 9).** "Neither of which ever
+  edits a document" overclaimed P-12's FINDING-LOG-scoped rule and
+  contradicted Collab's ignition drafting and amendment work — the
+  same overclaim species R-062 fixed in the skeleton's own P-12 step
+  5, now caught in its Manual echo. Replaced with the Skeleton's own
+  seat descriptions (Review's output conversational only; Collab
+  produces no construction).
+- **1.1 statute anchors added (finding 11).** Section 1's register
+  rule promises every subsection an anchor; 1.1 alone had none. Its
+  anchors existed all along (G-2 for the economics, S-5's scope
+  condition for the commitment point, Part V's push-back and Part VII
+  for willingness-to-be-wrong) — now stated in the sibling format.
+- **Dangling version-history pointers repaired (finding 12).** The
+  CSS comment's changelog citation now names this changelog and
+  discloses the pending v1.37 backfill (gap unchanged, still owed
+  from transcripts); "verb corrected at v1.5" disambiguated to
+  "Manual v1.5" per this changelog's own entry; the sibling "(added
+  v1.46)" firewall citation disambiguated to "at Skeleton v1.46" on
+  the same C-10 pattern sweep; the R-040 citation gains its audience
+  clause (the developing instance's records — not distributed with
+  this document set).
+
+C-18 sweep: title, masthead, and footer checked and agree at v1.46 /
+companion v1.54; the P-2a note's "As of Skeleton v1.53" and the H-14
+"Skeleton v1.46" reference verified as historical citations — content,
+not stamps — and correctly left untouched.
+
+### Companion to LIMM_SKELETON v1.53 — User Manual v1.45 — 2026-07-21
+
+Conformance pass to Skeleton v1.53 (the attached-vs-loaded distinction
+promoted to binding statute; see the skeleton entry for the field
+evidence and diagnosis). Three edits:
+
+- **The 1.3 vocabulary note extended**, not replaced: it keeps its
+  teaching role and now records that the distinction is statute — P-2a's
+  binding vocabulary clause (transcribing into every RULEBOOK) and Part
+  V's new whole-attachment clause (traveling in every role prompt) —
+  plus one candid sentence on why the promotion was needed: the Manual
+  was the only place the distinction lived, and the Manual is the one
+  document no session ever sees.
+- **1.6's statute-anchor line updated** to name the whole-attachment
+  clause alongside the attachment manifest and review-response clause.
+- **H-23's Stage-1 file-intake parenthetical sharpened**: "a session
+  never needs the whole RECORD" now reads "never needs the whole RECORD
+  *in working attention*," with the whole-document-still-attached point
+  stated — the screening question was correct in intent but used exactly
+  the bare phrasing the skeleton just eliminated, and a seating guide
+  teaching Operators to size context windows is a bad place to leave the
+  old ambiguity standing.
+
+Verified no other Manual-side use of "load" needed conformance: H-13's
+Collab loading modes and the visibility-matrix "sees" language already
+carry the correct distinction; IGNITION's "only session that ever loads
+the LIMM Skeleton" is a genuine attachment claim and correctly so.
+
+### Companion to LIMM_SKELETON v1.52 — User Manual v1.44 — 2026-07-20
+
+Conformance pass to Skeleton v1.52 (the arbiter-less mechanism, v1.51's
+freeze rule needing no Manual-side change), plus a full "does the Manual
+as a whole still conform to the skeleton as a whole" audit requested
+separately by the Operator once the mechanism build was complete — the
+audit surfaced two self-inflicted gaps from this same session's earlier
+work, logged candidly below rather than silently patched.
+
+**Conformance to v1.52:**
+
+- **Ignition prompt resynced** to the skeleton's new canonical step 2
+  (arbiter declaration now offers the NO EXTERNAL ARBITER option; kill
+  tests check against internal consistency when it's chosen) — verified
+  byte-identical after HTML-entity decoding.
+- **1.4's step-3 description corrected**: "a project that cannot name
+  the judge that could kill its claims does not get ignited" was
+  flatly false against R-1's new named exception. Reworded to state the
+  exception explicitly.
+
+**Audit findings — two gaps in this session's own earlier work,
+caught late, neither a v1.52 conformance issue:**
+
+- **The "attached vs. loaded" vocabulary note (drafted and approved
+  during v1.43's own work, see below) was never actually written to
+  the file.** The approval and the follow-up request arrived in the
+  same Operator message; the follow-up was actioned and the circle-back
+  never happened. Applied now, at the 1.3/1.4 boundary, exactly where
+  originally planned.
+- **The Certification recurrence fix from v1.43/finding 3 (below) was
+  collaterally deleted** when the long diagram caption was cut down to
+  one sentence later in the same v1.43 pass — the "this can recur per
+  failed pairing" sentence was buried inside the text removed, and the
+  diligence check performed before that cut didn't specifically search
+  for it. Restored in 1.4's own prose (the FAILED-diagnosis paragraph),
+  a better home than the space-constrained SVG box it originally lived
+  next to.
+
+A third item — P-10's stand-in-construction guidance for arbiter-less
+projects, resolved in discussion during the v1.52 design session but
+never actually written into the skeleton when the mechanism was built —
+was also caught on this same audit and fixed directly in
+LIMM_SKELETON.md (see that document's own v1.52 entry); noted here only
+because it surfaced in the same sweep.
+
+Full HTML tag-balance check run across the whole document after all
+three fixes: clean.
+
+C-18 sweep: title, masthead, footer agree at v1.44, current against
+Skeleton v1.52, dated 2026-07-20.
+
+### Companion to LIMM_SKELETON v1.50 — User Manual v1.43 — 2026-07-20
+
+Full conformance pass to Skeleton v1.50, same second cold review pass
+and the same finding-by-finding disposition as that version's changelog
+entry. Manual-only findings 7 through 11 (the v1.17 diagram-currency
+claim, the Sonnet-first enhancement, the four Section 1 anchor repairs,
+the Section 1.3 restructure, and the SKIPPED fix) are documented in full
+under Skeleton v1.50's own entry, since they were found and disposed in
+the same pass, alongside the Skeleton-side findings. Summarized here for
+this document's own record:
+
+- LENS_MAP-retirement paragraph cut entirely (stale v1.17 currency
+  claim; content already lives in this changelog and the Sketch).
+- Sonnet-first review-sequence enhancement and its supporting receipt
+  cut (no real cost/benefit case, per Operator).
+- Section 1.1's redundant parenthetical cut; 1.7 anchored on P-5; 1.2's
+  citation moved to a dedicated anchor line; 1.6's anchor line
+  reworded to separate genuine statute from Manual-only heuristic
+  cross-references.
+- Section 1.3 restructured: IGNITION added to the AI Sessions cast list
+  carrying the self-containment mandate; COLLAB's "(optional)" label
+  dropped; the long diagram caption diligence-checked fact by fact,
+  then cut to one sentence, with its content relocated (self-
+  containment reasoning to the new IGNITION entry; Build/Review
+  conditional-cell facts into the diagram's own SVG box as a new third
+  point) or dropped as genuinely redundant (DASHBOARD's extra safety
+  reasoning). Build's Sketch/Mailbox cells recolored from conditional
+  to unconditional after an exhaustive check against Part V's Build
+  load-list found no exception anywhere; the box's point 3 rewritten to
+  match.
+- 1.4 step 8 gained SKIPPED as a valid trial outcome.
+- A new vocabulary-note paragraph drafted for the 1.3/1.4 boundary,
+  distinguishing "attached" from "loaded" to match the skeleton's new
+  P-2a opening paragraph — **approved this pass but not actually
+  applied until v1.44's audit** (see that entry).
+
+**Standing instruction added, same pass as the Skeleton's own:**
+"Whenever you present a document for my approval, briefly explain its
+purpose and how it will be used going forward — not just its contents"
+— added to the ignition prompt's opening framing, landed identically in
+this document and the skeleton's canonical copy.
+
+C-18 sweep: title, masthead, footer agree at v1.43, current against
+Skeleton v1.50, dated 2026-07-20.
+
+### Companion to LIMM_SKELETON v1.49 — User Manual v1.42 — 2026-07-20
+
+Full conformance pass to Skeleton v1.49, same cold review pass and the
+same finding-by-finding disposition as that version's changelog entry.
+Six changes:
+
+- **Ignition prompt copy resynced** to the skeleton's new canonical
+  text (v1.49's step-reordering: CERTIFICATION's test specification at
+  step 5, DASHBOARD at step 6 now that it can cite real content,
+  trial-to-PASSED at step 7, each with its own approval gate) —
+  verified byte-identical after HTML-entity decoding.
+- **Section 1.4's numbered walkthrough rewritten** from five items to
+  eight, following the new step structure end to end rather than
+  collapsing steps 5–7 into one "save and you're done" bullet the way
+  the old five-item version did. This also removes the walkthrough's
+  own copy of the "that session is done and is never reused"
+  contradiction the reviewing session flagged against the ignition
+  prompt and P-10's Verdict text — the new closing item states
+  plainly that the session retires only once every pairing has
+  resolved to PASSED, and may have run the trial as Collab first.
+- **The trial-timing transition paragraph reworded** — the trial is
+  no longer described as a phase that happens "before your first REAL
+  unit" (implying a separate step after ignition proper); it's
+  Ignition itself, steps 5–7, not a later phase.
+- **Section 1.3's diagram caption fixed** for the same reordering:
+  "CERTIFICATION last" is no longer accurate now that DASHBOARD is
+  drafted after CERTIFICATION's specification exists; reworded to
+  state the actual dependency (DASHBOARD waits on CERTIFICATION's
+  spec, not the reverse) and widened the Part 0 citation from "step 5"
+  to "steps 5–7" to cover the full arc.
+- **Section 1.4's trial-building template gained the both-fates
+  bullet** verbatim as the Operator specified, and its closing
+  paragraph — previously hedged as "if you're not sure how to shape
+  one, this is a legitimate question to put to your ignition
+  session" — reworded to state plainly that crafting the specification
+  together with Ignition-as-Collab is how the spec gets built, not
+  optional help for the unsure. Per the Operator, this doesn't
+  actually add a new requirement: the ignition prompt's own step 5
+  already has the Ignition session assist in creating the full test;
+  the old wording was just under-stating what already happens by
+  design.
+- **Section 1.6's statute-anchor line corrected**, fully, not just the
+  one wrong citation: none of the four bullets in "When things go
+  wrong" actually touch P-7 (unit closure) at all. Full remap: H-10,
+  P-4, P-5, Part V's attachment manifest and review-response clause,
+  S-5, H-19 — where the old line had P-7 (wrong), no H-19 (missing),
+  and named "the device rule"/S-5 as if each covered the whole
+  section when each really anchors one bullet.
+
+**Masthead now names the skeleton version it's current against**
+("Companion to LIMM_SKELETON v1.49"), per the Operator's standing
+suggestion from the prior pass — this linkage previously lived only in
+this changelog, not in either shippable document.
+
+C-18 sweep: title, masthead, footer agree at v1.42, current against
+Skeleton v1.49, dated 2026-07-20.
+
+### Companion to LIMM_SKELETON — User Manual v1.41 — 2026-07-20
+
+One-row change to the Section 1.3 visibility diagram, resolving the
+judgment call flagged in the v1.40 entry: the Operator confirmed the
+OPERATOR row reads better as the top row. OPERATOR and IGNITION swapped
+positions — row order is now OPERATOR, IGNITION, then the
+PROJECT-bracketed Build/Review/Collab trio. Pure coordinate exchange
+between the two rows; no cell values, columns, legend, bracket, or
+caption text changed. Tag balance and ignition-prompt byte-identity
+re-verified after the edit.
+
+C-18 sweep: title, masthead, footer agree at v1.41, dated 2026-07-20.
+
+### Companion to LIMM_SKELETON — User Manual v1.40 — 2026-07-20
+
+Operator-directed rework of the Section 1.3 document-visibility
+diagram, same pass as v1.39. The diagram now shows the whole lifecycle,
+not just steady state:
+
+- New LIMM SKELETON column; the MANUAL column renamed LIMM MANUAL; both
+  moved to the far left under a "LIMM — the framework (yours)" group
+  header, with all eight project documents grouped to the right under
+  "PROJECT — the instance (generated at ignition)."
+- New IGNITION row at the top: green (loads it) under LIMM SKELETON —
+  the only session that ever does — the "never travels" dash under
+  LIMM MANUAL, and a new hollow-circle mark ("drafts it at ignition —
+  real only once you approve") across all eight project documents,
+  CERTIFICATION included per Part 0 step 5.
+- The three session rows (Build, Review, Collab) now carry a left-side
+  bracket labeled PROJECT, below the Operator row; Operator kept its
+  own ungrouped row between Ignition and the bracket, since it is a
+  person, not a project session — flagged to the Operator as a
+  judgment call within the direction given.
+- Session rows gained ✕ cells under LIMM SKELETON — the
+  self-containment mandate drawn rather than merely stated: no session
+  after ignition ever sees the skeleton again, because the RULEBOOK
+  carries everything a later session needs (Skeleton, Part III).
+- Caption extended to teach the Ignition row (single-use Collab-role
+  seat, drafts-not-decides, may stay seated for the P-10 trial) and
+  the skeleton-✕ rationale; the DASHBOARD note reworded to name the
+  LIMM Manual. Legend gained the drafts mark; "never travels" wording
+  generalized from "to sessions" to "to any session" since the
+  skeleton column, which does travel exactly once, now uses ✕ in
+  session rows instead.
+
+Geometry rebuilt on the same grid metrics as v1.39's verified layout
+(viewBox 1160×530); tag balance re-verified; ignition prompt copy
+re-verified byte-identical after the edit (untouched, checked anyway
+per C-18's spirit).
+
+C-18 sweep: title, masthead, footer agree at v1.40, dated 2026-07-20.
+
+### Companion to LIMM_SKELETON — User Manual v1.39 — 2026-07-20
+
+Conformance pass bringing the Manual current against Skeleton v1.48
+(and against whatever v1.47 changed — see the provenance note below).
+Detection was by direct comparison of the Manual's claims against the
+skeleton's current text, not by replaying a change list, since the
+v1.47 changelog entry is missing (flagged at v1.48). Seven edits:
+
+- Ignition prompt copy (Section 1.4) resynced in full to the skeleton's
+  canonical text — verified byte-identical after HTML-entity decoding,
+  matching the v1.31/v1.32/v1.34 discipline. The one drifted passage
+  was item 6: the copy still described the DASHBOARD as "carrying only
+  the project's ordinary, standard role prompts," predating the
+  skeleton's three-section DASHBOARD structure (SESSION PROMPTS,
+  PROJECT OPERATION, CERTIFICATION PROCEDURE; Part II, cited by the
+  prompt's own item 6). Nothing else in the prompt had drifted.
+- Section 1.4, post-prompt paragraph: "with nothing added to the
+  DASHBOARD" corrected — under the current skeleton the trial's
+  sequencing DOES live in the DASHBOARD's Operator-only CERTIFICATION
+  PROCEDURE section, generated at ignition. Reworded to the accurate
+  guarantee: nothing certification-shaped in SESSION PROMPTS, nothing
+  disclosed anywhere Build or Review reads, sequencing (never
+  specification content) in the Operator-only section no session ever
+  loads.
+- Section 1.4, trial-building bullet: "Nothing about the trial belongs
+  in the DASHBOARD" corrected the same way — the accurate claim is
+  that nothing a SESSION could read announces the trial; the
+  sequencing/content split is now stated explicitly.
+- Section 1.3, document-visibility diagram: DASHBOARD column added
+  (Operator loads it; for Build/Review/Collab it carries the same
+  "never travels to sessions" mark as the Manual's own column), with a
+  caption sentence explaining that this property is what makes the
+  Operator-only sections safe. Warranted rather than cosmetic: the
+  diagram advertises itself as the visibility map, and the DASHBOARD's
+  never-loaded-by-sessions property is now load-bearing for P-10's
+  blindness argument. viewBox widened, title recentered, callout box
+  extended; tag balance and geometry re-verified after the edit,
+  including a rasterized render check.
+- H-11 (Layer 1): stale statute citation "(Skeleton, P-12, step 5)"
+  for the single-use discard corrected to step 6 — the discard moved
+  when P-12 gained the mechanical-append step. Same species as the
+  v1.17 footer-stamp and v1.48 V-5 incidents: a correct list next to a
+  now-wrong pointer into it.
+- Loop-rationale section: "The loop's five steps are law" corrected to
+  six, for the same reason.
+- Checked and deliberately NOT changed for Skeleton v1.48's P-7
+  closure-order fix: the Manual nowhere teaches the closure checklist's
+  internal step order, and the lock-state lifecycle diagram already
+  shows lock as downstream of N clean reviews — consistent with the
+  corrected order. No edit needed; recorded here so the v1.48 sweep is
+  visibly complete rather than silently absent.
+
+C-18 sweep: all three version-bearing locations (title, masthead,
+footer) checked and agree at v1.39, dated 2026-07-20; remaining older
+version strings in the file verified as historical citations, not
+stamps.
+
+Note: the v1.47 skeleton entry and Manual v1.36–v1.37 entries remain
+unlogged per the v1.45 and v1.48 maintenance notes; this entry does not
+close those gaps, which still await backfill from source transcripts.
+
+### Companion to LIMM_SKELETON — User Manual v1.38 — 2026-07-17
+
+Conformance pass bringing the Manual up to Skeleton v1.46 (C-19 and the
+finding firewall). Five substantive edits, all teaching-layer — no
+statute lives in the Manual and none was added:
+
+- Section 1.5, prose: the loop's "in words" walkthrough now states the
+  finding firewall — findings always go to a FRESH Build session, never
+  the author; repairs run there; the rule is standing across rounds.
+  Taught with the motivating failure in the Operator's own terms (the
+  "oops, I forgot to do X" cycle: repair-from-memory drops what memory
+  silently held, at a full extra Review pass per regression).
+- Section 1.5, loop diagram (SVG): "BUILD analyzes findings" box
+  relabeled "FRESH BUILD analyzes findings / never the session that
+  built it"; loop-back label now "repairs → fresh Build session"; the
+  no-Collab caption now names the same firewall in the degraded loop.
+- Section 1.5, new paragraph: teaches C-19's rule-contact block from
+  the Operator's side — what it is, why it exists (sessions copying
+  their own last performance instead of consulting the rules), that it
+  lives in the RECORD and is checked by Review, and that it is NEVER
+  for the Operator to read: chat replies stay one item, one question
+  (P-11), and compliance text appearing in chat is itself a drift tell.
+- Section 1.3, BUILD bullet: one sentence stating the author never
+  analyzes or repairs findings against its own work.
+- H-14 (Layer 1): notes that the finding-boundary rotation is now
+  structural, not judged — the tells remain grounds for EARLIER
+  rotation, never again the only guard between a warming author and
+  its own repairs. The loop-rationale section gains the firewall's
+  why (author-inherited framing; repair-from-memory) alongside the
+  existing discard rationale.
+
+C-18 sweep: all three version-bearing locations (title, masthead,
+footer) checked and agree at v1.38, dated 2026-07-17; the two remaining
+"v1.37" strings in the file are historical citations (a changelog
+reference and a skeleton-history note), verified as content, not
+stamps, and correctly left untouched.
+
+Note: Manual v1.36–v1.37 remain unlogged here per the v1.45 skeleton
+entry's maintenance note — this v1.38 entry does not close that gap,
+which still awaits backfill from the source transcripts.
+
+### User Manual v1.36–v1.37 — entries unrecoverable
+
+Source transcripts lost; permanent gap, accepted 2026-07-22 on
+Operator attestation. The versions' effects survive in the shipped
+documents; their rationale does not.
 
 ### Companion to LIMM_SKELETON — User Manual v1.35 — 2026-07-14
 
@@ -1435,6 +3164,13 @@ language from the retired seal-the-answer mechanism and contradicted
 the walkthrough's own next bullet (the Ignition session writes the
 answer directly into CERTIFICATION per step 5a) — corrected to match.
 
+### Companion to LIMM_SKELETON — User Manual v1.27 — 2026-07-10
+
+*(This entry's heading was lost in a prior edit, leaving its content
+stranded at the tail of the v1.28 entry above; heading restored
+2026-07-23, during the external audit's follow-up. The entry text
+below is original and untouched; the date is taken from its own
+"same pass as Skeleton v1.23" statement.)*
 
 Operator-caught terminology drift, fixed. Section 1.4's "Building a
 trial" guidance said to run the trial "ignition through lock"; P-10's

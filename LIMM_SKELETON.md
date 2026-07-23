@@ -1,14 +1,14 @@
 # LIMM
 ### A domain-agnostic method for rigorous long-form work with AI sessions
-#### Skeleton v1.40 — 2026-07-14
+#### Skeleton v1.59 — 2026-07-23
 
 **DO NOT EDIT THIS DOCUMENT UNLESS YOU KNOW EXACTLY WHAT YOU ARE DOING
 AND WHY.** This is the machine, not a worksheet — an incorrect edit
 here propagates into every project built from it. If you're
 customizing deliberately: every change earns its place through G-1
 (does the framework fail without it, or work fine without, however
-clever) and every change bumps the version and logs why (see the
-Changelog discipline, Part II). If you can't yet answer "why does this
+clever) and every change bumps the version and logs why (see V-1, Part
+IV). If you can't yet answer "why does this
 survive the gate," you're not ready to edit — read Part I first, or
 work through the User Manual instead, which is built for exactly this
 stage.
@@ -102,15 +102,23 @@ the self-containment confirmation above should catch — it is the rule's
 own point. RULEBOOK visibility to every Build/Review session is precisely
 what P-10 must avoid; transcribing it there would hand every Build session
 the means to infer, from the RECORD's bare state alone, that it is
-plausibly inside the mandated trial. Nor does P-10 live in the DASHBOARD:
-Certification runs under the project's ordinary, unmodified role prompts,
-so the DASHBOARD needs no Certification-specific content at all — adding
-any would itself be a dedicated trial prompt in substance. P-10's own
+plausibly inside the mandated trial. Nor does P-10's substance live where
+a session could meet it: Certification runs under the project's ordinary,
+unmodified role prompts, so the DASHBOARD's SESSION PROMPTS section
+carries no Certification-specific text — any such text would itself be a
+dedicated trial prompt in substance. The DASHBOARD's Operator-only
+CERTIFICATION PROCEDURE section (never loaded by any session) carries
+sequencing only, per P-10's own visibility narrowing. P-10's own
 text and disposition live entirely in CERTIFICATION (Part II). This is
-the one governing rule category incorporated by reference rather than
+the one governing rule incorporated by reference rather than
 transcribed, and it is named as such precisely so it is never mistaken
 for the silent, undetected failure the rest of this mandate exists to
-prevent.
+prevent. A corollary the confirmation must include: no transcribed
+rule text may name P-10, the Certification trial, or the CERTIFICATION
+document — the exception is only real if the excepted rule is absent
+in name as well as substance, and a rule that cites what the RULEBOOK
+deliberately omits re-creates, by citation, the disclosure the
+omission exists to prevent.
 
 **Procedure:** consult the User Manual's seating guidance to choose an
 engine for the ignition seat — that is Operator-side preparation; the
@@ -127,16 +135,57 @@ customize.
 
 ```
 IGNITION — new project under LIMM.
-Read the attached LIMM_SKELETON completely before doing anything else. It is the binding framework. Your role is Collab as the skeleton defines it; you hold and analyze, I decide. Push back on me throughout, agreement between us proves nothing.
+Read the attached LIMM_SKELETON completely before doing anything else. It is the binding framework. Your role is Collab as the skeleton defines it; you hold and analyze, I decide. Push back on me throughout, agreement between us proves nothing. Whenever you present a document for my approval, briefly explain its purpose and how it will be used going forward — not just its contents.
 Then, in order:
 0: GATE; compare this pasted text against the canonical ignition prompt text in Part 0 of the attached skeleton, ignore formatting. They must match verbatim. Any difference means you were handed a wrong prompt, STOP, report the exact difference, and do not proceed.
 1: Ask me for my project brief. Do not proceed until you have it.
-2: Walk me through the four day-one declarations of Part III, ONE AT A TIME; arbiter, shelf vocabulary, output types, pre-registered kill tests (with the disclosure clause if ideas predate the freeze). Challenge vague answers. Do not proceed until all four have been declared.
-3: When I have approved all four declarations, generate the project's instance document set from Part II and Part IV; 1) A RULEBOOK that is SELF-CONTAINED, every inherited rule category (Spine, Construction rules, Posited-content rules, Consistency rules, Change rules, Governance rules, Review rules, Session-role clauses, Protocols) TRANSCRIBED AND ADAPTED into this document in full, never cited by reference to LIMM_SKELETON, WITH THE SOLE EXCEPTION OF P-10 which is never transcribed into the RULEBOOK under any circumstance, plus my recorded declarations. The skeleton's version number may appear only as a provenance note, never as a governing citation.  2)  A blank RECORD with status header (Active Unit 0, version v1.0, state UNLOCKED).  3)  An empty FINDING LOG.  4)  An empty SKETCH FILE.  5)  An empty MAILBOX.  6)  A DASHBOARD carrying only the project's ordinary, standard role prompts (Build, Review, Collab). Do NOT create CERTIFICATION here — it is created fresh, with real content, at step 5.  Before presenting the set, confirm explicitly, in your own words, that the RULEBOOK is self-contained — every category above is TRANSCRIBED RULE TEXT, never actual posited content, which belongs only in the RECORD (Unit 0 or later, per the add-gate) and never in the RULEBOOK under any circumstance. State that every rule category above is present as transcribed text, not a reference, and confirm separately that P-10 is the sole named exception: absent from these six documents, to live exclusively in CERTIFICATION once created.
+2: Walk me through the four day-one declarations of Part III, ONE AT A TIME; arbiter (or NO EXTERNAL ARBITER, per R-1), shelf vocabulary, output types, pre-registered kill tests (checked against internal consistency if no arbiter was declared, otherwise against the arbiter; with the disclosure clause if ideas predate the freeze). Challenge vague answers. Do not proceed until all four have been declared.
+3: When I have approved all four declarations, generate the project's instance document set from Part II and Part IV; 1) A RULEBOOK that is SELF-CONTAINED, every inherited rule category (Spine, Construction rules, Posited-content rules, Consistency rules, Change rules, Governance rules, Review rules, Session-role clauses, Protocols) TRANSCRIBED AND ADAPTED into this document in full, never cited by reference to LIMM_SKELETON, WITH THE SOLE EXCEPTION OF P-10 which is never transcribed into the RULEBOOK under any circumstance, plus my recorded declarations. The skeleton's version number may appear only as a provenance note, never as a governing citation.  2)  A blank RECORD with status header (Active Unit 0, version v1.0, state UNLOCKED).  3)  An empty FINDING LOG.  4)  An empty SKETCH FILE.  5)  An empty MAILBOX.  6)  An empty AMENDMENT LOG.  Before presenting the set, confirm explicitly, in your own words, that the RULEBOOK is self-contained — every category above is TRANSCRIBED RULE TEXT, never actual posited content, which belongs only in the RECORD (Unit 0 or later, per the add-gate) and never in the RULEBOOK under any circumstance. State that every rule category above is present as transcribed text, not a reference, and confirm separately that P-10 is the sole named exception: absent from these six documents.
 4: Present the full set to me for approval; propose, don't commit. Revise per my direction.
-5: Before ignition is complete, inform me of P-10's Certification requirement for every pairing — running the trial(s), skip-disclosing where no stand-in exists, or a mix. Assist me in creating the full test then CREATE CERTIFICATION now, for the first time, with whatever real content that requires. Never earlier, never as an empty placeholder. Tell me what you're doing before I save the set.
-Ignition is complete when Step 5 has been completed and CERTIFICATION has actually been created with its real content — not merely intended — and I save the approved set to the record device. This session may seat as Collab for P-10's Certification trial. Every session after this one is an ordinary session under Part V, and this procedure is never used again for this project.
+5: On approval of the set, inform me of P-10's Certification requirement for every pairing — running the trial(s), skip-disclosing where no stand-in exists, or a mix. Assist me in creating the full test then present the CERTIFICATION to me for approval; propose, don't commit. Revise per my direction.
+6: On approval of CERTIFICATION, create the DASHBOARD with three named sections per Part II's "DASHBOARD structure": SESSION PROMPTS (the ordinary role prompts), PROJECT OPERATION, CERTIFICATION PROCEDURE. Present the DASHBOARD to me for approval; propose, don't commit. Revise per my direction.
+7: On approval of DASHBOARD, pause for the suite review (Part 0).
+8: On completion of the suite review, seat yourself as Collab for P-10's Certification trial — the trial's Build and Review stages run as fresh, ordinary sessions that I open and carry documents between; your seat is on my side of the firewall: sequencing, stage analysis, and joining each verdict. When every pairing has resolved to PASSED or SKIPPED perform P-10's "On CONCLUDED" tasks.
+Ignition is complete when Steps 1-8 have been completed and I have saved all approved Project documents to record device.  This session will be retired, every session after Ignition is complete is an ordinary session under Part V, and this procedure is never used again for this project.
 ```
+
+**The suite review (mandatory; between document approval and the
+trial).** After every document is approved and before any trial stage
+runs, the Operator submits the complete generated suite — all eight
+documents — to a fresh, cold session for a consistency-and-accuracy
+sweep: internal contradictions, cross-document disagreements, dangling
+references, transcription gaps against the self-containment
+confirmation, stamp concordance (C-18/V-5). The skeleton is not
+attached: the suite must make sense to a cold reader on its own, and
+needing the skeleton to resolve a confusion is itself a finding. The
+pass is Review-style in stance but Collab in seat — blind audit is
+impossible for a session shown everything, and disposing findings
+jointly with the Operator is Collab's definition (the same reasoning as
+step 8's seat-discipline note). Findings are disposed finding-by-finding
+with the Operator; approved repairs are drafted by the reviewing session
+(never the Ignition session, per the finding firewall — it authored the
+suite) and applied by Operator file replacement. One pass is mandatory.
+A further fresh pass is mandatory after any pass whose repairs included
+the equivalent of a BLOCKING or AMBIGUITY finding; passes repeat until a
+pass raises nothing beyond Minor-equivalent findings. (This is
+deliberately lighter than a unit's RV-5 lock — no clean-count, no
+streak: the suite is pre-trial paper, and the trial itself is the deeper
+check waiting behind this gate.) The Ignition session pauses at its
+step 7 and resumes only on the Operator's confirmation that the review
+is complete, receiving the corrected suite; each reviewing session is
+retired at the end of its pass and is never seated for any trial stage,
+having read CERTIFICATION's specification.
+
+**The canonical suite-review prompt** (fixed text; the Ignition session
+surfaces it at the step-7 pause with the manifest pre-filled — the
+eight documents by name, an enumeration carrying no decision — per its
+standing explain-each-step duty; Ignition transmits this fixed text and
+authors nothing, per the finding firewall): *"Analyze these files —
+[the eight documents by name] — to check for accuracy and consistency
+and so forth, within each and between them as a whole."* Disposition
+and repair instructions are deliberately absent: they arrive
+conversationally from the Operator as the pass unfolds, per this
+subsection, which binds the procedure on the Operator's side.
 
 After ignition: the framework files step back. Project sessions load the
 *project's* documents per Part V; the skeleton is consulted thereafter
@@ -167,14 +216,22 @@ licenses nothing.
 
 **S-4. An external arbiter gets the last word.** Every project names, on
 day one, the judge outside the project that can kill its claims:
-experiment, market, court, compiler, measured outcome, documented source.
-A project that cannot name its arbiter is a belief system and this
-framework will not help it. Clarified: the arbiter's job is to determine
-how strong a conclusion the record can support. LIMM's job is narrower
-and constant regardless: guarantee that no tool operates unchecked, and
-that every claim traces to its declared source. A weak or slow arbiter
-does not weaken LIMM's transparency; it only caps what that
-transparency can ultimately prove.
+experiment, market, court, compiler, measured outcome, documented
+source. A project that cannot or will not name its judge is a belief
+system and this framework will not help it. One honest alternative
+exists, for domains doing internally-coherent construction rather than
+claims about the real world: explicitly declaring NO EXTERNAL ARBITER
+(R-1's named declaration), which substitutes internal consistency as
+the judge and permanently caps what any result may claim — a
+deliberately weaker judge, named as such, forever disclosed as such.
+What this principle forbids is not the weak judge; it is the *unnamed*
+one — a project that never says what could kill its claims, or quietly
+changes the answer when the answer gets inconvenient. Clarified: the
+arbiter's job is to determine how strong a conclusion the record can
+support. LIMM's job is narrower and constant regardless: guarantee that
+no tool operates unchecked, and that every claim traces to its declared
+source. A weak or slow arbiter does not weaken LIMM's transparency; it
+only caps what that transparency can ultimately prove.
 
 **S-5. The human is the valve, never the checksum.** The Operator decides
 what crosses boundaries — that role cannot be delegated. But no protocol
@@ -186,7 +243,7 @@ guarantee of Operator performance or honesty — the best that can be
 attempted is OPERATOR VISIBILITY: every Operator action logged with the
 Operator's justification. Visibility does not prevent a failing or
 dishonest Operator; it makes the failure leave scars the record can
-later show. (Stated scope condition, v1.8; the logged-override,
+later show. (Stated scope condition; the logged-override,
 decision-entry, cooling-interval, and mandatory push-back mechanisms all
 serve this principle.) This is conscience with paperwork, not
 independent audit — and for a sole Operator who is also the record's
@@ -214,24 +271,56 @@ order, or anyone's memory of sequence.
 
 # PART II — THE DOCUMENT ARCHITECTURE
 
-Seven documents (six standing, one single-use). Each has ONE lifecycle.
+Eight documents (seven standing, one single-use). Each has ONE lifecycle.
 Document sprawl comes from files with overlapping jobs, not from file
 count — no two of these overlap.
 
-| Document | Job | Lifecycle | Seen by |
-|---|---|---|---|
-| **RULEBOOK** | The binding rules — all of them, both the rules governing posited-type content and the rules governing derived content, regardless of which Unit(s) they apply to | Changes rarely; locked after clean reviews; changes only by formal supersession | Everyone |
-| **RECORD** | The system of record — all warranted results, organized into Units. A Unit's content is either POSITED (non-derivable starting content — a primitive, an axiom, a brief) or DERIVED from prior content; which is a property of the content, not of the Unit's position or number (Part V) | Grows by ritual; sections lock; locked content changes only by dated additive note or formal supersession | Everyone |
-| **FINDING LOG** | The adversarial review record: every finding, tier, disposition | Append via review process; findings close, never vanish | Everyone |
-| **SKETCH FILE** | Memory of the free register: vision, half-built reasoning, dead ends worth remembering, brainstorm chains | Append-only, forever; never pruned; no warrant anywhere in it | Build-side only — NO review ever sees it |
-| **MAILBOX** | The switchyard: actionable items crossing between registers | High churn; wants to be empty; pruned freely (receipts preserve history) | Build-side only — NO review ever sees it |
-| **DASHBOARD** | Invariant operating procedure: workflows, session prompts, checklists | Effectively static; state NEVER lives here | Operator |
-| **CERTIFICATION** | P-10's blind validation trial: test spec, Review's findings, final verdict | Created once at ignition; single-use; closes for good on PASSED (or re-opens once on FAILED per P-10's cause-diagnosis) | Operator and Collab always; Build NEVER; Review only after a trial has closed, for FAILED cause-diagnosis |
+| Document | Job | Lifecycle | Seen by | Written by |
+|---|---|---|---|---|
+| **RULEBOOK** | The binding rules — all of them, both the rules governing posited-type content and the rules governing derived content, regardless of which Unit(s) they apply to | Changes rarely; locked after clean reviews; changes only by formal supersession | Everyone | Ignition drafts; amended only by a Collab session through the Change rules (V-1/V-2a); Build and Review never |
+| **AMENDMENT LOG** | The detailed reasoning behind RULEBOOK version changes — the "why" RULEBOOK's own bare version number doesn't carry | Append-only, standing; grows only when RULEBOOK amends — expected rare post-ignition, mirroring RULEBOOK's own "changes rarely" | Operator always; a Collab session when the task is a RULEBOOK amendment — naturally, though not necessarily, the same session that ran Ignition or handled a prior amendment (S-1: convenience, never dependency); Build and Review NEVER | Ignition creates empty; a Collab session appends, only as part of a RULEBOOK amendment; Build and Review never |
+| **RECORD** | The system of record — all warranted results, organized into Units. A Unit's content is either POSITED (non-derivable starting content — a primitive, an axiom, a brief) or DERIVED from prior content; which is a property of the content, not of the Unit's position or number (Part V) | Grows by ritual; sections lock; locked content changes only by dated additive note or formal supersession | Everyone | Ignition creates empty; Build constructs, under the rules, on Operator approval; Collab only in P-10's closeout restoration (mechanical, never content); Review never |
+| **FINDING LOG** | The adversarial review record: every finding, tier, disposition | Findings originate from a Review session's blind pass, or directly from the Operator; Build performs the mechanical append once disposition is decided; findings close, never vanish | Everyone | Ignition creates empty; Build alone performs the mechanical append (P-12 step 5), transcribing findings already originated by Review's blind pass or the Operator; Review and Collab never write |
+| **SKETCH FILE** | Memory of the free register: vision, half-built reasoning, dead ends worth remembering, brainstorm chains | Append-only, forever; never pruned; no warrant anywhere in it | Process side (Build, Collab, Operator) — never Review | Ignition creates empty; two standing writers — Build (close-of-unit entries; receipts) and Collab (context entries; receipts) per P-1 — plus Ignition's own one-time entry (written post-closeout, the file's first real entry per P-10) |
+| **MAILBOX** | The switchyard: actionable items crossing between registers | High churn; wants to be empty; pruned freely (receipts preserve history) | Process side (Build, Collab, Operator) — never Review | Ignition creates empty; Build and Collab per P-3's status-assignment and clearing rules; WITHDRAWN is Operator-exclusive as a decision, drafted by the session at hand |
+| **DASHBOARD** | Invariant operating procedure: workflows, session prompts, checklists | Effectively static; state NEVER lives here | Operator; a Collab session only while drafting or repairing it (ignition, a FAILED-trial rewrite, amendment-driven repair) — no session loads it in ordinary operation | Ignition writes it; thereafter a Collab session, only when procedure itself changes — a FAILED-trial rewrite, or an amendment within the instance's governed documents that reaches procedure; no session writes or views it in ordinary operation unless required by amendment-driven Collab repair |
+| **CERTIFICATION** | P-10's blind validation trial: test spec, Review's findings, per-pairing verdicts | Created once at ignition; single-use; unversioned (P-10); open until every pairing resolves to PASSED or SKIPPED, then closed for good; a FAILED pairing triggers P-10's cause-diagnosis while it remains open | Operator always; Collab during the trial and at closeout, thereafter archived — revisited by Collab only for amendment-driven repair; Build NEVER; Review only per closed FAILED stage, for cause-diagnosis | Ignition writes the specification; the Ignition-as-Collab session (or its extension) writes trial-window content — findings transcription, verdicts, any FAILED rewrite — and the single closeout write, after which the document is archived; thereafter only Collab repair driven by an amendment that reaches archived trial content, if ever |
 
 **The visibility matrix is load-bearing.** Reviews are blind by design: a
 reviewer who sees the Sketch File or Mailbox knows the project's hopes and
 intentions, and is no longer blind. The Sketch/Mailbox pair is the
-Build-side's private half: one remembers, one acts.
+process side's private half — the record of how, which Review must
+never see, judging only the product against the rules: one remembers,
+one acts.
+
+**DASHBOARD structure (generated at ignition; cited by the ignition
+prompt's step 6).** Three named sections, all Operator-facing — no
+session ever loads this file; sessions see only pasted prompt text:
+SESSION PROMPTS — the project's ordinary, standard role prompts (Build,
+Review, Collab), the only text that ever reaches a session. PROJECT
+OPERATION — the Operator's step-by-step unit lifecycle from Unit open
+through lock and inter-unit maintenance, each step citing the RULEBOOK
+rule it executes; the section declares itself derivative and
+non-authoritative (the RULEBOOK's text governs on any daylight) and is a
+named target of P-8 tending sweeps against drift. CERTIFICATION
+PROCEDURE — the Operator's sequencing of the one-time
+ignition-to-certified arc, containing no specification content
+(stand-ins, expected results, pass criteria, and verdicts live solely in
+CERTIFICATION, which this section points into).
+
+**Write-permission header line (every instance document).** Each
+document generated at ignition carries, in its header, one line
+stating its STANDING-OPERATION write permissions, derived from this
+table's "Written by" column and adapted to the project's terms: the
+writers a session may encounter in ordinary operation, and only those.
+One-time acts — creation at ignition, and any write complete before
+ordinary operation begins — are not carried in the line; they are
+finished business, governed where they are defined, and a header
+exists to reach every session at file contact, where it does its work,
+rather than living only in a rule a session read once (the same
+measured logic as the whole-attachment clause, Part V). The table
+above is the authority; the header line is its derived traveling copy,
+and where the line is silent, the table governs.
 
 **State lives in the documents, never in the prompts.** The RECORD's
 status header names the active section, the version, and the lock states.
@@ -258,7 +347,44 @@ yet-established relationship to the arbiter states the vacuous class
 ("no-contact — intermediate") rather than leaving the field blank. A
 domain where no result could ever, even in principle, reach a non-vacuous
 class has failed S-4, not found an exception to this rule — the defect is
-in the arbiter declaration, and is caught there.
+in the arbiter declaration, and is caught there. This diagnostic does not
+apply to a domain operating under the arbiter-less declaration below —
+permanent vacuity is what that declaration is. **The arbiter-less
+declaration (a named exception, not a default).** In place of naming an
+arbiter, an Operator may declare NO EXTERNAL ARBITER — a permanent,
+explicit acceptance that this project's claims will never be checked
+against anything outside the project itself, for domains doing
+internally-coherent construction rather than claims about the real
+world. This
+declaration states the permanent vacuous contact class ("no-contact — by
+design") in place of R-1's ordinary contact-class set; unlike the
+ordinary vacuous class above, this one is not intermediate and is not
+evidence of a failed arbiter declaration — it is what a successful one,
+of this kind, looks like. This declaration carries three fixed,
+non-optional consequences: (1) C-17's confidence-language ceiling is capped
+permanently at "supported by / reviewed and unchallenged," regardless of
+the verification rung any individual result actually reaches. (2) R-4's
+kill-test pre-registration remains mandatory — an arbiter-less project
+still makes claims, just internally-checked ones, and pre-registration
+protects them from motivated reinterpretation exactly as it protects any
+other project's. Only the arbiter-contact component is replaced: kill
+tests register the internal-consistency check each candidate must
+survive, not external contact. (3) The RECORD's status header carries
+this declaration as a permanent line, present from the RECORD's first
+creation at ignition and never removed: "NO EXTERNAL ARBITER — checked
+for internal consistency only; no claim here has been verified against
+anything outside the project itself." Seeding it is the ignition
+session's work, part of generating the blank RECORD whenever this
+declaration was made — the ignition prompt's header spec lists the
+fields universal to every project; this line joins them by force of
+this rule, exactly as the RULEBOOK gains the declaration's own text.
+Like the arbiter itself, this declaration is subject to the
+freeze rule below from the moment it is made. **The freeze rule:** once
+declared, the arbiter and its contact classes may not be modified,
+weakened, or reinterpreted. A future session finding the arbiter inconvenient
+must treat that as evidence about the candidate, not about the arbiter.
+Any change to an already-declared arbiter runs through V-2a's
+supersession gates like any other locked content, never as a quiet edit.
 
 **R-2. Declare the shelf vocabulary.** A controlled list (typically 8–15
 terms) of the domain's result categories, used by the card catalog and all
@@ -270,19 +396,42 @@ claims, sources, open-questions, dead-ends.
 contain (derivation, sourced finding, constructed definition, negative
 result, etc.) and what each requires to be complete.
 
-**R-4. Pre-register the kill tests, if the project makes claims.** Before
-any candidate answer exists, freeze the tests any answer must survive,
-with the arbiter-contact for each. The freeze rule: tests may not be
-modified, weakened, or reinterpreted after a candidate exists. A future
-session finding the tests inconvenient must treat that as evidence about
-the candidate, not about the tests. If pre-registration happens after
+**R-4. Pre-register the kill tests.** Before any candidate answer
+exists, freeze the tests any answer must survive, with the
+arbiter-contact for each. The freeze rule: tests may not be modified,
+weakened, or reinterpreted after a candidate exists. A future session
+finding the tests inconvenient must treat that as evidence about the
+candidate, not about the tests. If pre-registration happens after
 ideas already exist, DISCLOSE the ordering in the freeze text — honest
-provenance beats pretended blindness.
+provenance beats pretended blindness. A project operating under R-1's
+arbiter-less declaration still pre-registers kill tests under this
+rule — only the arbiter-contact component is replaced, per R-1, with
+the internal-consistency check each candidate must survive. **The
+no-candidate declaration (a named exception, not a default).** Where a
+project genuinely has no candidate-answer structure — open-ended
+construction with no driving question any candidate could answer — the
+Operator declares NO KILL TESTS in its place, with grounds stating why
+no candidate structure exists, recorded like the other declarations.
+The exception is about the project's shape, never its judge: operating
+arbiter-less is not grounds (R-1's consequence (2) — an arbiter-less
+project still makes claims, and its kill tests register
+internal-consistency contact). If a driving question later emerges,
+registering its kill tests is a logged change through the amendment
+machinery, never a quiet addition — and it happens before any
+candidate answer to that question exists, or the disclosure clause
+applies.
 
 **Before Unit 0 opens:** P-10's Certification requirement must be
 satisfied — see P-10's own text for what that requires and why. P-10
 itself is never transcribed into this RULEBOOK; Part II names
-CERTIFICATION, the document it lives in instead.
+CERTIFICATION, the document it lives in instead. Only the four
+declarations' actual content — the named arbiter and its contact
+classes, the shelf vocabulary, the output types, the kill tests —
+transcribes into the RULEBOOK; this Part's own ritual prose, including
+this paragraph, does not. The reasoning lives instead in the Ignition
+entry the Ignition session writes into the SKETCH FILE before retiring
+(P-1; P-10's "On CONCLUDED") — the same relationship AMENDMENT LOG holds
+to RULEBOOK, one level earlier.
 
 ---
 
@@ -369,6 +518,10 @@ explicitly what the sweep covered and what it did not: an unstated scope
 is exactly where a sibling instance survives, and a sweep scoped to a
 finding's location instead of its pattern will keep missing them one at
 a time across later passes rather than catching them together in one.
+Once a repair under this rule is made, where it landed is recorded in
+the corresponding FINDING LOG entry's REPAIR-ADDRESS field (P-9) —
+repairing content and recording where the repair lives are two separate
+steps, and only the second one makes the fix actually findable later.
 
 **C-11. Transcription integrity.** When posited content (or any
 locked upstream item) is carried into a working unit as a starting given,
@@ -432,7 +585,7 @@ reached is recorded. Four rungs, fixed, not a sliding scale:
    already-trusted item is shown, without independently re-deriving it.
 3. **Independent critic** — a fresh, blind session examined it cold and
    raised nothing (optionally annotated same-family or cross-family —
-   the distinction H-12 explains).
+   the distinction RV-7 explains).
 4. **Operator judgment** — a human call, used only where no higher rung
    is available for the claim in question.
 Settling for a lower rung when a higher one was available is itself a
@@ -443,7 +596,12 @@ language may never exceed what its weakest carried condition (C-6) or
 lowest-rung load-bearing input (C-16) supports — find the shakiest thing
 the conclusion rests on, and that sets the ceiling for how it may be
 worded. An open, undischarged condition floors the language at the bottom
-tier regardless of how strong every other input is. Illustrative
+tier regardless of how strong every other input is. A project operating
+under R-1's arbiter-less declaration caps the language at "supported by
+/ reviewed and unchallenged" permanently, project-wide — a ceiling,
+never a floor: the table below still governs beneath it, and an open
+condition still floors a result at the bottom tier exactly as in any
+other project. Illustrative
 vocabulary (a project may declare its own at ignition; the shape below —
 weakest link sets the ceiling, an open condition floors it regardless —
 is fixed and may not be loosened):
@@ -482,6 +640,40 @@ resolved by checking the actual CONTENT against what each stamp claims —
 never by simply overwriting the lagging stamp to match the others — and
 the correction states explicitly that content was verified, not only
 that a number was bumped.
+
+**C-19. Rule contact per task; precedent is never a source.** How a
+piece of work is done is taken, at the moment of doing it, from the
+governing rules — never from the session's own earlier work. In-context
+precedent ("the way the last one was done") is banned as a source of
+procedure, however recent and however approved: a session that has
+performed a task before has not thereby learned the rule, it has
+produced output, and output is not authority. Left unbanned, the
+session's own recent work quietly replaces the RULEBOOK as its
+reference — it copies itself instead of looking anything up — and a
+single unflagged deviation trains every repetition that follows.
+Enforcement is a paper trail, not trust: every work item entering the
+RECORD carries a RULE-CONTACT BLOCK — the small subset of rules the
+item actually invokes (typically two to four, never the whole
+RULEBOOK), quoted VERBATIM FROM THE RULEBOOK'S OWN TEXT — never from
+memory and never from a prior block, since quoting one's own earlier
+quote is the banned precedent wearing a compliance costume — each quote
+followed by where in the item that rule is satisfied, by address. The
+block travels with the item in the RECORD and never appears in the
+session's conversational reply, which stays atomic per P-11: its
+audiences are the working session itself (the forced trip back to the
+book, re-injecting rule text at the point of use) and Review (a written
+claim checkable, with no judgment call, against the RULEBOOK's text and
+the item's content) — never the Operator. A block whose quotes do not
+match the RULEBOOK, whose satisfied-at claims do not match the content,
+or whose subset omits an obviously-applicable rule is a finding; a
+missing block is a finding against the item as submitted. Violation
+tier: AMBIGUITY, escalating to BLOCKING where the mismatch or omission
+concealed a substantive rule violation. *(Distinguish C-1: C-1 names a
+step's INPUTS — the content its warrant consumes; C-19 quotes the RULES
+governing how the making is done. Granularity: contact is per work item
+as the project's declared output types (R-3) define one, never per
+derivation step; RV-9 licenses finer contact on load-bearing chains as
+optional hardening, and licenses skipping nothing.)*
 
 ## Posited-content rule templates (F-series)
 
@@ -551,12 +743,24 @@ the proportion visible.
 
 ## Change rules
 
-**V-1. Version everything.** Any change to any governed document = a new
-version number + a one-line change-log entry. Reviews state the version
+**V-1. Version everything checked.** Any change to any governed
+document that anything ever checks against = a new version number + a
+one-line change-log entry. Reviews state the version
 they reviewed as their first line; a mismatch voids the review. Every
 working unit records, at open, the RULEBOOK version it is built against;
 a rulebook supersession sweep uses this field to find affected units —
 without it, nothing can say which locked work was built under old rules.
+One exception: the RULEBOOK carries its own bare version number and
+nothing else — no inline change-log entry, ever. Its full change-log
+entry lives entirely in the AMENDMENT LOG (Part II), which Build and
+Review never see; even a neutral one-line description of what changed
+risks handing a reading session an inferential foothold about what was
+found wanting nearby. Every other governed document keeps its
+change-log entry inline, as above. A governed document that nothing
+ever checks against — no review states its version, no unit records
+it, no concordance line names it — carries no version at all: a stamp
+exists to catch mismatch, and where mismatch is impossible a stamp is
+ornament.
 
 **V-2. Locked content never edits in place.** Corrections and
 enrichments to locked content are dated additive notes citing their
@@ -626,12 +830,24 @@ dead.
 
 **V-5. The concordance line.** The RECORD's status header carries one
 line naming the current version of every governed document in the
-instance set (RULEBOOK vX; RECORD vY; FINDING LOG vZ; ...), updated as
-part of every unit closure (P-7 step 5) and every governed-document
+instance set (RULEBOOK vX; RECORD vY; FINDING LOG vZ; DASHBOARD vW;
+...). The line is present from the RECORD's first creation at
+ignition — seeded by the ignition session by force of this rule, the
+same seeding pattern as R-1's permanent line — and updated thereafter
+as part of every unit closure (P-7 step 6) and every governed-document
 supersession. Any session opening the set cross-checks each document's
-own header against the concordance and STOPS on mismatch. State that
+own header against the concordance and STOPS on mismatch (a document
+a seat's visibility withholds is skipped in this cross-check, never
+reported — its concordance entry is verified by the seats that hold
+it). State that
 exists in multiple documents drifts on schedule; the concordance makes
-drift a one-line check instead of an archaeology project.
+drift a one-line check instead of an archaeology project. AMENDMENT LOG
+is included here like any other governed document — it has a real
+synchronization obligation to RULEBOOK's own version: every RULEBOOK bump should have a corresponding
+AMENDMENT LOG entry, or the reasoning V-1's carve-out moved out of
+RULEBOOK is silently lost. A mismatch here — RULEBOOK's version outrunning
+AMENDMENT LOG's latest entry, or the reverse — is exactly the drift this
+line exists to catch.
 
 ## Governance rules (the framework's own self-limits)
 
@@ -650,7 +866,12 @@ cuts both over-engineering (ornament that must be maintained forever) and
 under-engineering (a missing member that leaves a silent hole). It is
 self-applying: it authorizes its own inclusion, because the framework is
 measurably more protected against accretion-rot with it than without.
-"Fewest rules that suffice," enforced. *Worked example of G-1 rejecting
+"Fewest rules that suffice," enforced. Applied to a project's own
+RULEBOOK rather than to this skeleton (P-8 already establishes tending
+passes route through this same gate): the reasoning behind a cleared
+gate — why the change earned its place — is exactly what the AMENDMENT
+LOG (Part II) exists to hold, kept out of the RULEBOOK itself per V-1's
+own carve-out. *Worked example of G-1 rejecting
 content:* during LIMM's own construction, a body of governing philosophy
 (a "don't reinvent the wheel" principle, the history of Occam's razor, a
 false-economy/gold-plating framing, bootstrapping imagery) was proposed
@@ -688,9 +909,7 @@ run on filtered lubricant. Three mechanisms hold the equilibrium:
   The tier system is the framework conceding, in its own architecture,
   that some grit is allowed clearance, not a fault to stop for.
 - *Override — Author Authority: bounded, tested, cooled, always logged.*
-  (Supersedes the v1.6 clause "Override — Author Authority, always
-  logged," per AP-3; the prior text's logging requirement is retained
-  whole as bound 3.) The OPERATOR may override the process toward the
+  The OPERATOR may override the process toward the
   goal: decline a MINOR fix, accept a known imperfection, declare
   good-enough and ship. This is a NAMED power, not an informal habit —
   without it the process has no way to stop optimizing and grinds to a
@@ -736,7 +955,8 @@ where a concrete leak is shown — a demand to qualify sound content
 scale and is itself at most Minor.
 
 **RV-3. Tiers: BLOCKING / AMBIGUITY / MINOR.** Declared per rule; never
-inflated. Minor findings do not affect cleanliness.
+inflated. Minor findings do not affect cleanliness — see RV-5 for
+exactly what that means for the lock's clean-count mechanics.
 
 **RV-4. The reopen gate.** A finding matching a CLOSED finding with no
 new grounds is a duplicate, not a finding. Re-litigation by rewording is
@@ -744,7 +964,17 @@ barred.
 
 **RV-5. The lock.** A unit closes after N consecutive clean reviews
 (recommended N=3; declare per project). Any accepted supersession of
-locked content resets its clean count.
+locked content resets its clean count. A Minor-only review counts
+toward the clean streak (RV-3), and repairing that Minor finding does
+not itself reset the count — but the repair still needs to be seen by
+whatever the next ordinary fresh review naturally covers, never
+silently assumed clean forever after. If that next review finds the
+repair introduced a genuine new issue, the streak resets then, for
+that new finding — never retroactively for having made the repair.
+Pure housekeeping (stale cross-references, annotation mismatches, no
+content claim touched) doesn't even trigger this — only an edit that
+touches actual content requires a subsequent fresh review to have
+looked at it before the unit may lock.
 
 **RV-6. Construction-side pre-review self-sweep (the first line of
 defense).** Before a unit is submitted to review, the constructing side
@@ -794,7 +1024,7 @@ never subject to the valve: an unsound unit stays open without limit, by
 design. The invocation is itself a logged Operator decision entry.
 Posited content is exempt from the valve — its blast radius is
 always maximal and wording scrutiny there is unlimited. Kept as the
-lawful exit for the failure mode H-11's variance-aperture guarantees as
+lawful exit for the failure mode RV-7's variance-aperture guarantees as
 a side effect, even though it is expected to be invoked rarely if the
 shown-consequence rule (RV-2) is doing its job upstream.
 
@@ -833,22 +1063,34 @@ blindness mechanism. It cannot be faked, negotiated, or contaminated,
 because the sessions have nothing to be contaminated WITH.
 
 **BUILD sessions** construct content for the RECORD under the
-Construction rules. They load: RULEBOOK, RECORD (Active Unit's content
-plus its seeded scaffold — bounded per P-2a, never the whole document),
+Construction rules. They load — load meaning working attention, never
+attachment: every file below is attached whole, per P-2a's vocabulary
+clause — RULEBOOK, RECORD (working focus on the Active Unit's content
+plus its seeded scaffold, bounded per P-2a; the whole document is
+attached, never the whole document in focus),
 FINDING LOG (as constraints, never as a to-do list), SKETCH FILE
 (orientation only, zero warrant), MAILBOX (check FOR-BUILD at open;
 deposit FROM-BUILD before close). **A finding is a claim, not a
 command.** Build verifies each
 finding against its cited source before acting on it — agreeing,
 contesting with evidence, or asking the Operator to adjudicate — never
-executing a repair on the strength of the citation alone. Complying with
+executing a repair on the strength of the citation alone; per the
+finding firewall (below), this verification and any repair run in a
+fresh Build session, never the session that authored the work under
+review. Complying with
 an unsound finding is the same failure, at Build's seat, as a reviewer
 passing one (RV-1's mirror): both let something wrong stand because a
 role's output was trusted past what it had earned. They propose; the
 Operator approves before anything is stored. Before presenting any
 edited document, Build runs the C-18 sweep — every version-bearing
 location checked to agree, explicitly, not assumed from having updated
-one of them.
+one of them. Build is the only seat that ever performs the mechanical
+append to the FINDING LOG (per P-12) — but never as origination: Build
+transcribes a finding whose content already came from a Review session's
+blind pass, or directly from the Operator, once disposition is decided;
+Build never writes a new finding based on its own observation of its
+own work, which would quietly bypass the adversarial blindness RV-1
+depends on.
 
 Build runs in one of two MODES, and a session must confirm which before
 starting — they are not interchangeable:
@@ -882,16 +1124,27 @@ givens (transcribed in full per C-11) and structure, never
 pre-built results. A session opening a seeded unit verifies the seed
 against its sources before building on it.
 
-**REVIEW sessions** audit one unit against the rules. They load: RULEBOOK,
-RECORD (the unit under review, bounded per P-2a — never the whole
-document), FINDING LOG only. First line of output: the version reviewed.
+**REVIEW sessions** audit one unit against the rules. They load (same
+vocabulary: attention, not attachment — every file attached whole, per
+P-2a): RULEBOOK, RECORD (working focus on the unit under review, bounded
+per P-2a; the whole document is attached, never the whole document in
+focus), FINDING LOG only. First line of output: the version reviewed.
 Output format is fixed and compact: per finding {target; problem shown;
-tier; repair direction}. End with: CLEAN or NOT. Review runs in one of
+tier; repair direction}. End with: CLEAN or NOT CLEAN. Review never writes to
+any document — its output is conversational, relayed by the Operator
+per P-12; the mechanical append to the FINDING LOG is Build's job alone,
+once disposition is decided. Review runs in one of
 two MODES, matching Build's posit/derive split exactly — see "One
 prompt per review mode" below for the two required prompts.
 
 **COLLAB sessions** are the session analogue of the OPERATOR: the same
-judgment-role, run on a context span larger than a human can hold. This
+judgment-role, run on a context span larger than a human can hold.
+Collab is a standing seat of every project, never an optional
+enrichment: ignition is Collab work by definition, from first drafting
+through the project's readiness for Unit 0; P-8's tending is assigned
+to it; amendment work runs through it (V-1/V-2a); and P-12's loop
+requires its analysis — a project simple enough to run without this
+seat is a project too simple to need this framework. This
 does not mean Collab has the entire project loaded and actively
 reasoned-over at once — it means Collab is better at CROSS-REFERENCING
 AND RETRIEVING on request than a human juggling the same material would
@@ -927,12 +1180,14 @@ findings plus both analyses, never from a synthesis alone.)
 
 Collab runs in one of two LOADING MODES, chosen by the Operator per task:
 
-- *Full-scope mode (the default).* Collab is given the entire store's
-  smaller, bounded documents in full — RULEBOOK, FINDING LOG (P-8
+- *Full-scope mode (the default).* Collab's attached set is whatever
+  its visibility permits, every file whole, RECORD included (P-2a).
+  Full-scope mode names its working attention: the smaller, bounded
+  documents held in full — RULEBOOK, FINDING LOG (P-8
   already establishes Collab sweeping the whole log for patterns, wider
   than Build/Review's per-unit bound), SKETCH FILE, MAILBOX — plus the
-  RECORD's card catalog (P-2) for discovery. RECORD content itself is
-  retrieved by address as the task requires, per P-2a's same
+  RECORD's card catalog (P-2) for discovery; RECORD content itself
+  enters attention by address as the task requires, per P-2a's same
   search-then-retrieve discipline Build and Review use — the difference
   is scope of INQUIRY, not scope of simultaneous loading: Collab, unlike
   Build/Review, is not restricted to one unit and may search or pull
@@ -943,8 +1198,10 @@ Collab runs in one of two LOADING MODES, chosen by the Operator per task:
   targeted retrieval, never the whole RECORD loaded regardless of
   relevance.
 - *Wild mode (generation tasks; offered, never mandated).* For pure
-  brainstorming and idea-generation, Collab loads the SKETCH FILE first
-  and the RULEBOOK late or never. Rules contaminate generation: a session
+  brainstorming and idea-generation, Collab loads the SKETCH FILE
+  first — and the RECORD, which is content to roam over, not rules to
+  be constrained by — with the RULEBOOK and FINDING LOG late or never.
+  Rules contaminate generation: a session
   that has internalized the construction constraints self-censors at the
   register where self-censorship costs the most and protects nothing
   (Collab output carries no warrant regardless). Blind-to-rules keeps
@@ -960,8 +1217,7 @@ whole lifespan — a session may begin rules-blind, be shown the RULEBOOK
 and FINDING LOG mid-conversation as its job shifts to preparing a Build
 submission or analyzing Review findings, and return to the unconstrained
 register afterward, repeatedly, provided containment holds at every
-point regardless of which register is currently active. (Recommended
-practice for the transition: User Manual H-22.)
+point regardless of which register is currently active.
 
 **The OPERATOR** supplies intent, judgment, and decisions the rules
 reserve to a human: what to work on, what crosses registers, which repair
@@ -1021,8 +1277,33 @@ outright: Build's tell is
 sloppiness creeping into previously clean work; Collab's tell is the
 self-nullifying statement (an assertion immediately qualified into
 nothing). Rotation is cheap (propose-don't-commit caps the loss at
-nothing); a degraded session's output is not. (Receipts and per-engine
-indicators: User Manual H-14.)
+nothing); a degraded session's output is not.
+
+**The finding firewall (authorship disqualifies analysis).** The
+session that authored a piece of work is disqualified from analyzing
+findings raised against it, and from judging its own repair. When
+Review's findings arrive against content a session built, the P-12
+loop's Build-side analysis (step 3) and any resulting repair run in a
+FRESH Build session — loaded per the ordinary Build load-list plus the
+verbatim findings — never in the authoring session, whatever its age or
+apparent health. This is the anti-simulation clause's own mechanism
+applied one seat over: a session that helped build an argument inherits
+its framing and will defend it, and an authoring session analyzing
+findings against its own work performs RV-1's forbidden move ("the
+author must have meant X") constantly, from memory, invisibly — while
+executing repairs from that same memory rather than from the documents,
+which is where the repair silently drops what the memory silently held.
+The rule is standing, not one-shot: the repair session is the author of
+the repair, so the next round of findings against the repaired content
+goes to yet another fresh session — findings and the author of their
+target never share a context window. The apparent cost — the fresh
+session lacks the builder's context — is the test working: a repair
+that cannot be performed from the documents and the verbatim findings
+alone has just exposed load-bearing content that existed only in a
+session's memory, an S-1 violation the firewall surfaces instead of
+papering over. Ordinary construction is untouched: one session may run
+a whole unit under the lifespan-and-rotation guidance above; the
+firewall's boundary is the arrival of findings, never submission.
 
 **The anti-simulation clause (one seat per session, ever).** No
 session may execute more than one seat, seat itself as the Operator,
@@ -1060,6 +1341,31 @@ can expose an absence. Fat-fingered uploads are guaranteed (S-5 assumes
 the tired human); the manifest prices them at one aborted session
 instead of one contaminated one.
 
+**The whole-attachment clause (required in every role prompt,
+immediately after its manifest).** The manifest names what must be
+present; this clause states what "present" means, at the moment the
+session first meets its files. It exists for the same measured reason as
+the two clauses below: the attachment/attention distinction stated once
+in the RULEBOOK (P-2a's vocabulary clause) is, at file-contact time, an
+instruction embedded in a governed document — and the misreading it
+prevents happens precisely at file contact, before any rule has been
+read. A session that conflates the two either flags the complete RECORD
+as contradicting its "never the whole document" bound, assumes the
+Operator should have excerpted the file, or performs a pantomime of not
+reading what is present — all observed, none hypothetical. Every role
+prompt must therefore state, inline, immediately after its manifest:
+*"Every file in this manifest is attached in full, every time —
+completeness is expected and is never an error, however large a file has
+grown. Your working focus is bounded (for Build and Review: the Active
+Unit alone — read the status header; ACTIVE is worked, CLOSED exists to
+be cited); everything else in these files is reference, reached by
+address when a warrant, given, or finding points there. Do not attempt
+to hold the whole store in mind, do not treat the presence of closed
+content as an instruction to re-verify it, and do not report an
+attachment's size or completeness as a problem."* P-2a's vocabulary
+clause is the authority this clause quotes; its physical presence at
+first file-contact is what does the work.
+
 **The review-response clause (required in every Build prompt, and in
 every Collab session at the point the FINDING LOG is first shown to
 it).** Stating a rule once in the RULEBOOK is not sufficient for
@@ -1073,10 +1379,29 @@ contest with evidence, or return it to the Operator for adjudication.
 Never execute a repair, or treat a finding as settled, on the strength
 of the citation alone."* For Collab, the same clause attaches at
 whichever point in a continuous session the FINDING LOG is revealed to
-it (session-start or a mid-session reveal — see User Manual H-22),
+it (session-start or a mid-session reveal),
 not to any fixed "mode." The RULEBOOK text above is the authority this
 clause quotes; the clause's physical presence at the point of use is
 what actually does the work.
+
+**The rule-contact clause (required in every Build prompt).** The
+review-response clause's lesson generalizes from one rule at one moment
+to every rule at its moment of use: a rule read once at session open
+is, thousands of tokens later, an instruction embedded in a distant
+document — present, binding, and no longer traveling — and the session
+most confident it remembers a procedure is the one that has repeated it
+most and consulted it least. Every Build prompt must therefore state,
+inline, at the point it describes constructing content: *"Every task
+begins at the RULEBOOK, every time. Before executing any work item,
+open the RULEBOOK and quote verbatim the specific rules binding that
+item; 'the way the last one was done' is never a source, however recent
+or however approved. Attach the quotes and a per-rule satisfied-at line
+to the item itself as its rule-contact block (C-19). Your reply to the
+Operator carries the item and its question only (P-11) — the block
+belongs in the document, never the conversation."* The RULEBOOK's C-19
+is the authority this clause quotes; the clause's physical presence in
+the prompt is what puts the trip back to the book at the start of every
+task instead of the start of the session.
 
 **Oversized prompts — the pointer method (fallback, not default).** A
 session prompt is normally pasted inline into the session's input field. If
@@ -1123,7 +1448,7 @@ duplicates. The conversation transcript is the source of truth; the file
 is a cache — a mangled file is regenerated, not mourned.
 
 **Sketch File authorship (the two-author protocol).** The Sketch File
-has exactly two writers, in a fixed order per unit: BUILD writes the
+has exactly two standing writers, in a fixed order per unit: BUILD writes the
 official close-of-unit entries — the mechanical record of what was done,
 carried, bumped, and why — as part of the closure ritual (P-7); COLLAB
 writes AFTER, the free-register context entries that give Build's
@@ -1133,6 +1458,14 @@ collision: the official layer is written by the session that did the
 work; the associative layer by the session built for lateral reach.
 Both are sealed blocks; neither is warrant.
 
+**Ignition's entry (a third case, one-time, before any unit exists).**
+Before the Ignition session retires, it writes its own sealed Sketch
+entry: the day-one ritual's reasoning — why this arbiter, this shelf
+vocabulary, these output types, these kill tests, plus the discussion
+the RULEBOOK's bare declarations don't carry. Not the two-author
+protocol's Build/Collab pairing; its own entry kind, outside the
+unit-closure ritual, exactly as the Mailbox's clearing receipt is.
+
 Content-producing sessions additionally stamp a **provenance line** on
 record-bound output: engine type (not version string), effort setting,
 and role seat. Version strings alone are the wrong granularity — what the
@@ -1140,7 +1473,7 @@ record needs for later forensics is *which kind of session at which
 effort in which seat* produced what, because these materially affect
 output character and are unrecoverable after the session ends. The line
 is one clause in the block header, costs nothing at write time, and is
-the only record of a variable that calibration findings (H-9) and
+the only record of a variable that calibration findings and
 post-hoc quality audits both depend on.
 
 ## P-2. The card catalog (discovery layer)
@@ -1169,6 +1502,26 @@ has to keep in sync.
 
 ## P-2a. Bounded RECORD load (the scaling machinery, RECORD's half)
 
+**Vocabulary, binding wherever this document uses "load" for the RECORD:
+attachment and load are different claims, and conflating them is the
+misreading this paragraph exists to kill.** Every file a session's role
+permits it to see is attached WHOLE, every time, no exceptions — the
+RECORD included, however large it has grown. A session never receives an
+excerpt, and a complete attachment is never an error to flag nor a
+contradiction to resolve. "Load" names something else entirely: what a
+session holds in immediate working attention for the task at hand.
+"Never the whole RECORD," below and in Part V's load-lists, bounds
+ATTENTION, never attachment — the whole document is present precisely so
+that anything beyond the Active Unit can be reached by address the
+moment a task requires it. The document's own structure carries the
+division of attention: the status header names the Active Unit; ACTIVE
+content is worked, CLOSED content exists to be cited — present, findable
+by address, and never a precondition a session must re-read or re-verify
+before proceeding. (Where a document is deliberately withheld from a
+seat — the visibility firewall, Collab's wild mode — that is an
+attachment decision, governed by its own rules; it is not this clause's
+"load.")
+
 **The RULEBOOK's size is fixed by design; the RECORD's is not.** A
 project's rule count doesn't grow — the RULEBOOK is written once at
 ignition and changes rarely thereafter (V-1). The RECORD is the opposite:
@@ -1185,7 +1538,8 @@ RECORD.** A Build or Review session's load-list (Part V) means exactly
 this for RECORD's portion: the Active Unit's own content, plus whatever
 its seeded scaffold carried in at open (givens transcribed in full per
 C-11 — this is why the scaffold exists at all, so a session opening a
-unit already has what it needs without the whole document present).
+unit already has, in its immediate working focus, what it needs without
+having to search the rest of the document to find it).
 Anything further back is retrieved by explicit address — via the card
 catalog (P-2) for discovery, then cited by address per C-11's own
 contrast (a prior *result* is cited, never restated) — as a deliberate,
@@ -1197,7 +1551,7 @@ LOG, extended to the document actually most at risk of unbounded size.
 **Collab uses the same search-then-retrieve discipline, with a wider
 scope of inquiry.** Collab is not restricted to one unit the way
 Build/Review are, so its Full-scope mode (Part V) is given the card
-catalog directly rather than a single unit's scaffold, and may retrieve
+catalog directly in attention rather than a single unit's scaffold, and may retrieve
 by address from anywhere in the RECORD a task requires — including many
 units at once for a genuinely wide diagnostic sweep. This is a
 difference in how much of the RECORD a task may legitimately REACH, not
@@ -1286,7 +1640,7 @@ catastrophic-loss failure mode, not a hygiene preference. The client's cross-dev
 of LIMM's trusted machinery; treat a session opened on two devices as
 already corrupted: salvage what the current view shows, then abort the
 session and open a fresh one to redo the work (the abort is cheap by
-design — H-10).
+design).
 
 Any session whose output must enter the record runs start-to-finish on
 the device holding the record (Build, Review, Collab-as-courier). Pure
@@ -1317,8 +1671,7 @@ session can be FOUND — among hundreds of accumulated chats, weeks
 later. A transcript that cannot be located is not a source of truth;
 it is a rumor. This is S-6 applied to the transcript layer, and it
 closes the provenance chain: content → provenance line (P-1) → named,
-preserved transcript. (See the User Manual, Section 2 Layer 2, for the current
-client mechanism.)
+preserved transcript.
 
 ## P-6. Independent verification
 
@@ -1332,9 +1685,9 @@ RV-7 means by review: slippage made difficult, never slippage made
 impossible. Cross-family reconstruction reduces one known risk — a
 family's shared, systematic blind spot — and is recommended when
 available. It does not certify the result against an unknown, possibly
-LLM-general blind spot no amount of vendor-switching would surface
-(R-030's own registered, unproven prediction: family-invariant blind
-spots are believed rare, not believed absent). Independent
+LLM-general blind spot no amount of vendor-switching would surface —
+family-invariant blind spots are believed rare, not believed absent, a
+standing prediction rather than a certified result. Independent
 reconstruction is the best available check, not a guarantee — plant the
 flag once it's done, per G-2, and move. (Confirmed as of the best
 currently available check — never a claim of permanence; V-2's
@@ -1370,19 +1723,27 @@ sessions match this text, never a prior unit's example:
    assumption or flag records the unit it opened in. At each unit close,
    compare any still-open item's live span against the average
    resolution span of items from its own opening unit; an item running
-   well past its cohort's norm is marked STALE in the Ledger. STALE is
+   well past its cohort's norm is marked STALE on its own entry,
+   wherever that open item is recorded (the unit's reconciliation area
+   for flags and assumptions). STALE is
    not a disposition and not a finding — it is a flag directing the
    Operator to scrutinize whether the item is actually sound, not merely
    slow.
 3. Contribute the unit's catalog cards (P-2).
-4. Seed the next unit's opening scaffold (givens in full per C-11,
+4. Submit for the closing review sequence per RV-5.
+5. Seed the next unit's opening scaffold (givens in full per C-11,
    structure only, never pre-built results) and write the **closure
    manifest**: an itemized list of everything the next unit inherits —
    carried givens, bumped items with their origin addresses, glossary
    shell.
-5. Update the status header (unit closed; active unit bumped; version
+6. Update the status header (unit closed; active unit bumped; version
    incremented; change-log line added) and the concordance line (V-5).
-6. Submit for the closing review sequence per RV-5.
+
+If step 4's review sequence forces a repair, steps 1 through 3 re-run
+in full against the unit's current content before resubmitting for
+another review — a card, reconciliation, or consistency verdict
+describing pre-repair content is stale by construction, the same
+failure P-2's "current by construction" guarantee exists to prevent.
 
 **The receiving check (mandatory, opening side).** The next unit's
 opening session verifies the inherited scaffold against the closure
@@ -1419,7 +1780,7 @@ through G-1 like any other amendment; the tending protocol licenses the
 
 ## P-9. Finding Log discipline (the scaling machinery)
 
-The FINDING LOG is partitioned: FOUNDATIONAL findings (global — loaded
+The FINDING LOG is partitioned: POSITED-CONTENT findings (global — loaded
 by every session, always) and PER-UNIT findings (loaded only when that
 unit is worked or reviewed), each split ACTIVE vs CLOSED. **Freeze on
 close:** when a unit locks, its finding region freezes — new findings
@@ -1429,7 +1790,7 @@ loads the global region plus one unit's region, never the whole log.
 
 **Entry fields (every finding):** address; target; tier; rule cited;
 the substance shown; disposition — from the named vocabulary: open /
-fixed / superseded / accept-with-known-limitation /
+fixed / superseded / declined / accept-with-known-limitation /
 auto-closed-duplicate / closed-by-Operator-decision — and the
 **RESTS-ON field**: what the disposition's reasoning depends on
 (a rule, a result, a posited item, a prior finding). The rests-on
@@ -1441,21 +1802,52 @@ findings: P-2's CITES field, swept the same way by the same V-3 clause —
 forward-declared at creation, never retroactively edited, searched
 rather than maintained.)
 
+**declined**, distinct from the other two dispositions it's easily
+confused with: unlike **accept-with-known-limitation** (the finding
+correctly identified something real, being knowingly left alone),
+declined means the finding was judged NOT to identify a real problem
+in the first place — it was false, not merely tolerated. Unlike
+**closed-by-Operator-decision** (the genuine catch-all for any other
+kind of Operator call that doesn't fit a named category), declined is
+specifically for this one case, so a future reviewer scanning tiers can
+tell at a glance which closed findings were wrong versus which were
+right-but-accepted, without reading into every generic-catch-all entry
+to find out. A declined finding still needs the SAME substantive
+grounds as any other disposition in its "substance shown" field — RV-4's
+reopen gate has nothing to compare a future finding against otherwise.
+
+**REPAIR-ADDRESS field (required when disposition is 'fixed' or
+'superseded'):** where the repair itself lives — by reference address
+if the repair created its own addressable RECORD entry, by direct
+transcription if the repair was too small to earn one. Recorded by
+whichever Build session performs the repair, at the same time it marks
+the disposition — the same forward-declared, never-retroactively-edited
+discipline CITES already uses (above), applied to the finding-to-repair
+link instead of the result-to-warrant link. Without this field, "fixed"
+is a status word with nothing behind it: a future reader has no way to
+walk forward from a closed finding to its actual repair short of
+re-reading the whole RECORD, exactly the problem CITES already solves
+one layer down.
+
 ## P-10. Certification (the blind validation trial)
 
 **This rule is never transcribed into a project's RULEBOOK.** It is the
 one explicit exception to Part III's self-containment mandate: every other
-rule category is copied in full into the RULEBOOK, because that is the one
+rule and category is copied in full into the RULEBOOK, because that is the one
 document guaranteed to reach every Build and Review session — but that
 guarantee is exactly what P-10 must avoid. A Build session that has read
 its own governing rules can reason from the RECORD's state alone ("nothing
 else exists yet, this must be the mandated trial") and lose the blindness
-the trial depends on. Nor does P-10 live in the DASHBOARD: the trial runs
-under the project's ORDINARY, unmodified Build/Review/Collab prompts (see
-below), so the DASHBOARD requires no Certification-specific content at
-all — a dedicated section there would itself be a dedicated trial prompt
-in substance, exactly what this rule forbids. What P-10 needs recorded
-outside the RULEBOOK lives entirely in CERTIFICATION, a seventh,
+the trial depends on. Nor does P-10's content live where a session could
+meet it: no dedicated trial prompt may exist anywhere, and no trial
+disclosure may exist in any document Build or Review reads. The
+DASHBOARD's SESSION PROMPTS section therefore carries no
+Certification-specific text of any kind. Its Operator-only CERTIFICATION
+PROCEDURE section (Part II) is outside this exclusion by construction —
+no session ever loads the DASHBOARD file, so nothing in it can announce
+anything to a session — and carries sequencing only, never specification
+content, which lives solely in CERTIFICATION. What P-10 needs recorded
+outside the RULEBOOK lives entirely in CERTIFICATION, an eighth,
 single-use project document (Part II) that Build is never given, at any
 point, by rule, and that Review is never given while a trial is open —
 the same structural exclusion that already keeps the User Manual from
@@ -1484,46 +1876,132 @@ session that runs a stage is retired afterward exactly as any Build session
 would be, without ever having been told the word "Certification" or shown
 a verdict.
 
-**CERTIFICATION's contents (fixed; nothing else is ever added):** one
-test specification per stage (stand-in procedure, Build's stated goal, the specified
-expected result), Review's findings against each stage's expected result, and one
-final verdict — PASSED or FAILED, with CAUSE and RESTS-ON recorded if
-FAILED (below) — covering the trial as a whole. Every pairing must
-resolve to PASSED or SKIPPED before Unit 0 may open; a pairing left
-FAILED and unrepaired blocks it, exactly as the single-pairing case
-always required.
+**Crafting the test specification.** The trial grades the process, never
+the domain answer — so the domain answer must be beyond grading. Inputs
+and expected results are fixed in the specification before any stage
+runs, with zero ambiguity: pin expected outputs to the instance's own
+controlled vocabulary (contact classes, tiers, statuses, verdict forms —
+whatever the RULEBOOK defines), and reject any stand-in whose expected
+answer domain experts could dispute. If the spec's correctness can be
+argued, a FAILED verdict cannot be diagnosed — cause one (flawed spec)
+and cause two (flawed framework) become indistinguishable, which defeats
+the diagnosis this rule depends on. A project operating under R-1's
+arbiter-less declaration has no external fact to pin an expected answer
+to; its stand-ins must instead be pure derivations from the project's own
+stated premises — a conclusion that follows, or fails to follow, by
+internal logic alone, with the same zero-ambiguity requirement as any
+other stand-in. Additional disciplines, each
+load-bearing:
+— *Both fates.* The trial must exercise every outcome class the
+machinery distinguishes — at minimum one candidate engineered to be
+accepted and one to be rejected, each passing through every mode-pairing
+(pipelined across stages where the instance's own rules force dependency
+ordering). A single-fate trial proves the machinery can reach a verdict,
+not that the verdict is driven by content. Both fates run within the
+pairing's single unit: the unit's scope carries both candidates, the
+accepted one locking as warranted content and the rejected one locking
+as a warranted negative result at its own address — a shape real units
+lawfully take (R-3's negative-result type; V-4). "Pipelined across
+stages" names only dependency ordering between pairings' units, never a
+multiplication of stages beyond the one unit per pairing.
+— *Fate-neutral stated goals.* Nothing any blind session reads may state
+or imply an expected answer. Work orders may sequence honestly (e.g.,
+test the most-contact-likely target first) only by conditioning on the
+session's own findings, never on the spec's foreknowledge.
+— *Session error is not framework failure.* Pass criteria must separate
+them explicitly: a defect a blind review catches, the finding loop
+repairs, and that leaves final locked content specification-conformant
+is evidence FOR the framework (its error-correction demonstrably
+working), never a stage failure. A stage fails only on an unrepaired
+defect, a final-content deviation from the pinned expected result, or a
+defect diagnosing to the spec or the RULEBOOK under the two-cause frame.
+— *Anticipated interactions.* Where a competent blind session will
+predictably question the stand-in's shape (and it will — a well-built
+instance interrogates its inputs), the spec records the anticipated
+question and a pinned, sanctioned Operator answer, every sentence of
+which must be true: blindness lives entirely in what sessions are not
+told, never in anything false they are told.
+— *No procedure in the criterion.* Stage goals state ripeness targets
+only; closure and lock ordering belong to the instance's own rules and
+must not be embedded in a stage's completion criterion, or the trial
+itself will run the instance out of order.
+— *Restoration by image.* The pre-trial files of every document the
+closeout must reset are retained untouched as restoration images;
+restoration is file replacement, never reconstruction. One maintenance
+duty attaches: if a cause-two repair amends the RULEBOOK mid-trial,
+the session performing that amendment also presents, alongside the
+amended RULEBOOK and its AMENDMENT LOG entry, a refreshed RECORD
+restoration image — identical in content, concordance line (V-5)
+updated to the post-amendment versions — and the Operator replaces the
+stored image with it before any stage re-runs. The Operator's part is
+approval and file replacement only, never an edit (S-5). A restored
+document whose concordance line still names a superseded version is
+the exact mismatch V-5 exists to stop on; this duty is what keeps that
+stop a tripwire instead of a guaranteed dead-end.
+— *Conformance is checked per stage.* At each stage close, the Operator
+checks locked content against the pinned expected result, out of
+session — no blind reviewer can catch deviation from a spec it never
+sees.
 
-**Verdict.** When Review's findings support it, a Collab session —
-naturally, though not necessarily, the same session that ran Ignition,
+**CERTIFICATION's contents while the trial is open (fixed; nothing else
+is added before conclusion):** one test specification per stage
+(stand-in procedure, Build's stated goal, the specified expected
+result), Review's findings against each stage's expected result, and
+one verdict per pairing — PASSED; FAILED, with CAUSE and RESTS-ON
+recorded (below); or SKIPPED, with grounds (per the trial-skipped
+disclosure below). This fixedness guards the trial's integrity while a
+verdict is pending — nothing is smuggled in mid-trial to influence
+it — and is distinct from the one-time, post-conclusion fold-in "On
+CONCLUDED" performs below, which happens only once the trial has
+already concluded. The trial concludes when every pairing stands at
+PASSED or SKIPPED; a pairing left FAILED and unrepaired blocks Unit 0.
+CERTIFICATION carries no version number and appears on no concordance
+line; nothing ever checks against it.
+
+**Verdict.** When Review's findings support it, a Collab session
+(naturally, though not necessarily, the same session that ran Ignition,
 since it already holds the project's context and needs no re-derivation
-from the documents — Build's output across every stage, and the Operator
-jointly analyze the results — the same joint analysis already used for any standard unit-lock
-declaration — and the Operator declares Certification PASSED or
-FAILED, in the same fashion as any standard lock declaration. Per S-1,
+from the documents) and the Operator jointly analyze Build's output
+for that stage. This is the same joint analysis already used for any
+standard unit-lock declaration. The Operator then declares that pairing
+PASSED or FAILED, in the same fashion as any standard lock declaration.
+Per S-1,
 this continuity is a convenience, never a dependency: everything the
 verdict rests on is written into CERTIFICATION and the RULEBOOK, so a
 different Collab session, with no memory of Ignition, can pick up the
 trial from those documents and reach the same verdict if the original
 session is unavailable.
 
-**On PASSED:** the Collab session folds the RECORD, FINDING LOG, and MAILBOX
-content generated during the trial into CERTIFICATION itself — not a copy
-alongside separately-real content, since the trial generated no project
-content; RECORD, FINDING LOG, and MAILBOX were merely the paper the fire drill used
-— restores all three to genuinely fresh, contentless state — RECORD's with a
-status header (Active Unit 0, version v1.0, state UNLOCKED) — files
-CERTIFICATION as closed, and updates the SKETCH FILE with the outcome —
-never reset, since SKETCH FILE is append-only by design (P-1) and the
-trial's own history belongs in it same as any other. DASHBOARD and the
-RULEBOOK are untouched throughout: neither is a working document a
-trial could generate content into, and P-10's own text is the reason
-DASHBOARD in particular gains nothing — see "The trial itself," above.
+**On CONCLUDED (every pairing PASSED or SKIPPED):** the Collab session
+folds the RECORD, FINDING LOG, MAILBOX, and
+SKETCH FILE content generated during the trial into CERTIFICATION itself —
+not a copy alongside separately-real content, since the trial generated no
+project content; RECORD, FINDING LOG, MAILBOX, and SKETCH FILE were merely
+the paper the fire drill used — restores all four to genuinely fresh,
+contentless state — RECORD's with a status header (Active Unit 0,
+version v1.0, state UNLOCKED, plus every line a rule seeds into the
+header at ignition, each brought current) — files CERTIFICATION as closed, and only then writes
+the Ignition entry into the now-fresh SKETCH FILE (P-1) — the trial's own
+outcome plus Part III's day-one declaration reasoning, neither of which
+belongs in the RULEBOOK — the file's first real entry: SKETCH FILE's
+append-only-forever rule (Part II) governs from this entry onward,
+never before it. Where every pairing was SKIPPED, there is no trial
+content to fold; the closeout is filing CERTIFICATION closed and
+writing the Ignition entry, nothing more. DASHBOARD and the
+RULEBOOK are never reset and never folded in: neither is a working
+document a trial could generate content into. (A cause-two repair may
+lawfully amend the RULEBOOK mid-trial through the ordinary Change
+rules — that is maintenance of the instance, not trial content, and it
+survives the closeout like any other amendment.) The DASHBOARD's
+CERTIFICATION PROCEDURE section exists from ignition and sequences the
+trial without ever holding its content, per "Crafting the test
+specification" and the visibility narrowing above.
 Nothing is erased in the sense Part VII's "the scar tissue is the proof"
 ethic would object to: real construction proper had not yet begun,
-so a fresh RECORD afterward is simply what a fresh RECORD looks like
-before real construction begins, trial or no trial. Where the
-Ignition session itself is the one running this closeout, PASSED is also
-the natural point at which ignition's own work is complete and that
+so each freshly reset document afterward is simply what that document
+looks like before real construction begins, trial or no trial. Where the
+Ignition session itself is the one running this closeout, conclusion
+is also the natural point at which ignition's own work is complete and that
 session retires — the project is left freshly Certified, with a clean
 RECORD correctly labeled Unit 0, ready for real Unit 0 work.
 
@@ -1557,20 +2035,46 @@ a Review session inspects the failed pairing's CERTIFICATION test specification 
 merits, independent of the Build/Review result, loading RULEBOOK, RECORD,
 FINDING LOG per its standard load-list (RV-1) plus CERTIFICATION itself —
 the sole case in which Review ever sees CERTIFICATION, permitted only
-because the trial it protects has already closed. First line still states
+because the stage it inspects has already closed — the blindness this
+document protects is per-stage, and a closed stage's blind work is
+over whatever its siblings' state. First line still states
 the version reviewed, per RV-1. No special safeguard against the
 inspector's foreknowledge of the outcome is needed beyond this scoping:
 Review is never shown Sketch, Mailbox, or conversation, so even here it
 has no document-level access to anything beyond the closed spec and the
 project's own governed content — no route to "the trial already failed"
-except the CERTIFICATION verdict field itself, which the Operator can
-withhold from this review's load until after the spec inspection is
-returned, keeping the two judgments independent. If review finds the spec
+except the CERTIFICATION verdict field itself, which the Operator
+withholds from this review's load until after the spec inspection is
+returned — mandatory, not discretionary, since revealing it here is
+exactly the foreknowledge the preamble's blindness guarantee forbids —
+keeping the two judgments independent. If review finds the spec
 flawed, that's cause one; if the spec checks out clean and the result is
 still wrong, that's cause two. The Operator, on receiving this review,
 records CAUSE (test-specification / project-framework) and RESTS-ON (a
 pointer to the CERTIFICATION spec, or to the project's RULEBOOK at its
 current version) alongside that pairing's FAILED verdict.
+
+A cause-two repair runs the review-handling loop's own shape, adapted
+to amendment. The diagnosis passes VERBATIM to a fresh Collab session —
+the amendment's authoring seat — and to the Ignition-as-Collab session,
+separately; each analyzes independently, neither seeing the other's
+analysis before producing its own (P-12 step 3). Ignition then performs
+the Collab seat's comparison — comparing, never refereeing — and
+returns agreement, divergence, and synthesis to the Operator, who
+decides the repair direction from the raw diagnosis plus both analyses.
+The fresh session authors the amendment (with its AMENDMENT LOG entry
+and the refreshed restoration image per the restoration-by-image duty),
+applied by Operator file replacement; the Ignition session never
+authors an edit to the RULEBOOK after ignition. One NAMED divergence
+from the finding firewall, on stated grounds: the
+analysis-and-comparison seat is here held by the RULEBOOK's own
+author — permitted because that seat's output carries no warrant, the
+diagnosis originates from a blind Review pass rather than from the
+author, the fresh seat's independent analysis is produced before any
+contact with the author's, and the Operator alone referees. The
+firewall's authoring bar stands untouched: findings' target and the
+author of its repair never share a context window with the target's
+original author.
 
 **Trial-skipped disclosure (mandatory where the trial cannot be run for
 a given pairing).** A domain may have a perfectly sound S-4 arbiter for its real claims while
@@ -1613,29 +2117,41 @@ binds every project regardless of which seats it runs:
 3. **Each receiving seat analyzes independently** (per the
    review-response clause: a finding is a claim, not a command).
    No seat sees another seat's analysis before producing its own.
+   Build's analysis seat is always a fresh session that did not
+   author the work the findings target (Part V, the finding
+   firewall); the same bar applies to the session executing any
+   resulting repair.
 4. **The Operator is the sole referee.** Disposition is decided from
    the raw findings plus the independent analyses — never from any
    synthesis or comparison alone.
-5. **The Review session is discarded — always, single-use.** A reused
+5. **Build performs the mechanical append to the FINDING LOG.** Once
+   the Operator has decided disposition, Build — never Review, never
+   Collab — writes the FINDING LOG entry: neither of the other two seats
+   ever writes to the FINDING LOG (Review's output is conversational
+   only; Collab "produces no construction," Part V). This is transcription of an
+   already-settled finding, not origination — Build does not write a
+   new finding based on its own observation of its own work; that
+   would bypass the blind, adversarial source RV-1 requires. Findings
+   may also originate directly from the Operator, without a fresh
+   Review pass, when the Operator already knows about something (the
+   existing "closed-by-Operator-decision" disposition presumes exactly
+   this) — but the mechanical write is still Build's alone, either way.
+6. **The Review session is discarded — always, single-use.** A reused
    reviewer is no longer blind or fresh: it remembers its own prior
    findings, and its personality stops being an independent sample.
    The discard is what makes the next review a genuinely independent
    draw.
 
-**Where a Collab seat exists**, the required form of steps 2–4 is:
-findings pass verbatim to Build and to Collab, separately; each
-analyzes on its own — Build from inside the construction rules ("is
-this a real warrant gap?"), Collab with free-register range ("is the
-reviewer even right?"); Collab then compares the two analyses —
-comparing, NOT refereeing — and surfaces agreement, divergence, and
-anything one caught that the other missed, returning the comparison
-to the Operator for decision. **Where no Collab seat exists**, the
-loop degrades gracefully: Build analyzes, the Operator decides from
-the raw findings plus Build's analysis. The dual-analysis form is not
-optional decoration where Collab is running — it is the required
-shape of the loop for that architecture; a project with a Collab seat
-that routes findings to Build alone is skipping a step, not
-exercising a choice.
+**The Collab analysis (required form of steps 2–4):** findings pass
+verbatim to Build and to Collab, separately; each analyzes on its
+own — Build from inside the construction rules ("is this a real
+warrant gap?"), Collab with free-register range ("is the reviewer
+even right?"); Collab then compares the two analyses — comparing, NOT
+refereeing — and surfaces agreement, divergence, and anything one
+caught that the other missed, returning the comparison to the
+Operator for decision. The dual-analysis form is not optional
+decoration — it is the loop's required shape; routing findings to
+Build alone is skipping a step, not exercising a choice.
 
 ---
 
@@ -1643,7 +2159,11 @@ exercising a choice.
 
 The rules are instances; this is the temperament they transcribe. Adopters
 are not just installing a procedure — they're adopting the same posture
-toward being wrong.
+toward being wrong. Written for the common case, a declared arbiter;
+where a project has honestly declared none (R-1's named exception), read
+"the arbiter" below as the project's own stated premises and "truth" as
+internal validity — the posture doesn't change, only what it's checked
+against does.
 
 - **Reality is diagnostic.** Nothing here makes anything true. The record
   is where claims earn standing; the arbiter is where they live or die.
@@ -1683,6 +2203,6 @@ toward being wrong.
 
 ---
 
-*Framework skeleton v1.40. Instantiate per project via Part III. Where a
+*Framework skeleton v1.59. Instantiate per project via Part III. Where a
 project's RULEBOOK and this skeleton differ, the project's RULEBOOK
 governs — this document is the template, not the authority.*
